@@ -1,4 +1,5 @@
-import org.apache.spark.sql.SparkSession
+import org.apache.spark.sql.{DataFrame, SparkSession, SaveMode}
+import org.apache.spark.storage.StorageLevel._
 import org.apache.spark.SparkContext
 import org.apache.spark.rdd.RDD
 
@@ -8,8 +9,12 @@ object multiplicacionMatrices {
     val sc = spark.sparkContext
     val matA = createMatrix(args(2), sc, args(0).toInt, false)
     val matB = createMatrix(args(3), sc, args(1).toInt, true)
-    val result = multiply(matA, matB)
-    result.saveAsTextFile (args(4));
+    val a = matA.persist(MEMORY_ONLY_SER)
+    val b = matB.persist(MEMORY_ONLY_SER)
+    val sqlContext= new org.apache.spark.sql.SQLContext(sc)
+    import sqlContext.implicits._
+    val result = multiply(a, b).toDF("i", "j", "value")
+    result.write.mode(SaveMode.Overwrite).format("parquet").save(args(4))
   }
 
   def initSparkSession(): SparkSession = {
@@ -38,12 +43,17 @@ object multiplicacionMatrices {
      }
     }
 
+
     if(requireTranspose){
       val matGroup = matWithIndex.groupBy(_._2).sortBy(_._1)
       return addBandIndex(matGroup).groupByKey
     }
     val matGroup = matWithIndex.groupBy(_._1).sortBy(_._1)
     return addBandIndex(matGroup).groupByKey
+  }
+
+  def dotProduct(a: Iterable[(Int, Int, Double)], b: Iterable[(Int, Int, Double)]): Double = {
+    a.zip(b).map(x => x._1._3*x._2._3).reduce(_+_)
   }
 
   def multiply(
@@ -59,9 +69,4 @@ object multiplicacionMatrices {
                 }
     result.flatMap(x => x.flatMap(y => y))
   }
-
-  def dotProduct(a: Iterable[(Int, Int, Double)], b: Iterable[(Int, Int, Double)]): Double = {
-    a.zip(b).map(x => x._1._3*x._2._3).reduce(_+_)
-  }
-
 }

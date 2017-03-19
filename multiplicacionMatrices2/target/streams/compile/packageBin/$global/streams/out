@@ -1,4 +1,4 @@
-[0m[[0minfo[0m] [0mPackaging /home/skorpionx/UdeA/Seminario/multiplicacionMatrices2/target/scala-2.11/multiplicacion-de-matrices_2.11-1.0.jar ...[0m
+[0m[[0minfo[0m] [0mPackaging /home/skorpionx/UdeA/Seminario/multiplicacionMatrices2/target/scala-2.11/multiplicacion-de-matrices2-_2.11-1.0.jar ...[0m
 [0m[[0mdebug[0m] [0mInput file mappings:[0m
 [0m[[0mdebug[0m] [0m	multiplicacionMatrices$$anonfun$9.class[0m
 [0m[[0mdebug[0m] [0m	  /home/skorpionx/UdeA/Seminario/multiplicacionMatrices2/target/scala-2.11/classes/multiplicacionMatrices$$anonfun$9.class[0m
@@ -40,6 +40,8 @@
 [0m[[0mdebug[0m] [0m	  /home/skorpionx/UdeA/Seminario/multiplicacionMatrices2/target/scala-2.11/classes/multiplicacionMatrices$$anonfun$2.class[0m
 [0m[[0mdebug[0m] [0m	multiplicacionMatrices$$anonfun$multiply$1.class[0m
 [0m[[0mdebug[0m] [0m	  /home/skorpionx/UdeA/Seminario/multiplicacionMatrices2/target/scala-2.11/classes/multiplicacionMatrices$$anonfun$multiply$1.class[0m
+[0m[[0mdebug[0m] [0m	multiplicacionMatrices$$typecreator2$1.class[0m
+[0m[[0mdebug[0m] [0m	  /home/skorpionx/UdeA/Seminario/multiplicacionMatrices2/target/scala-2.11/classes/multiplicacionMatrices$$typecreator2$1.class[0m
 [0m[[0mdebug[0m] [0m	multiplicacionMatrices$$anonfun$7.class[0m
 [0m[[0mdebug[0m] [0m	  /home/skorpionx/UdeA/Seminario/multiplicacionMatrices2/target/scala-2.11/classes/multiplicacionMatrices$$anonfun$7.class[0m
 [0m[[0minfo[0m] [0mDone packaging.[0m
