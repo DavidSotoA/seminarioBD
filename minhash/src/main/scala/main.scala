@@ -4,7 +4,7 @@ import org.apache.spark.sql.SparkSession
 import org.apache.spark.SparkContext
 import org.apache.spark.rdd.RDD
 
-object Minhash {
+object Main {
   def main(args: Array[String]): Unit = {
     val spark = initSparkSession
     val numOfHashFunctions = args(0).toInt
@@ -17,5 +17,4 @@ object Minhash {
      .enableHiveSupport()
      .getOrCreate()
   }
-
 }

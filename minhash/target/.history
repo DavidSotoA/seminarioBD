@@ -28,3 +28,5 @@ compile
 package
 compile
 test
+sbt
+compile
