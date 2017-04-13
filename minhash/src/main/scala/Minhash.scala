@@ -8,12 +8,27 @@ case class HashFunctionDAO(a: Int, b: Int, m: Int)
 
 object Minhash{
 
-  // por ahora
-  def providedHashFunctions(): List[HashFunctionDAO] = {
-    val h1 = HashFunctionDAO(2, 1, 7)
-    val h2 = HashFunctionDAO(3, 2, 7)
-    val h3 = HashFunctionDAO(4, 3, 7)
-    List(h1, h2, h3)
+  def minhash(
+    instances: DataFrame,
+    numOfHashFunctions: Int,
+    spark: SparkSession,
+    primeUrl: String): DataFrame = {
+      val instancesByRowIndex = instances.select(Constants.INDEX_ROW).distinct
+      val maxValue = instancesByRowIndex.count
+      val udfs = udfsHash(createHashFunctions(maxValue, numOfHashFunctions, primeUrl))
+      var hashDF = instancesByRowIndex
+      val HASH = "h"
+      for (i <- 0 to (udfs.size -1)) {
+        val transformUDF =  udfs(i)
+        hashDF = hashDF.withColumn((HASH + i), transformUDF(hashDF(Constants.INDEX_ROW)))
+      }
+      val joinDF = instances.join(hashDF, Constants.INDEX_ROW)
+      joinDF.createOrReplaceTempView("df")
+      spark.sql(createQueryString(numOfHashFunctions))
+  }
+
+  def evaluateFunction(x: Int, h: HashFunctionDAO): Int = {
+    return (h.a * x + h.b) % h.m
   }
 
   def udfsHash(hashFunctions: List[HashFunctionDAO]): List[org.apache.spark.sql.expressions.UserDefinedFunction] ={
@@ -39,22 +54,36 @@ object Minhash{
     queryStr + " from df group by j"
   }
 
-  def minhash(instances: DataFrame, numOfHashFunctions: Int, spark: SparkSession): DataFrame = {
-    val instancesByRowIndex = instances.select("i").distinct
-    val udfs = udfsHash(providedHashFunctions)
-    var hashDF = instancesByRowIndex
-    val HASH = "h"
-    for (i <- 0 to (udfs.size -1)) {
-      val transformUDF =  udfs(i)
-      hashDF = hashDF.withColumn((HASH + i), transformUDF(hashDF("i")))
-    }
-    val joinDF = instances.join(hashDF, "i")
-    joinDF.createOrReplaceTempView("df")
-    spark.sql(createQueryString(numOfHashFunctions))
+  def findPrimeNumber(maxValue: Long, primeList: List[String]): Int = {
+    val valueList = primeList.find(_.toInt>maxValue)
+    return valueList.toList(0).toInt
   }
 
-  def evaluateFunction(x: Int, h: HashFunctionDAO): Int = {
-    return (h.a * x + h.b) % h.m
+  def createHashFunctions(
+  maxValue: Long,
+  numOfHashFunctions: Int,
+  dirPrimes: String): List[HashFunctionDAO] = {
+    require((maxValue <= Constants.LAST_PRIME),
+    "El número primo requerido(mayor a" + maxValue + ") no esta disponible")
+    val primList = scala.io.Source.fromFile(dirPrimes).getLines.toList
+    val p = findPrimeNumber(maxValue, primList)
+    val r = scala.util.Random
+    var hashFunctions =  List[HashFunctionDAO]()
+    for (i <- 1 to (numOfHashFunctions)) {
+      val a = r.nextInt(numOfHashFunctions * 2)
+      val b = r.nextInt(numOfHashFunctions * 2)
+      val hashFunction = new HashFunctionDAO(a, b , p)
+      hashFunctions = hashFunctions :+ hashFunction
+    }
+    hashFunctions
+  }
+
+  // por ahora
+  def providedHashFunctions(): List[HashFunctionDAO] = {
+    val h1 = HashFunctionDAO(2, 1, 7)
+    val h2 = HashFunctionDAO(3, 2, 7)
+    val h3 = HashFunctionDAO(4, 3, 7)
+    List(h1, h2, h3)
   }
 
 }

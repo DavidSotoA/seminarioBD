@@ -19,7 +19,7 @@ name hashing:
 1 items
 0 -> true
 products:
-20 items
+23 items
 /home/skorponx/2017-1/seminarioBD/minhash/src/main/scala/Constants.scala -> /home/skorponx/2017-1/seminarioBD/minhash/target/scala-2.11/classes/com/minhash/Constants$.class
 /home/skorponx/2017-1/seminarioBD/minhash/src/main/scala/Constants.scala -> /home/skorponx/2017-1/seminarioBD/minhash/target/scala-2.11/classes/com/minhash/Constants.class
 /home/skorponx/2017-1/seminarioBD/minhash/src/main/scala/HashFunction.scala -> /home/skorponx/2017-1/seminarioBD/minhash/target/scala-2.11/classes/com/minhash/HashFunction$$anonfun$1.class
@@ -32,6 +32,9 @@ products:
 /home/skorponx/2017-1/seminarioBD/minhash/src/main/scala/HashFunction.scala -> /home/skorponx/2017-1/seminarioBD/minhash/target/scala-2.11/classes/com/minhash/HashFunction.class
 /home/skorponx/2017-1/seminarioBD/minhash/src/main/scala/Minhash.scala -> /home/skorponx/2017-1/seminarioBD/minhash/target/scala-2.11/classes/com/minhash/HashFunctionDAO$.class
 /home/skorponx/2017-1/seminarioBD/minhash/src/main/scala/Minhash.scala -> /home/skorponx/2017-1/seminarioBD/minhash/target/scala-2.11/classes/com/minhash/HashFunctionDAO.class
+/home/skorponx/2017-1/seminarioBD/minhash/src/main/scala/Minhash.scala -> /home/skorponx/2017-1/seminarioBD/minhash/target/scala-2.11/classes/com/minhash/Minhash$$anonfun$2.class
+/home/skorponx/2017-1/seminarioBD/minhash/src/main/scala/Minhash.scala -> /home/skorponx/2017-1/seminarioBD/minhash/target/scala-2.11/classes/com/minhash/Minhash$$anonfun$createHashFunctions$1.class
+/home/skorponx/2017-1/seminarioBD/minhash/src/main/scala/Minhash.scala -> /home/skorponx/2017-1/seminarioBD/minhash/target/scala-2.11/classes/com/minhash/Minhash$$anonfun$createHashFunctions$2.class
 /home/skorponx/2017-1/seminarioBD/minhash/src/main/scala/Minhash.scala -> /home/skorponx/2017-1/seminarioBD/minhash/target/scala-2.11/classes/com/minhash/Minhash$$anonfun$createQueryString$1.class
 /home/skorponx/2017-1/seminarioBD/minhash/src/main/scala/Minhash.scala -> /home/skorponx/2017-1/seminarioBD/minhash/target/scala-2.11/classes/com/minhash/Minhash$$anonfun$minhash$1.class
 /home/skorponx/2017-1/seminarioBD/minhash/src/main/scala/Minhash.scala -> /home/skorponx/2017-1/seminarioBD/minhash/target/scala-2.11/classes/com/minhash/Minhash$$anonfun$udfsHash$1$$anonfun$1.class
@@ -41,7 +44,7 @@ products:
 /home/skorponx/2017-1/seminarioBD/minhash/src/main/scala/main.scala -> /home/skorponx/2017-1/seminarioBD/minhash/target/scala-2.11/classes/com/minhash/Main$.class
 /home/skorponx/2017-1/seminarioBD/minhash/src/main/scala/main.scala -> /home/skorponx/2017-1/seminarioBD/minhash/target/scala-2.11/classes/com/minhash/Main.class
 binary dependencies:
-13 items
+14 items
 /home/skorponx/2017-1/seminarioBD/minhash/src/main/scala/Constants.scala -> /home/skorponx/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.11.8.jar
 /home/skorponx/2017-1/seminarioBD/minhash/src/main/scala/Constants.scala -> /usr/lib/jvm/java-8-openjdk-amd64/jre/lib/rt.jar
 /home/skorponx/2017-1/seminarioBD/minhash/src/main/scala/HashFunction.scala -> /home/skorponx/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.11.8.jar
@@ -51,6 +54,7 @@ binary dependencies:
 /home/skorponx/2017-1/seminarioBD/minhash/src/main/scala/Minhash.scala -> /home/skorponx/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.11.8.jar
 /home/skorponx/2017-1/seminarioBD/minhash/src/main/scala/Minhash.scala -> /home/skorponx/.ivy2/cache/org.scala-lang/scala-reflect/jars/scala-reflect-2.11.8.jar
 /home/skorponx/2017-1/seminarioBD/minhash/src/main/scala/Minhash.scala -> /usr/lib/jvm/java-8-openjdk-amd64/jre/lib/rt.jar
+/home/skorponx/2017-1/seminarioBD/minhash/src/main/scala/main.scala -> /home/skorponx/.ivy2/cache/org.apache.spark/spark-catalyst_2.11/jars/spark-catalyst_2.11-2.1.0.jar
 /home/skorponx/2017-1/seminarioBD/minhash/src/main/scala/main.scala -> /home/skorponx/.ivy2/cache/org.apache.spark/spark-core_2.11/jars/spark-core_2.11-2.1.0.jar
 /home/skorponx/2017-1/seminarioBD/minhash/src/main/scala/main.scala -> /home/skorponx/.ivy2/cache/org.apache.spark/spark-sql_2.11/jars/spark-sql_2.11-2.1.0.jar
 /home/skorponx/2017-1/seminarioBD/minhash/src/main/scala/main.scala -> /home/skorponx/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.11.8.jar
@@ -64,9 +68,11 @@ public inherited source dependencies:
 public inherited external dependencies:
 0 items
 member reference internal dependencies:
-2 items
+4 items
 /home/skorponx/2017-1/seminarioBD/minhash/src/main/scala/HashFunction.scala -> /home/skorponx/2017-1/seminarioBD/minhash/src/main/scala/Constants.scala
+/home/skorponx/2017-1/seminarioBD/minhash/src/main/scala/Minhash.scala -> /home/skorponx/2017-1/seminarioBD/minhash/src/main/scala/Constants.scala
 /home/skorponx/2017-1/seminarioBD/minhash/src/main/scala/main.scala -> /home/skorponx/2017-1/seminarioBD/minhash/src/main/scala/Constants.scala
+/home/skorponx/2017-1/seminarioBD/minhash/src/main/scala/main.scala -> /home/skorponx/2017-1/seminarioBD/minhash/src/main/scala/Minhash.scala
 member reference external dependencies:
 0 items
 inheritance internal dependencies:
@@ -74,7 +80,7 @@ inheritance internal dependencies:
 inheritance external dependencies:
 0 items
 class names:
-20 items
+23 items
 /home/skorponx/2017-1/seminarioBD/minhash/src/main/scala/Constants.scala -> com.minhash.Constants
 /home/skorponx/2017-1/seminarioBD/minhash/src/main/scala/Constants.scala -> com.minhash.Constants$
 /home/skorponx/2017-1/seminarioBD/minhash/src/main/scala/HashFunction.scala -> com.minhash.HashFunction
@@ -89,6 +95,9 @@ class names:
 /home/skorponx/2017-1/seminarioBD/minhash/src/main/scala/Minhash.scala -> com.minhash.HashFunctionDAO$
 /home/skorponx/2017-1/seminarioBD/minhash/src/main/scala/Minhash.scala -> com.minhash.Minhash
 /home/skorponx/2017-1/seminarioBD/minhash/src/main/scala/Minhash.scala -> com.minhash.Minhash$
+/home/skorponx/2017-1/seminarioBD/minhash/src/main/scala/Minhash.scala -> com.minhash.Minhash$$anonfun$2
+/home/skorponx/2017-1/seminarioBD/minhash/src/main/scala/Minhash.scala -> com.minhash.Minhash$$anonfun$createHashFunctions$1
+/home/skorponx/2017-1/seminarioBD/minhash/src/main/scala/Minhash.scala -> com.minhash.Minhash$$anonfun$createHashFunctions$2
 /home/skorponx/2017-1/seminarioBD/minhash/src/main/scala/Minhash.scala -> com.minhash.Minhash$$anonfun$createQueryString$1
 /home/skorponx/2017-1/seminarioBD/minhash/src/main/scala/Minhash.scala -> com.minhash.Minhash$$anonfun$minhash$1
 /home/skorponx/2017-1/seminarioBD/minhash/src/main/scala/Minhash.scala -> com.minhash.Minhash$$anonfun$udfsHash$1
@@ -96,11 +105,13 @@ class names:
 /home/skorponx/2017-1/seminarioBD/minhash/src/main/scala/main.scala -> com.minhash.Main
 /home/skorponx/2017-1/seminarioBD/minhash/src/main/scala/main.scala -> com.minhash.Main$
 used names:
-265 items
+321 items
 /home/skorponx/2017-1/seminarioBD/minhash/src/main/scala/Constants.scala -> <init>
 /home/skorponx/2017-1/seminarioBD/minhash/src/main/scala/Constants.scala -> APP_NAME
 /home/skorponx/2017-1/seminarioBD/minhash/src/main/scala/Constants.scala -> AnyRef
 /home/skorponx/2017-1/seminarioBD/minhash/src/main/scala/Constants.scala -> Constants
+/home/skorponx/2017-1/seminarioBD/minhash/src/main/scala/Constants.scala -> INDEX_COLUMN
+/home/skorponx/2017-1/seminarioBD/minhash/src/main/scala/Constants.scala -> INDEX_ROW
 /home/skorponx/2017-1/seminarioBD/minhash/src/main/scala/Constants.scala -> Int
 /home/skorponx/2017-1/seminarioBD/minhash/src/main/scala/Constants.scala -> LAST_PRIME
 /home/skorponx/2017-1/seminarioBD/minhash/src/main/scala/Constants.scala -> Object
@@ -216,9 +227,12 @@ used names:
 /home/skorponx/2017-1/seminarioBD/minhash/src/main/scala/Minhash.scala -> +
 /home/skorponx/2017-1/seminarioBD/minhash/src/main/scala/Minhash.scala -> -
 /home/skorponx/2017-1/seminarioBD/minhash/src/main/scala/Minhash.scala -> :+
+/home/skorponx/2017-1/seminarioBD/minhash/src/main/scala/Minhash.scala -> <=
+/home/skorponx/2017-1/seminarioBD/minhash/src/main/scala/Minhash.scala -> <byname>
 /home/skorponx/2017-1/seminarioBD/minhash/src/main/scala/Minhash.scala -> <init>
 /home/skorponx/2017-1/seminarioBD/minhash/src/main/scala/Minhash.scala -> <repeated>
 /home/skorponx/2017-1/seminarioBD/minhash/src/main/scala/Minhash.scala -> ==
+/home/skorponx/2017-1/seminarioBD/minhash/src/main/scala/Minhash.scala -> >
 /home/skorponx/2017-1/seminarioBD/minhash/src/main/scala/Minhash.scala -> A
 /home/skorponx/2017-1/seminarioBD/minhash/src/main/scala/Minhash.scala -> A1
 /home/skorponx/2017-1/seminarioBD/minhash/src/main/scala/Minhash.scala -> AbstractFunction3
@@ -226,37 +240,47 @@ used names:
 /home/skorponx/2017-1/seminarioBD/minhash/src/main/scala/Minhash.scala -> AnyRef
 /home/skorponx/2017-1/seminarioBD/minhash/src/main/scala/Minhash.scala -> B
 /home/skorponx/2017-1/seminarioBD/minhash/src/main/scala/Minhash.scala -> Boolean
+/home/skorponx/2017-1/seminarioBD/minhash/src/main/scala/Minhash.scala -> BufferedSource
 /home/skorponx/2017-1/seminarioBD/minhash/src/main/scala/Minhash.scala -> CanBuildFrom
+/home/skorponx/2017-1/seminarioBD/minhash/src/main/scala/Minhash.scala -> Codec
 /home/skorponx/2017-1/seminarioBD/minhash/src/main/scala/Minhash.scala -> Coll
 /home/skorponx/2017-1/seminarioBD/minhash/src/main/scala/Minhash.scala -> Column
+/home/skorponx/2017-1/seminarioBD/minhash/src/main/scala/Minhash.scala -> Constants
 /home/skorponx/2017-1/seminarioBD/minhash/src/main/scala/Minhash.scala -> DataFrame
 /home/skorponx/2017-1/seminarioBD/minhash/src/main/scala/Minhash.scala -> Dataset
 /home/skorponx/2017-1/seminarioBD/minhash/src/main/scala/Minhash.scala -> Function1
 /home/skorponx/2017-1/seminarioBD/minhash/src/main/scala/Minhash.scala -> HASH
 /home/skorponx/2017-1/seminarioBD/minhash/src/main/scala/Minhash.scala -> HashFunctionDAO
+/home/skorponx/2017-1/seminarioBD/minhash/src/main/scala/Minhash.scala -> INDEX_ROW
 /home/skorponx/2017-1/seminarioBD/minhash/src/main/scala/Minhash.scala -> Inclusive
 /home/skorponx/2017-1/seminarioBD/minhash/src/main/scala/Minhash.scala -> IndexOutOfBoundsException
 /home/skorponx/2017-1/seminarioBD/minhash/src/main/scala/Minhash.scala -> Int
 /home/skorponx/2017-1/seminarioBD/minhash/src/main/scala/Minhash.scala -> Iterator
 /home/skorponx/2017-1/seminarioBD/minhash/src/main/scala/Minhash.scala -> JavaUniverse
+/home/skorponx/2017-1/seminarioBD/minhash/src/main/scala/Minhash.scala -> LAST_PRIME
 /home/skorponx/2017-1/seminarioBD/minhash/src/main/scala/Minhash.scala -> List
+/home/skorponx/2017-1/seminarioBD/minhash/src/main/scala/Minhash.scala -> Long
 /home/skorponx/2017-1/seminarioBD/minhash/src/main/scala/Minhash.scala -> Minhash
 /home/skorponx/2017-1/seminarioBD/minhash/src/main/scala/Minhash.scala -> Nil
 /home/skorponx/2017-1/seminarioBD/minhash/src/main/scala/Minhash.scala -> None
 /home/skorponx/2017-1/seminarioBD/minhash/src/main/scala/Minhash.scala -> Nothing
 /home/skorponx/2017-1/seminarioBD/minhash/src/main/scala/Minhash.scala -> Object
+/home/skorponx/2017-1/seminarioBD/minhash/src/main/scala/Minhash.scala -> Option
 /home/skorponx/2017-1/seminarioBD/minhash/src/main/scala/Minhash.scala -> Predef
 /home/skorponx/2017-1/seminarioBD/minhash/src/main/scala/Minhash.scala -> Product
 /home/skorponx/2017-1/seminarioBD/minhash/src/main/scala/Minhash.scala -> RT
+/home/skorponx/2017-1/seminarioBD/minhash/src/main/scala/Minhash.scala -> Random
 /home/skorponx/2017-1/seminarioBD/minhash/src/main/scala/Minhash.scala -> Range
 /home/skorponx/2017-1/seminarioBD/minhash/src/main/scala/Minhash.scala -> RichInt
 /home/skorponx/2017-1/seminarioBD/minhash/src/main/scala/Minhash.scala -> Row
 /home/skorponx/2017-1/seminarioBD/minhash/src/main/scala/Minhash.scala -> ScalaRunTime
 /home/skorponx/2017-1/seminarioBD/minhash/src/main/scala/Minhash.scala -> Serializable
 /home/skorponx/2017-1/seminarioBD/minhash/src/main/scala/Minhash.scala -> Some
+/home/skorponx/2017-1/seminarioBD/minhash/src/main/scala/Minhash.scala -> Source
 /home/skorponx/2017-1/seminarioBD/minhash/src/main/scala/Minhash.scala -> SparkSession
 /home/skorponx/2017-1/seminarioBD/minhash/src/main/scala/Minhash.scala -> Statics
 /home/skorponx/2017-1/seminarioBD/minhash/src/main/scala/Minhash.scala -> String
+/home/skorponx/2017-1/seminarioBD/minhash/src/main/scala/Minhash.scala -> StringOps
 /home/skorponx/2017-1/seminarioBD/minhash/src/main/scala/Minhash.scala -> T
 /home/skorponx/2017-1/seminarioBD/minhash/src/main/scala/Minhash.scala -> T0
 /home/skorponx/2017-1/seminarioBD/minhash/src/main/scala/Minhash.scala -> T1
@@ -275,43 +299,61 @@ used names:
 /home/skorponx/2017-1/seminarioBD/minhash/src/main/scala/Minhash.scala -> apache
 /home/skorponx/2017-1/seminarioBD/minhash/src/main/scala/Minhash.scala -> apply
 /home/skorponx/2017-1/seminarioBD/minhash/src/main/scala/Minhash.scala -> asInstanceOf
+/home/skorponx/2017-1/seminarioBD/minhash/src/main/scala/Minhash.scala -> augmentString
 /home/skorponx/2017-1/seminarioBD/minhash/src/main/scala/Minhash.scala -> b
 /home/skorponx/2017-1/seminarioBD/minhash/src/main/scala/Minhash.scala -> canBuildFrom
 /home/skorponx/2017-1/seminarioBD/minhash/src/main/scala/Minhash.scala -> com
+/home/skorponx/2017-1/seminarioBD/minhash/src/main/scala/Minhash.scala -> count
+/home/skorponx/2017-1/seminarioBD/minhash/src/main/scala/Minhash.scala -> createHashFunctions
+/home/skorponx/2017-1/seminarioBD/minhash/src/main/scala/Minhash.scala -> createOrReplaceTempView
 /home/skorponx/2017-1/seminarioBD/minhash/src/main/scala/Minhash.scala -> createQueryString
-/home/skorponx/2017-1/seminarioBD/minhash/src/main/scala/Minhash.scala -> createTempView
+/home/skorponx/2017-1/seminarioBD/minhash/src/main/scala/Minhash.scala -> dirPrimes
 /home/skorponx/2017-1/seminarioBD/minhash/src/main/scala/Minhash.scala -> distinct
 /home/skorponx/2017-1/seminarioBD/minhash/src/main/scala/Minhash.scala -> eq
 /home/skorponx/2017-1/seminarioBD/minhash/src/main/scala/Minhash.scala -> evaluateFunction
 /home/skorponx/2017-1/seminarioBD/minhash/src/main/scala/Minhash.scala -> expressions
+/home/skorponx/2017-1/seminarioBD/minhash/src/main/scala/Minhash.scala -> fallbackSystemCodec
 /home/skorponx/2017-1/seminarioBD/minhash/src/main/scala/Minhash.scala -> finalizeHash
+/home/skorponx/2017-1/seminarioBD/minhash/src/main/scala/Minhash.scala -> find
+/home/skorponx/2017-1/seminarioBD/minhash/src/main/scala/Minhash.scala -> findPrimeNumber
 /home/skorponx/2017-1/seminarioBD/minhash/src/main/scala/Minhash.scala -> foreach
+/home/skorponx/2017-1/seminarioBD/minhash/src/main/scala/Minhash.scala -> fromFile
 /home/skorponx/2017-1/seminarioBD/minhash/src/main/scala/Minhash.scala -> functions
+/home/skorponx/2017-1/seminarioBD/minhash/src/main/scala/Minhash.scala -> getLines
 /home/skorponx/2017-1/seminarioBD/minhash/src/main/scala/Minhash.scala -> h
 /home/skorponx/2017-1/seminarioBD/minhash/src/main/scala/Minhash.scala -> h1
 /home/skorponx/2017-1/seminarioBD/minhash/src/main/scala/Minhash.scala -> h2
 /home/skorponx/2017-1/seminarioBD/minhash/src/main/scala/Minhash.scala -> h3
 /home/skorponx/2017-1/seminarioBD/minhash/src/main/scala/Minhash.scala -> hashDF
+/home/skorponx/2017-1/seminarioBD/minhash/src/main/scala/Minhash.scala -> hashFunction
 /home/skorponx/2017-1/seminarioBD/minhash/src/main/scala/Minhash.scala -> hashFunctions
 /home/skorponx/2017-1/seminarioBD/minhash/src/main/scala/Minhash.scala -> i
 /home/skorponx/2017-1/seminarioBD/minhash/src/main/scala/Minhash.scala -> immutable
 /home/skorponx/2017-1/seminarioBD/minhash/src/main/scala/Minhash.scala -> instances
 /home/skorponx/2017-1/seminarioBD/minhash/src/main/scala/Minhash.scala -> instancesByRowIndex
 /home/skorponx/2017-1/seminarioBD/minhash/src/main/scala/Minhash.scala -> intWrapper
+/home/skorponx/2017-1/seminarioBD/minhash/src/main/scala/Minhash.scala -> io
 /home/skorponx/2017-1/seminarioBD/minhash/src/main/scala/Minhash.scala -> isInstanceOf
 /home/skorponx/2017-1/seminarioBD/minhash/src/main/scala/Minhash.scala -> join
 /home/skorponx/2017-1/seminarioBD/minhash/src/main/scala/Minhash.scala -> joinDF
 /home/skorponx/2017-1/seminarioBD/minhash/src/main/scala/Minhash.scala -> m
 /home/skorponx/2017-1/seminarioBD/minhash/src/main/scala/Minhash.scala -> materializeTypeTag
+/home/skorponx/2017-1/seminarioBD/minhash/src/main/scala/Minhash.scala -> maxValue
 /home/skorponx/2017-1/seminarioBD/minhash/src/main/scala/Minhash.scala -> minhash
 /home/skorponx/2017-1/seminarioBD/minhash/src/main/scala/Minhash.scala -> mix
+/home/skorponx/2017-1/seminarioBD/minhash/src/main/scala/Minhash.scala -> nextInt
 /home/skorponx/2017-1/seminarioBD/minhash/src/main/scala/Minhash.scala -> numOfHashFunctions
 /home/skorponx/2017-1/seminarioBD/minhash/src/main/scala/Minhash.scala -> org
+/home/skorponx/2017-1/seminarioBD/minhash/src/main/scala/Minhash.scala -> p
 /home/skorponx/2017-1/seminarioBD/minhash/src/main/scala/Minhash.scala -> package
 /home/skorponx/2017-1/seminarioBD/minhash/src/main/scala/Minhash.scala -> partiallyevaluateFunction
-/home/skorponx/2017-1/seminarioBD/minhash/src/main/scala/Minhash.scala -> providedHashFunctions
+/home/skorponx/2017-1/seminarioBD/minhash/src/main/scala/Minhash.scala -> primList
+/home/skorponx/2017-1/seminarioBD/minhash/src/main/scala/Minhash.scala -> primeList
+/home/skorponx/2017-1/seminarioBD/minhash/src/main/scala/Minhash.scala -> primeUrl
 /home/skorponx/2017-1/seminarioBD/minhash/src/main/scala/Minhash.scala -> queryStr
+/home/skorponx/2017-1/seminarioBD/minhash/src/main/scala/Minhash.scala -> r
 /home/skorponx/2017-1/seminarioBD/minhash/src/main/scala/Minhash.scala -> reflect
+/home/skorponx/2017-1/seminarioBD/minhash/src/main/scala/Minhash.scala -> require
 /home/skorponx/2017-1/seminarioBD/minhash/src/main/scala/Minhash.scala -> runtime
 /home/skorponx/2017-1/seminarioBD/minhash/src/main/scala/Minhash.scala -> scala
 /home/skorponx/2017-1/seminarioBD/minhash/src/main/scala/Minhash.scala -> select
@@ -319,6 +361,8 @@ used names:
 /home/skorponx/2017-1/seminarioBD/minhash/src/main/scala/Minhash.scala -> spark
 /home/skorponx/2017-1/seminarioBD/minhash/src/main/scala/Minhash.scala -> sql
 /home/skorponx/2017-1/seminarioBD/minhash/src/main/scala/Minhash.scala -> to
+/home/skorponx/2017-1/seminarioBD/minhash/src/main/scala/Minhash.scala -> toInt
+/home/skorponx/2017-1/seminarioBD/minhash/src/main/scala/Minhash.scala -> toList
 /home/skorponx/2017-1/seminarioBD/minhash/src/main/scala/Minhash.scala -> toString
 /home/skorponx/2017-1/seminarioBD/minhash/src/main/scala/Minhash.scala -> transformUDF
 /home/skorponx/2017-1/seminarioBD/minhash/src/main/scala/Minhash.scala -> typedProductIterator
@@ -326,6 +370,8 @@ used names:
 /home/skorponx/2017-1/seminarioBD/minhash/src/main/scala/Minhash.scala -> udfs
 /home/skorponx/2017-1/seminarioBD/minhash/src/main/scala/Minhash.scala -> udfsHash
 /home/skorponx/2017-1/seminarioBD/minhash/src/main/scala/Minhash.scala -> universe
+/home/skorponx/2017-1/seminarioBD/minhash/src/main/scala/Minhash.scala -> util
+/home/skorponx/2017-1/seminarioBD/minhash/src/main/scala/Minhash.scala -> valueList
 /home/skorponx/2017-1/seminarioBD/minhash/src/main/scala/Minhash.scala -> withColumn
 /home/skorponx/2017-1/seminarioBD/minhash/src/main/scala/Minhash.scala -> x
 /home/skorponx/2017-1/seminarioBD/minhash/src/main/scala/Minhash.scala -> ||
@@ -335,11 +381,17 @@ used names:
 /home/skorponx/2017-1/seminarioBD/minhash/src/main/scala/main.scala -> Array
 /home/skorponx/2017-1/seminarioBD/minhash/src/main/scala/main.scala -> Builder
 /home/skorponx/2017-1/seminarioBD/minhash/src/main/scala/main.scala -> Constants
+/home/skorponx/2017-1/seminarioBD/minhash/src/main/scala/main.scala -> DataFrame
+/home/skorponx/2017-1/seminarioBD/minhash/src/main/scala/main.scala -> DataFrameReader
+/home/skorponx/2017-1/seminarioBD/minhash/src/main/scala/main.scala -> DataFrameWriter
 /home/skorponx/2017-1/seminarioBD/minhash/src/main/scala/main.scala -> Int
 /home/skorponx/2017-1/seminarioBD/minhash/src/main/scala/main.scala -> Main
+/home/skorponx/2017-1/seminarioBD/minhash/src/main/scala/main.scala -> Minhash
 /home/skorponx/2017-1/seminarioBD/minhash/src/main/scala/main.scala -> Object
 /home/skorponx/2017-1/seminarioBD/minhash/src/main/scala/main.scala -> Predef
 /home/skorponx/2017-1/seminarioBD/minhash/src/main/scala/main.scala -> RDD
+/home/skorponx/2017-1/seminarioBD/minhash/src/main/scala/main.scala -> Row
+/home/skorponx/2017-1/seminarioBD/minhash/src/main/scala/main.scala -> SaveMode
 /home/skorponx/2017-1/seminarioBD/minhash/src/main/scala/main.scala -> SparkContext
 /home/skorponx/2017-1/seminarioBD/minhash/src/main/scala/main.scala -> SparkSession
 /home/skorponx/2017-1/seminarioBD/minhash/src/main/scala/main.scala -> String
@@ -353,19 +405,32 @@ used names:
 /home/skorponx/2017-1/seminarioBD/minhash/src/main/scala/main.scala -> builder
 /home/skorponx/2017-1/seminarioBD/minhash/src/main/scala/main.scala -> com
 /home/skorponx/2017-1/seminarioBD/minhash/src/main/scala/main.scala -> enableHiveSupport
+/home/skorponx/2017-1/seminarioBD/minhash/src/main/scala/main.scala -> format
 /home/skorponx/2017-1/seminarioBD/minhash/src/main/scala/main.scala -> getOrCreate
 /home/skorponx/2017-1/seminarioBD/minhash/src/main/scala/main.scala -> initSparkSession
+/home/skorponx/2017-1/seminarioBD/minhash/src/main/scala/main.scala -> instances
+/home/skorponx/2017-1/seminarioBD/minhash/src/main/scala/main.scala -> load
 /home/skorponx/2017-1/seminarioBD/minhash/src/main/scala/main.scala -> minhash
+/home/skorponx/2017-1/seminarioBD/minhash/src/main/scala/main.scala -> minhashDF
+/home/skorponx/2017-1/seminarioBD/minhash/src/main/scala/main.scala -> mode
+/home/skorponx/2017-1/seminarioBD/minhash/src/main/scala/main.scala -> numOfHashFunctions
 /home/skorponx/2017-1/seminarioBD/minhash/src/main/scala/main.scala -> org
+/home/skorponx/2017-1/seminarioBD/minhash/src/main/scala/main.scala -> package
+/home/skorponx/2017-1/seminarioBD/minhash/src/main/scala/main.scala -> primesUrl
 /home/skorponx/2017-1/seminarioBD/minhash/src/main/scala/main.scala -> rdd
+/home/skorponx/2017-1/seminarioBD/minhash/src/main/scala/main.scala -> read
+/home/skorponx/2017-1/seminarioBD/minhash/src/main/scala/main.scala -> readUrl
+/home/skorponx/2017-1/seminarioBD/minhash/src/main/scala/main.scala -> save
+/home/skorponx/2017-1/seminarioBD/minhash/src/main/scala/main.scala -> saveUrl
 /home/skorponx/2017-1/seminarioBD/minhash/src/main/scala/main.scala -> scala
 /home/skorponx/2017-1/seminarioBD/minhash/src/main/scala/main.scala -> spark
 /home/skorponx/2017-1/seminarioBD/minhash/src/main/scala/main.scala -> sql
 /home/skorponx/2017-1/seminarioBD/minhash/src/main/scala/main.scala -> toInt
+/home/skorponx/2017-1/seminarioBD/minhash/src/main/scala/main.scala -> write
 product stamps:
-20 items
-/home/skorponx/2017-1/seminarioBD/minhash/target/scala-2.11/classes/com/minhash/Constants$.class -> lastModified(1491118432000)
-/home/skorponx/2017-1/seminarioBD/minhash/target/scala-2.11/classes/com/minhash/Constants.class -> lastModified(1491118432000)
+23 items
+/home/skorponx/2017-1/seminarioBD/minhash/target/scala-2.11/classes/com/minhash/Constants$.class -> lastModified(1492057648000)
+/home/skorponx/2017-1/seminarioBD/minhash/target/scala-2.11/classes/com/minhash/Constants.class -> lastModified(1492057648000)
 /home/skorponx/2017-1/seminarioBD/minhash/target/scala-2.11/classes/com/minhash/HashFunction$$anonfun$1.class -> lastModified(1491118432000)
 /home/skorponx/2017-1/seminarioBD/minhash/target/scala-2.11/classes/com/minhash/HashFunction$$anonfun$createHashFunctions$1$$anonfun$apply$mcV$sp$1.class -> lastModified(1491118432000)
 /home/skorponx/2017-1/seminarioBD/minhash/target/scala-2.11/classes/com/minhash/HashFunction$$anonfun$createHashFunctions$1.class -> lastModified(1491118432000)
@@ -374,22 +439,25 @@ product stamps:
 /home/skorponx/2017-1/seminarioBD/minhash/target/scala-2.11/classes/com/minhash/HashFunction$$anonfun$evaluateHashFunctions$1.class -> lastModified(1491118432000)
 /home/skorponx/2017-1/seminarioBD/minhash/target/scala-2.11/classes/com/minhash/HashFunction$.class -> lastModified(1491118432000)
 /home/skorponx/2017-1/seminarioBD/minhash/target/scala-2.11/classes/com/minhash/HashFunction.class -> lastModified(1491118432000)
-/home/skorponx/2017-1/seminarioBD/minhash/target/scala-2.11/classes/com/minhash/HashFunctionDAO$.class -> lastModified(1492048050000)
-/home/skorponx/2017-1/seminarioBD/minhash/target/scala-2.11/classes/com/minhash/HashFunctionDAO.class -> lastModified(1492048050000)
-/home/skorponx/2017-1/seminarioBD/minhash/target/scala-2.11/classes/com/minhash/Main$.class -> lastModified(1492042104000)
-/home/skorponx/2017-1/seminarioBD/minhash/target/scala-2.11/classes/com/minhash/Main.class -> lastModified(1492042104000)
-/home/skorponx/2017-1/seminarioBD/minhash/target/scala-2.11/classes/com/minhash/Minhash$$anonfun$createQueryString$1.class -> lastModified(1492048050000)
-/home/skorponx/2017-1/seminarioBD/minhash/target/scala-2.11/classes/com/minhash/Minhash$$anonfun$minhash$1.class -> lastModified(1492048050000)
-/home/skorponx/2017-1/seminarioBD/minhash/target/scala-2.11/classes/com/minhash/Minhash$$anonfun$udfsHash$1$$anonfun$1.class -> lastModified(1492048050000)
-/home/skorponx/2017-1/seminarioBD/minhash/target/scala-2.11/classes/com/minhash/Minhash$$anonfun$udfsHash$1.class -> lastModified(1492048050000)
-/home/skorponx/2017-1/seminarioBD/minhash/target/scala-2.11/classes/com/minhash/Minhash$.class -> lastModified(1492048050000)
-/home/skorponx/2017-1/seminarioBD/minhash/target/scala-2.11/classes/com/minhash/Minhash.class -> lastModified(1492048050000)
+/home/skorponx/2017-1/seminarioBD/minhash/target/scala-2.11/classes/com/minhash/HashFunctionDAO$.class -> lastModified(1492057976000)
+/home/skorponx/2017-1/seminarioBD/minhash/target/scala-2.11/classes/com/minhash/HashFunctionDAO.class -> lastModified(1492057976000)
+/home/skorponx/2017-1/seminarioBD/minhash/target/scala-2.11/classes/com/minhash/Main$.class -> lastModified(1492058568000)
+/home/skorponx/2017-1/seminarioBD/minhash/target/scala-2.11/classes/com/minhash/Main.class -> lastModified(1492058568000)
+/home/skorponx/2017-1/seminarioBD/minhash/target/scala-2.11/classes/com/minhash/Minhash$$anonfun$2.class -> lastModified(1492057976000)
+/home/skorponx/2017-1/seminarioBD/minhash/target/scala-2.11/classes/com/minhash/Minhash$$anonfun$createHashFunctions$1.class -> lastModified(1492057976000)
+/home/skorponx/2017-1/seminarioBD/minhash/target/scala-2.11/classes/com/minhash/Minhash$$anonfun$createHashFunctions$2.class -> lastModified(1492057976000)
+/home/skorponx/2017-1/seminarioBD/minhash/target/scala-2.11/classes/com/minhash/Minhash$$anonfun$createQueryString$1.class -> lastModified(1492057976000)
+/home/skorponx/2017-1/seminarioBD/minhash/target/scala-2.11/classes/com/minhash/Minhash$$anonfun$minhash$1.class -> lastModified(1492057976000)
+/home/skorponx/2017-1/seminarioBD/minhash/target/scala-2.11/classes/com/minhash/Minhash$$anonfun$udfsHash$1$$anonfun$1.class -> lastModified(1492057976000)
+/home/skorponx/2017-1/seminarioBD/minhash/target/scala-2.11/classes/com/minhash/Minhash$$anonfun$udfsHash$1.class -> lastModified(1492057976000)
+/home/skorponx/2017-1/seminarioBD/minhash/target/scala-2.11/classes/com/minhash/Minhash$.class -> lastModified(1492057976000)
+/home/skorponx/2017-1/seminarioBD/minhash/target/scala-2.11/classes/com/minhash/Minhash.class -> lastModified(1492057976000)
 source stamps:
 4 items
-/home/skorponx/2017-1/seminarioBD/minhash/src/main/scala/Constants.scala -> hash(5255ff29d48e6586f84506753e93a1d4a3a411fd)
+/home/skorponx/2017-1/seminarioBD/minhash/src/main/scala/Constants.scala -> hash(36c2a1f2c57f9b65b278438369fc5aaf5175d6f6)
 /home/skorponx/2017-1/seminarioBD/minhash/src/main/scala/HashFunction.scala -> hash(899f618d31db8c1c08da6bf0f73f18902c967cde)
-/home/skorponx/2017-1/seminarioBD/minhash/src/main/scala/Minhash.scala -> hash(88bfe31bc6398832cc356cdf7a30e98ada25d959)
-/home/skorponx/2017-1/seminarioBD/minhash/src/main/scala/main.scala -> hash(75cad03745a32a4f8c01b30f26ffcc586d0714c4)
+/home/skorponx/2017-1/seminarioBD/minhash/src/main/scala/Minhash.scala -> hash(e16d42449b611124552cb6956914ec95480a68fb)
+/home/skorponx/2017-1/seminarioBD/minhash/src/main/scala/main.scala -> hash(d51a43fadace5cabb7f6ccd014429cddff24c1fe)
 binary stamps:
 6 items
 /home/skorponx/.ivy2/cache/org.apache.spark/spark-catalyst_2.11/jars/spark-catalyst_2.11-2.1.0.jar -> lastModified(1481872148000)
@@ -401,21 +469,21 @@ binary stamps:
 class names:
 6 items
 /home/skorponx/.ivy2/cache/org.apache.spark/spark-catalyst_2.11/jars/spark-catalyst_2.11-2.1.0.jar -> org.apache.spark.sql.Row
-/home/skorponx/.ivy2/cache/org.apache.spark/spark-core_2.11/jars/spark-core_2.11-2.1.0.jar -> org.apache.spark.SparkContext$
-/home/skorponx/.ivy2/cache/org.apache.spark/spark-sql_2.11/jars/spark-sql_2.11-2.1.0.jar -> org.apache.spark.sql.package$
-/home/skorponx/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.11.8.jar -> scala.runtime.AbstractFunction3
-/home/skorponx/.ivy2/cache/org.scala-lang/scala-reflect/jars/scala-reflect-2.11.8.jar -> scala.reflect.api.Universe
+/home/skorponx/.ivy2/cache/org.apache.spark/spark-core_2.11/jars/spark-core_2.11-2.1.0.jar -> org.apache.spark.SparkContext
+/home/skorponx/.ivy2/cache/org.apache.spark/spark-sql_2.11/jars/spark-sql_2.11-2.1.0.jar -> org.apache.spark.sql.SaveMode
+/home/skorponx/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.11.8.jar -> scala.collection.immutable.StringOps
+/home/skorponx/.ivy2/cache/org.scala-lang/scala-reflect/jars/scala-reflect-2.11.8.jar -> scala.reflect.runtime.package$
 /usr/lib/jvm/java-8-openjdk-amd64/jre/lib/rt.jar -> java.lang.Object
 internal apis:
 4 items
 /home/skorponx/2017-1/seminarioBD/minhash/src/main/scala/Constants.scala -> 
-rO0ABXNyABB4c2J0aS5hcGkuU291cmNlSjH5SdlLSkQCAAdJAAdhcGlIYXNoWgAIaGFzTWFjcm9aABBoYXNQYWNrYWdlT2JqZWN0TAAYX2ludGVybmFsT25seV9uYW1lSGFzaGVzdAAkTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoZXM7TAADYXBpdAAVTHhzYnRpL2FwaS9Tb3VyY2VBUEk7TAALY29tcGlsYXRpb250ABdMeHNidGkvYXBpL0NvbXBpbGF0aW9uO1sABGhhc2h0AAJbQnhwq+yM0AAAc3IAInhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoZXNU2r6Z+tTsTAIAAlsAD2ltcGxpY2l0TWVtYmVyc3QAI1tMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2g7WwAOcmVndWxhck1lbWJlcnNxAH4AB3hwdXIAI1tMeHNidGkuYXBpLl9pbnRlcm5hbE9ubHlfTmFtZUhhc2g7SVqAtt2Wi/QCAAB4cAAAAAB1cQB+AAkAAAAWc3IAIHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoWw71InY4V88CAAJJAARoYXNoTAAEbmFtZXQAEkxqYXZhL2xhbmcvU3RyaW5nO3hwpYX8vXQABm5vdGlmeXNxAH4ADLaLnSB0AAR3YWl0c3EAfgAMYIsTkHQADSRhc0luc3RhbmNlT2ZzcQB+AAzZ5MwxdAAGZXF1YWxzc3EAfgAMDi00G3QACkxBU1RfUFJJTUVzcQB+AAzEKuT1dAAMYXNJbnN0YW5jZU9mc3EAfgAMnDo5JnQACEFQUF9OQU1Fc3EAfgAMrenlV3QACUNvbnN0YW50c3NxAH4ADLQ3Wu90AAxzeW5jaHJvbml6ZWRzcQB+AAzn14wOdAANJGlzSW5zdGFuY2VPZnNxAH4ADGbMhyl0AAlub3RpZnlBbGxzcQB+AAxNJF/JdAAMaXNJbnN0YW5jZU9mc3EAfgAMOU4C73QAAj09c3EAfgAMs6SrkXQABWNsb25lc3EAfgAMZlt4r3QACHRvU3RyaW5nc3EAfgAMhbe/JXQAAiE9c3EAfgAM/byi3HQACGdldENsYXNzc3EAfgAMrLSxQHQAAm5lc3EAfgAMhZktBnQAAmVxc3EAfgAMgEqKBHQAAiMjc3EAfgAMB5+B/XQACGZpbmFsaXplc3EAfgAMj3csSHQACGhhc2hDb2Rlc3IAE3hzYnRpLmFwaS5Tb3VyY2VBUEm5Xqf5KSM4pAIAAlsAC2RlZmluaXRpb25zdAAXW0x4c2J0aS9hcGkvRGVmaW5pdGlvbjtbAAhwYWNrYWdlc3QAFFtMeHNidGkvYXBpL1BhY2thZ2U7eHB1cgAXW0x4c2J0aS5hcGkuRGVmaW5pdGlvbjuIyVzntONeDgIAAHhwAAAAAXNyABN4c2J0aS5hcGkuQ2xhc3NMaWtlgzQcod+wl2wCAARMAA5kZWZpbml0aW9uVHlwZXQAGkx4c2J0aS9hcGkvRGVmaW5pdGlvblR5cGU7WwAQc2F2ZWRBbm5vdGF0aW9uc3QAE1tMamF2YS9sYW5nL1N0cmluZztMAAhzZWxmVHlwZXQAEEx4c2J0aS9hcGkvTGF6eTtMAAlzdHJ1Y3R1cmVxAH4AQ3hyACF4c2J0aS5hcGkuUGFyYW1ldGVyaXplZERlZmluaXRpb275EW6x1VA84gIAAVsADnR5cGVQYXJhbWV0ZXJzdAAaW0x4c2J0aS9hcGkvVHlwZVBhcmFtZXRlcjt4cgAUeHNidGkuYXBpLkRlZmluaXRpb26HKhvocULjRgIABEwABmFjY2Vzc3QAEkx4c2J0aS9hcGkvQWNjZXNzO1sAC2Fubm90YXRpb25zdAAXW0x4c2J0aS9hcGkvQW5ub3RhdGlvbjtMAAltb2RpZmllcnN0ABVMeHNidGkvYXBpL01vZGlmaWVycztMAARuYW1lcQB+AA14cHNyABB4c2J0aS5hcGkuUHVibGljulg9rmwtYEICAAB4cgAQeHNidGkuYXBpLkFjY2Vzc91imvgdYzFIAgAAeHB1cgAXW0x4c2J0aS5hcGkuQW5ub3RhdGlvbjvrl+sZEPaNSAIAAHhwAAAAAHNyABN4c2J0aS5hcGkuTW9kaWZpZXJzl+dh3BMme7MCAAFCAAVmbGFnc3hwAHQAFWNvbS5taW5oYXNoLkNvbnN0YW50c3VyABpbTHhzYnRpLmFwaS5UeXBlUGFyYW1ldGVyO9ltJg8onfK2AgAAeHAAAAAAfnIAGHhzYnRpLmFwaS5EZWZpbml0aW9uVHlwZQAAAAAAAAAAEgAAeHIADmphdmEubGFuZy5FbnVtAAAAAAAAAAASAAB4cHQABk1vZHVsZXVyABNbTGphdmEubGFuZy5TdHJpbmc7rdJW5+kde0cCAAB4cAAAAABzcgAheHNidGkuYXBpLkFic3RyYWN0TGF6eSRTdHJpY3RMYXp5DWYcaykWKrgCAAFMAAV2YWx1ZXQAEkxqYXZhL2xhbmcvT2JqZWN0O3hwc3IAE3hzYnRpLmFwaS5FbXB0eVR5cGW8/Z5GSTuJJAIAAHhyABR4c2J0aS5hcGkuU2ltcGxlVHlwZXJ4YoghI79AAgAAeHIADnhzYnRpLmFwaS5UeXBlP2rZIRZJqsoCAAB4cHNxAH4AW3NyABN4c2J0aS5hcGkuU3RydWN0dXJlqar5gJNv2AACAANMAAhkZWNsYXJlZHEAfgBDTAAJaW5oZXJpdGVkcQB+AENMAAdwYXJlbnRzcQB+AEN4cQB+AGBzcQB+AFt1cQB+AD4AAAAAc3EAfgBbdXEAfgA+AAAAAHNxAH4AW3VyABFbTHhzYnRpLmFwaS5UeXBlO3T/pVp7+elBAgAAeHAAAAACc3IAFHhzYnRpLmFwaS5Qcm9qZWN0aW9u89KNVOlFpC0CAAJMAAJpZHEAfgANTAAGcHJlZml4dAAWTHhzYnRpL2FwaS9TaW1wbGVUeXBlO3hxAH4AX3QABk9iamVjdHNyABN4c2J0aS5hcGkuU2luZ2xldG9u/Kdf+M9W5EYCAAFMAARwYXRodAAQTHhzYnRpL2FwaS9QYXRoO3hxAH4AX3NyAA54c2J0aS5hcGkuUGF0aJs9XAjOpSeEAgABWwAKY29tcG9uZW50c3QAGltMeHNidGkvYXBpL1BhdGhDb21wb25lbnQ7eHB1cgAaW0x4c2J0aS5hcGkuUGF0aENvbXBvbmVudDtD2gl0LWcWdAIAAHhwAAAAA3NyAAx4c2J0aS5hcGkuSWSYMmyLN1PEQAIAAUwAAmlkcQB+AA14cgAXeHNidGkuYXBpLlBhdGhDb21wb25lbnRfmiJbLoafvAIAAHhwdAAEamF2YXNxAH4AeHQABGxhbmdzcgAOeHNidGkuYXBpLlRoaXPbCe2mzFpAXAIAAHhxAH4AeXNxAH4AbHQAA0FueXNxAH4AcHNxAH4Ac3VxAH4AdgAAAAJzcQB+AHh0AAVzY2FsYXEAfgB/dXIAFFtMeHNidGkuYXBpLlBhY2thZ2U7WxMZN3CnJ6ECAAB4cAAAAAJzcgAReHNidGkuYXBpLlBhY2thZ2V+WY/2rs45WAIAAUwABG5hbWVxAH4ADXhwdAALY29tLm1pbmhhc2hzcQB+AIl0AANjb21zcgAVeHNidGkuYXBpLkNvbXBpbGF0aW9u7frgw2rooEICAAJKAAlzdGFydFRpbWVbAAdvdXRwdXRzdAAaW0x4c2J0aS9hcGkvT3V0cHV0U2V0dGluZzt4cAAAAVstlYOddXIAGltMeHNidGkuYXBpLk91dHB1dFNldHRpbmc7f2rC86eHpUICAAB4cAAAAAFzcgAXeHNidGkuYXBpLk91dHB1dFNldHRpbmd62ZpHdPsdewIAAkwAD291dHB1dERpcmVjdG9yeXEAfgANTAAPc291cmNlRGlyZWN0b3J5cQB+AA14cHQAQy9ob21lL3Nrb3Jwb254LzIwMTctMS9zZW1pbmFyaW9CRC9taW5oYXNoL3RhcmdldC9zY2FsYS0yLjExL2NsYXNzZXN0AAEvdXIAAltCrPMX+AYIVOACAAB4cAAAABRSVf8p1I5lhvhFBnU+k6HUo6QR/Q==
+rO0ABXNyABB4c2J0aS5hcGkuU291cmNlSjH5SdlLSkQCAAdJAAdhcGlIYXNoWgAIaGFzTWFjcm9aABBoYXNQYWNrYWdlT2JqZWN0TAAYX2ludGVybmFsT25seV9uYW1lSGFzaGVzdAAkTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoZXM7TAADYXBpdAAVTHhzYnRpL2FwaS9Tb3VyY2VBUEk7TAALY29tcGlsYXRpb250ABdMeHNidGkvYXBpL0NvbXBpbGF0aW9uO1sABGhhc2h0AAJbQnhwVZcO7QAAc3IAInhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoZXNU2r6Z+tTsTAIAAlsAD2ltcGxpY2l0TWVtYmVyc3QAI1tMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2g7WwAOcmVndWxhck1lbWJlcnNxAH4AB3hwdXIAI1tMeHNidGkuYXBpLl9pbnRlcm5hbE9ubHlfTmFtZUhhc2g7SVqAtt2Wi/QCAAB4cAAAAAB1cQB+AAkAAAAYc3IAIHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoWw71InY4V88CAAJJAARoYXNoTAAEbmFtZXQAEkxqYXZhL2xhbmcvU3RyaW5nO3hwpYX8vXQABm5vdGlmeXNxAH4ADLaLnSB0AAR3YWl0c3EAfgAMSA1iPXQACUlOREVYX1JPV3NxAH4ADGCLE5B0AA0kYXNJbnN0YW5jZU9mc3EAfgAM2eTMMXQABmVxdWFsc3NxAH4ADA4tNBt0AApMQVNUX1BSSU1Fc3EAfgAMxCrk9XQADGFzSW5zdGFuY2VPZnNxAH4ADJw6OSZ0AAhBUFBfTkFNRXNxAH4ADK3p5Vd0AAlDb25zdGFudHNzcQB+AAy0N1rvdAAMc3luY2hyb25pemVkc3EAfgAM59eMDnQADSRpc0luc3RhbmNlT2ZzcQB+AAyGsQZWdAAMSU5ERVhfQ09MVU1Oc3EAfgAMZsyHKXQACW5vdGlmeUFsbHNxAH4ADE0kX8l0AAxpc0luc3RhbmNlT2ZzcQB+AAw5TgLvdAACPT1zcQB+AAyzpKuRdAAFY2xvbmVzcQB+AAxmW3ivdAAIdG9TdHJpbmdzcQB+AAyFt78ldAACIT1zcQB+AAz9vKLcdAAIZ2V0Q2xhc3NzcQB+AAystLFAdAACbmVzcQB+AAyFmS0GdAACZXFzcQB+AAyASooEdAACIyNzcQB+AAwHn4H9dAAIZmluYWxpemVzcQB+AAyPdyxIdAAIaGFzaENvZGVzcgATeHNidGkuYXBpLlNvdXJjZUFQSblep/kpIzikAgACWwALZGVmaW5pdGlvbnN0ABdbTHhzYnRpL2FwaS9EZWZpbml0aW9uO1sACHBhY2thZ2VzdAAUW0x4c2J0aS9hcGkvUGFja2FnZTt4cHVyABdbTHhzYnRpLmFwaS5EZWZpbml0aW9uO4jJXOe0414OAgAAeHAAAAABc3IAE3hzYnRpLmFwaS5DbGFzc0xpa2WDNByh37CXbAIABEwADmRlZmluaXRpb25UeXBldAAaTHhzYnRpL2FwaS9EZWZpbml0aW9uVHlwZTtbABBzYXZlZEFubm90YXRpb25zdAATW0xqYXZhL2xhbmcvU3RyaW5nO0wACHNlbGZUeXBldAAQTHhzYnRpL2FwaS9MYXp5O0wACXN0cnVjdHVyZXEAfgBHeHIAIXhzYnRpLmFwaS5QYXJhbWV0ZXJpemVkRGVmaW5pdGlvbvkRbrHVUDziAgABWwAOdHlwZVBhcmFtZXRlcnN0ABpbTHhzYnRpL2FwaS9UeXBlUGFyYW1ldGVyO3hyABR4c2J0aS5hcGkuRGVmaW5pdGlvbocqG+hxQuNGAgAETAAGYWNjZXNzdAASTHhzYnRpL2FwaS9BY2Nlc3M7WwALYW5ub3RhdGlvbnN0ABdbTHhzYnRpL2FwaS9Bbm5vdGF0aW9uO0wACW1vZGlmaWVyc3QAFUx4c2J0aS9hcGkvTW9kaWZpZXJzO0wABG5hbWVxAH4ADXhwc3IAEHhzYnRpLmFwaS5QdWJsaWO6WD2ubC1gQgIAAHhyABB4c2J0aS5hcGkuQWNjZXNz3WKa+B1jMUgCAAB4cHVyABdbTHhzYnRpLmFwaS5Bbm5vdGF0aW9uO+uX6xkQ9o1IAgAAeHAAAAAAc3IAE3hzYnRpLmFwaS5Nb2RpZmllcnOX52HcEyZ7swIAAUIABWZsYWdzeHAAdAAVY29tLm1pbmhhc2guQ29uc3RhbnRzdXIAGltMeHNidGkuYXBpLlR5cGVQYXJhbWV0ZXI72W0mDyid8rYCAAB4cAAAAAB+cgAYeHNidGkuYXBpLkRlZmluaXRpb25UeXBlAAAAAAAAAAASAAB4cgAOamF2YS5sYW5nLkVudW0AAAAAAAAAABIAAHhwdAAGTW9kdWxldXIAE1tMamF2YS5sYW5nLlN0cmluZzut0lbn6R17RwIAAHhwAAAAAHNyACF4c2J0aS5hcGkuQWJzdHJhY3RMYXp5JFN0cmljdExhenkNZhxrKRYquAIAAUwABXZhbHVldAASTGphdmEvbGFuZy9PYmplY3Q7eHBzcgATeHNidGkuYXBpLkVtcHR5VHlwZbz9nkZJO4kkAgAAeHIAFHhzYnRpLmFwaS5TaW1wbGVUeXBlcnhiiCEjv0ACAAB4cgAOeHNidGkuYXBpLlR5cGU/atkhFkmqygIAAHhwc3EAfgBfc3IAE3hzYnRpLmFwaS5TdHJ1Y3R1cmWpqvmAk2/YAAIAA0wACGRlY2xhcmVkcQB+AEdMAAlpbmhlcml0ZWRxAH4AR0wAB3BhcmVudHNxAH4AR3hxAH4AZHNxAH4AX3VxAH4AQgAAAABzcQB+AF91cQB+AEIAAAAAc3EAfgBfdXIAEVtMeHNidGkuYXBpLlR5cGU7dP+lWnv56UECAAB4cAAAAAJzcgAUeHNidGkuYXBpLlByb2plY3Rpb27z0o1U6UWkLQIAAkwAAmlkcQB+AA1MAAZwcmVmaXh0ABZMeHNidGkvYXBpL1NpbXBsZVR5cGU7eHEAfgBjdAAGT2JqZWN0c3IAE3hzYnRpLmFwaS5TaW5nbGV0b278p1/4z1bkRgIAAUwABHBhdGh0ABBMeHNidGkvYXBpL1BhdGg7eHEAfgBjc3IADnhzYnRpLmFwaS5QYXRomz1cCM6lJ4QCAAFbAApjb21wb25lbnRzdAAaW0x4c2J0aS9hcGkvUGF0aENvbXBvbmVudDt4cHVyABpbTHhzYnRpLmFwaS5QYXRoQ29tcG9uZW50O0PaCXQtZxZ0AgAAeHAAAAADc3IADHhzYnRpLmFwaS5JZJgybIs3U8RAAgABTAACaWRxAH4ADXhyABd4c2J0aS5hcGkuUGF0aENvbXBvbmVudF+aIlsuhp+8AgAAeHB0AARqYXZhc3EAfgB8dAAEbGFuZ3NyAA54c2J0aS5hcGkuVGhpc9sJ7abMWkBcAgAAeHEAfgB9c3EAfgBwdAADQW55c3EAfgB0c3EAfgB3dXEAfgB6AAAAAnNxAH4AfHQABXNjYWxhcQB+AIN1cgAUW0x4c2J0aS5hcGkuUGFja2FnZTtbExk3cKcnoQIAAHhwAAAAAnNyABF4c2J0aS5hcGkuUGFja2FnZX5Zj/auzjlYAgABTAAEbmFtZXEAfgANeHB0AAtjb20ubWluaGFzaHNxAH4AjXQAA2NvbXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABW2WQ6e11cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5cQB+AA1MAA9zb3VyY2VEaXJlY3RvcnlxAH4ADXhwdABDL2hvbWUvc2tvcnBvbngvMjAxNy0xL3NlbWluYXJpb0JEL21pbmhhc2gvdGFyZ2V0L3NjYWxhLTIuMTEvY2xhc3Nlc3QAAS91cgACW0Ks8xf4BghU4AIAAHhwAAAAFDbCofLFf5tlsnhDg2n8Wq9Rddb2
 /home/skorponx/2017-1/seminarioBD/minhash/src/main/scala/HashFunction.scala -> 
 rO0ABXNyABB4c2J0aS5hcGkuU291cmNlSjH5SdlLSkQCAAdJAAdhcGlIYXNoWgAIaGFzTWFjcm9aABBoYXNQYWNrYWdlT2JqZWN0TAAYX2ludGVybmFsT25seV9uYW1lSGFzaGVzdAAkTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoZXM7TAADYXBpdAAVTHhzYnRpL2FwaS9Tb3VyY2VBUEk7TAALY29tcGlsYXRpb250ABdMeHNidGkvYXBpL0NvbXBpbGF0aW9uO1sABGhhc2h0AAJbQnhwMTmVMwAAc3IAInhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoZXNU2r6Z+tTsTAIAAlsAD2ltcGxpY2l0TWVtYmVyc3QAI1tMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2g7WwAOcmVndWxhck1lbWJlcnNxAH4AB3hwdXIAI1tMeHNidGkuYXBpLl9pbnRlcm5hbE9ubHlfTmFtZUhhc2g7SVqAtt2Wi/QCAAB4cAAAAAB1cQB+AAkAAAAYc3IAIHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoWw71InY4V88CAAJJAARoYXNoTAAEbmFtZXQAEkxqYXZhL2xhbmcvU3RyaW5nO3hwhXA9rnQADEhhc2hGdW5jdGlvbnNxAH4ADJeuWKB0AAZub3RpZnlzcQB+AAxNwKShdAAEd2FpdHNxAH4ADEEgAQt0AA0kYXNJbnN0YW5jZU9mc3EAfgAMGihBH3QAD2ZpbmRQcmltZU51bWJlcnNxAH4ADOGDM6N0ABNjcmVhdGVIYXNoRnVuY3Rpb25zc3EAfgAMlL2kC3QABmVxdWFsc3NxAH4ADMspcQ90AAxhc0luc3RhbmNlT2ZzcQB+AAymPv5WdAAMc3luY2hyb25pemVkc3EAfgAMsi6CUXQADSRpc0luc3RhbmNlT2ZzcQB+AAxv13nrdAAJbm90aWZ5QWxsc3EAfgAMjBcQeXQADGlzSW5zdGFuY2VPZnNxAH4ADLV35SF0AAI9PXNxAH4ADKyC2kZ0AAVjbG9uZXNxAH4ADKDVcoR0AAh0b1N0cmluZ3NxAH4ADAkoGYF0AAIhPXNxAH4ADJ3xE9l0ABBldmFsdWF0ZUZ1bmN0aW9uc3EAfgAMOAvVIHQAFWV2YWx1YXRlSGFzaEZ1bmN0aW9uc3NxAH4ADIB7Nq90AAhnZXRDbGFzc3NxAH4ADNhdt7V0AAJuZXNxAH4ADHSJV7B0AAJlcXNxAH4ADJ4ipLh0AAIjI3NxAH4ADON//fJ0AAhmaW5hbGl6ZXNxAH4ADPH5rj10AAhoYXNoQ29kZXNyABN4c2J0aS5hcGkuU291cmNlQVBJuV6n+SkjOKQCAAJbAAtkZWZpbml0aW9uc3QAF1tMeHNidGkvYXBpL0RlZmluaXRpb247WwAIcGFja2FnZXN0ABRbTHhzYnRpL2FwaS9QYWNrYWdlO3hwdXIAF1tMeHNidGkuYXBpLkRlZmluaXRpb247iMlc57TjXg4CAAB4cAAAAAFzcgATeHNidGkuYXBpLkNsYXNzTGlrZYM0HKHfsJdsAgAETAAOZGVmaW5pdGlvblR5cGV0ABpMeHNidGkvYXBpL0RlZmluaXRpb25UeXBlO1sAEHNhdmVkQW5ub3RhdGlvbnN0ABNbTGphdmEvbGFuZy9TdHJpbmc7TAAIc2VsZlR5cGV0ABBMeHNidGkvYXBpL0xhenk7TAAJc3RydWN0dXJlcQB+AEd4cgAheHNidGkuYXBpLlBhcmFtZXRlcml6ZWREZWZpbml0aW9u+RFusdVQPOICAAFbAA50eXBlUGFyYW1ldGVyc3QAGltMeHNidGkvYXBpL1R5cGVQYXJhbWV0ZXI7eHIAFHhzYnRpLmFwaS5EZWZpbml0aW9uhyob6HFC40YCAARMAAZhY2Nlc3N0ABJMeHNidGkvYXBpL0FjY2VzcztbAAthbm5vdGF0aW9uc3QAF1tMeHNidGkvYXBpL0Fubm90YXRpb247TAAJbW9kaWZpZXJzdAAVTHhzYnRpL2FwaS9Nb2RpZmllcnM7TAAEbmFtZXEAfgANeHBzcgAQeHNidGkuYXBpLlB1YmxpY7pYPa5sLWBCAgAAeHIAEHhzYnRpLmFwaS5BY2Nlc3PdYpr4HWMxSAIAAHhwdXIAF1tMeHNidGkuYXBpLkFubm90YXRpb24765frGRD2jUgCAAB4cAAAAABzcgATeHNidGkuYXBpLk1vZGlmaWVyc5fnYdwTJnuzAgABQgAFZmxhZ3N4cAB0ABhjb20ubWluaGFzaC5IYXNoRnVuY3Rpb251cgAaW0x4c2J0aS5hcGkuVHlwZVBhcmFtZXRlcjvZbSYPKJ3ytgIAAHhwAAAAAH5yABh4c2J0aS5hcGkuRGVmaW5pdGlvblR5cGUAAAAAAAAAABIAAHhyAA5qYXZhLmxhbmcuRW51bQAAAAAAAAAAEgAAeHB0AAZNb2R1bGV1cgATW0xqYXZhLmxhbmcuU3RyaW5nO63SVufpHXtHAgAAeHAAAAAAc3IAIXhzYnRpLmFwaS5BYnN0cmFjdExhenkkU3RyaWN0TGF6eQ1mHGspFiq4AgABTAAFdmFsdWV0ABJMamF2YS9sYW5nL09iamVjdDt4cHNyABN4c2J0aS5hcGkuRW1wdHlUeXBlvP2eRkk7iSQCAAB4cgAUeHNidGkuYXBpLlNpbXBsZVR5cGVyeGKIISO/QAIAAHhyAA54c2J0aS5hcGkuVHlwZT9q2SEWSarKAgAAeHBzcQB+AF9zcgATeHNidGkuYXBpLlN0cnVjdHVyZamq+YCTb9gAAgADTAAIZGVjbGFyZWRxAH4AR0wACWluaGVyaXRlZHEAfgBHTAAHcGFyZW50c3EAfgBHeHEAfgBkc3EAfgBfdXEAfgBCAAAAAHNxAH4AX3VxAH4AQgAAAABzcQB+AF91cgARW0x4c2J0aS5hcGkuVHlwZTt0/6Vae/npQQIAAHhwAAAAAnNyABR4c2J0aS5hcGkuUHJvamVjdGlvbvPSjVTpRaQtAgACTAACaWRxAH4ADUwABnByZWZpeHQAFkx4c2J0aS9hcGkvU2ltcGxlVHlwZTt4cQB+AGN0AAZPYmplY3RzcgATeHNidGkuYXBpLlNpbmdsZXRvbvynX/jPVuRGAgABTAAEcGF0aHQAEEx4c2J0aS9hcGkvUGF0aDt4cQB+AGNzcgAOeHNidGkuYXBpLlBhdGibPVwIzqUnhAIAAVsACmNvbXBvbmVudHN0ABpbTHhzYnRpL2FwaS9QYXRoQ29tcG9uZW50O3hwdXIAGltMeHNidGkuYXBpLlBhdGhDb21wb25lbnQ7Q9oJdC1nFnQCAAB4cAAAAANzcgAMeHNidGkuYXBpLklkmDJsizdTxEACAAFMAAJpZHEAfgANeHIAF3hzYnRpLmFwaS5QYXRoQ29tcG9uZW50X5oiWy6Gn7wCAAB4cHQABGphdmFzcQB+AHx0AARsYW5nc3IADnhzYnRpLmFwaS5UaGlz2wntpsxaQFwCAAB4cQB+AH1zcQB+AHB0AANBbnlzcQB+AHRzcQB+AHd1cQB+AHoAAAACc3EAfgB8dAAFc2NhbGFxAH4Ag3VyABRbTHhzYnRpLmFwaS5QYWNrYWdlO1sTGTdwpyehAgAAeHAAAAACc3IAEXhzYnRpLmFwaS5QYWNrYWdlflmP9q7OOVgCAAFMAARuYW1lcQB+AA14cHQAC2NvbS5taW5oYXNoc3EAfgCNdAADY29tc3IAFXhzYnRpLmFwaS5Db21waWxhdGlvbu364MNq6KBCAgACSgAJc3RhcnRUaW1lWwAHb3V0cHV0c3QAGltMeHNidGkvYXBpL091dHB1dFNldHRpbmc7eHAAAAFbLZWDnXVyABpbTHhzYnRpLmFwaS5PdXRwdXRTZXR0aW5nO39qwvOnh6VCAgAAeHAAAAABc3IAF3hzYnRpLmFwaS5PdXRwdXRTZXR0aW5netmaR3T7HXsCAAJMAA9vdXRwdXREaXJlY3RvcnlxAH4ADUwAD3NvdXJjZURpcmVjdG9yeXEAfgANeHB0AEMvaG9tZS9za29ycG9ueC8yMDE3LTEvc2VtaW5hcmlvQkQvbWluaGFzaC90YXJnZXQvc2NhbGEtMi4xMS9jbGFzc2VzdAABL3VyAAJbQqzzF/gGCFTgAgAAeHAAAAAUiZ9hjTHbjBwI2mvw9z8YkCyWfN4=
 /home/skorponx/2017-1/seminarioBD/minhash/src/main/scala/Minhash.scala -> 
-rO0ABXNyABB4c2J0aS5hcGkuU291cmNlSjH5SdlLSkQCAAdJAAdhcGlIYXNoWgAIaGFzTWFjcm9aABBoYXNQYWNrYWdlT2JqZWN0TAAYX2ludGVybmFsT25seV9uYW1lSGFzaGVzdAAkTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoZXM7TAADYXBpdAAVTHhzYnRpL2FwaS9Tb3VyY2VBUEk7TAALY29tcGlsYXRpb250ABdMeHNidGkvYXBpL0NvbXBpbGF0aW9uO1sABGhhc2h0AAJbQnhwtlGfPgAAc3IAInhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoZXNU2r6Z+tTsTAIAAlsAD2ltcGxpY2l0TWVtYmVyc3QAI1tMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2g7WwAOcmVndWxhck1lbWJlcnNxAH4AB3hwdXIAI1tMeHNidGkuYXBpLl9pbnRlcm5hbE9ubHlfTmFtZUhhc2g7SVqAtt2Wi/QCAAB4cAAAAAB1cQB+AAkAAAAoc3IAIHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoWw71InY4V88CAAJJAARoYXNoTAAEbmFtZXQAEkxqYXZhL2xhbmcvU3RyaW5nO3hwrgMllnQABm5vdGlmeXNxAH4ADFwlSNx0AAR3YWl0c3EAfgAMyTnFWXQADmNvcHkkZGVmYXVsdCQyc3EAfgAM+df4wnQADSRhc0luc3RhbmNlT2ZzcQB+AAxNGQ83dAAHbWluaGFzaHNxAH4ADOfmEJF0AAxwcm9kdWN0QXJpdHlzcQB+AAxCoby1dAAGZXF1YWxzc3EAfgAM8nwLeHQAFXByb3ZpZGVkSGFzaEZ1bmN0aW9uc3NxAH4ADMdcRlh0AA9IYXNoRnVuY3Rpb25EQU9zcQB+AAxf9LLAdAAMYXNJbnN0YW5jZU9mc3EAfgAM74YhPHQADHN5bmNocm9uaXplZHNxAH4ADFEAa5h0AAFhc3EAfgAMuj/RqXQADSRpc0luc3RhbmNlT2ZzcQB+AAyeEUXsdAABbXNxAH4ADOI0KcJ0AAhjYW5FcXVhbHNxAH4ADHEPrUx0AA1wcm9kdWN0UHJlZml4c3EAfgAMu0r+TXQACW5vdGlmeUFsbHNxAH4ADIaNgKZ0AAxpc0luc3RhbmNlT2ZzcQB+AAwcLqH1dAAGPGluaXQ+c3EAfgAMiOkgqnQAAWJzcQB+AAywjlZbdAAIdWRmc0hhc2hzcQB+AAwcEfkOdAACPT1zcQB+AAwFShjsdAAFY2xvbmVzcQB+AAwiwEsPdAAGJGluaXQkc3EAfgAMKzy2M3QADmNvcHkkZGVmYXVsdCQzc3EAfgAMxrmtt3QABGNvcHlzcQB+AAx0zzpEdAAHTWluaGFzaHNxAH4ADHXQ6fV0AAh0b1N0cmluZ3NxAH4ADBC1PRx0AAIhPXNxAH4ADHCozCR0ABBldmFsdWF0ZUZ1bmN0aW9uc3EAfgAMESHn5nQACGdldENsYXNzc3EAfgAMy4vHinQADmNvcHkkZGVmYXVsdCQxc3EAfgAMP55GuXQAAm5lc3EAfgAMY+8q9XQAEWNyZWF0ZVF1ZXJ5U3RyaW5nc3EAfgAM1eumqnQAAmVxc3EAfgAMUeCNfnQAD3Byb2R1Y3RJdGVyYXRvcnNxAH4ADNG/s2Z0AAIjI3NxAH4ADHz8T190AAhmaW5hbGl6ZXNxAH4ADFYZ8zR0AA5wcm9kdWN0RWxlbWVudHNxAH4ADEvcj1R0AAhoYXNoQ29kZXNyABN4c2J0aS5hcGkuU291cmNlQVBJuV6n+SkjOKQCAAJbAAtkZWZpbml0aW9uc3QAF1tMeHNidGkvYXBpL0RlZmluaXRpb247WwAIcGFja2FnZXN0ABRbTHhzYnRpL2FwaS9QYWNrYWdlO3hwdXIAF1tMeHNidGkuYXBpLkRlZmluaXRpb247iMlc57TjXg4CAAB4cAAAAAJzcgATeHNidGkuYXBpLkNsYXNzTGlrZYM0HKHfsJdsAgAETAAOZGVmaW5pdGlvblR5cGV0ABpMeHNidGkvYXBpL0RlZmluaXRpb25UeXBlO1sAEHNhdmVkQW5ub3RhdGlvbnN0ABNbTGphdmEvbGFuZy9TdHJpbmc7TAAIc2VsZlR5cGV0ABBMeHNidGkvYXBpL0xhenk7TAAJc3RydWN0dXJlcQB+AGd4cgAheHNidGkuYXBpLlBhcmFtZXRlcml6ZWREZWZpbml0aW9u+RFusdVQPOICAAFbAA50eXBlUGFyYW1ldGVyc3QAGltMeHNidGkvYXBpL1R5cGVQYXJhbWV0ZXI7eHIAFHhzYnRpLmFwaS5EZWZpbml0aW9uhyob6HFC40YCAARMAAZhY2Nlc3N0ABJMeHNidGkvYXBpL0FjY2VzcztbAAthbm5vdGF0aW9uc3QAF1tMeHNidGkvYXBpL0Fubm90YXRpb247TAAJbW9kaWZpZXJzdAAVTHhzYnRpL2FwaS9Nb2RpZmllcnM7TAAEbmFtZXEAfgANeHBzcgAQeHNidGkuYXBpLlB1YmxpY7pYPa5sLWBCAgAAeHIAEHhzYnRpLmFwaS5BY2Nlc3PdYpr4HWMxSAIAAHhwdXIAF1tMeHNidGkuYXBpLkFubm90YXRpb24765frGRD2jUgCAAB4cAAAAABzcgATeHNidGkuYXBpLk1vZGlmaWVyc5fnYdwTJnuzAgABQgAFZmxhZ3N4cAB0ABtjb20ubWluaGFzaC5IYXNoRnVuY3Rpb25EQU91cgAaW0x4c2J0aS5hcGkuVHlwZVBhcmFtZXRlcjvZbSYPKJ3ytgIAAHhwAAAAAH5yABh4c2J0aS5hcGkuRGVmaW5pdGlvblR5cGUAAAAAAAAAABIAAHhyAA5qYXZhLmxhbmcuRW51bQAAAAAAAAAAEgAAeHB0AAhDbGFzc0RlZnVyABNbTGphdmEubGFuZy5TdHJpbmc7rdJW5+kde0cCAAB4cAAAAABzcgAheHNidGkuYXBpLkFic3RyYWN0TGF6eSRTdHJpY3RMYXp5DWYcaykWKrgCAAFMAAV2YWx1ZXQAEkxqYXZhL2xhbmcvT2JqZWN0O3hwc3IAE3hzYnRpLmFwaS5FbXB0eVR5cGW8/Z5GSTuJJAIAAHhyABR4c2J0aS5hcGkuU2ltcGxlVHlwZXJ4YoghI79AAgAAeHIADnhzYnRpLmFwaS5UeXBlP2rZIRZJqsoCAAB4cHNxAH4Af3NyABN4c2J0aS5hcGkuU3RydWN0dXJlqar5gJNv2AACAANMAAhkZWNsYXJlZHEAfgBnTAAJaW5oZXJpdGVkcQB+AGdMAAdwYXJlbnRzcQB+AGd4cQB+AIRzcQB+AH91cQB+AGIAAAAAc3EAfgB/dXEAfgBiAAAAAHNxAH4Af3VyABFbTHhzYnRpLmFwaS5UeXBlO3T/pVp7+elBAgAAeHAAAAAGc3IAFHhzYnRpLmFwaS5Qcm9qZWN0aW9u89KNVOlFpC0CAAJMAAJpZHEAfgANTAAGcHJlZml4dAAWTHhzYnRpL2FwaS9TaW1wbGVUeXBlO3hxAH4Ag3QADFNlcmlhbGl6YWJsZXNyABN4c2J0aS5hcGkuU2luZ2xldG9u/Kdf+M9W5EYCAAFMAARwYXRodAAQTHhzYnRpL2FwaS9QYXRoO3hxAH4Ag3NyAA54c2J0aS5hcGkuUGF0aJs9XAjOpSeEAgABWwAKY29tcG9uZW50c3QAGltMeHNidGkvYXBpL1BhdGhDb21wb25lbnQ7eHB1cgAaW0x4c2J0aS5hcGkuUGF0aENvbXBvbmVudDtD2gl0LWcWdAIAAHhwAAAAAnNyAAx4c2J0aS5hcGkuSWSYMmyLN1PEQAIAAUwAAmlkcQB+AA14cgAXeHNidGkuYXBpLlBhdGhDb21wb25lbnRfmiJbLoafvAIAAHhwdAAFc2NhbGFzcgAOeHNidGkuYXBpLlRoaXPbCe2mzFpAXAIAAHhxAH4AnXNxAH4AkHEAfgCTc3EAfgCUc3EAfgCXdXEAfgCaAAAAA3NxAH4AnHQABGphdmFzcQB+AJx0AAJpb3EAfgChc3EAfgCQdAAHUHJvZHVjdHEAfgCWc3EAfgCQdAAGRXF1YWxzcQB+AJZzcQB+AJB0AAZPYmplY3RzcQB+AJRzcQB+AJd1cQB+AJoAAAADc3EAfgCccQB+AKdzcQB+AJx0AARsYW5ncQB+AKFzcQB+AJB0AANBbnlxAH4AlnNxAH4AZHEAfgBxdXEAfgByAAAAAHNxAH4AdAB0ABNjb20ubWluaGFzaC5NaW5oYXNodXEAfgB3AAAAAH5xAH4AeXQABk1vZHVsZXVxAH4AfQAAAABzcQB+AH9xAH4AhXNxAH4Af3NxAH4Ah3NxAH4Af3VxAH4AYgAAAABzcQB+AH91cQB+AGIAAAAAc3EAfgB/dXEAfgCOAAAAAnNxAH4AkHEAfgCvc3EAfgCUc3EAfgCXdXEAfgCaAAAAA3NxAH4AnHEAfgCnc3EAfgCccQB+ALVxAH4AoXNxAH4AkHEAfgC3c3EAfgCUc3EAfgCXdXEAfgCaAAAAAnNxAH4AnHEAfgCfcQB+AKF1cgAUW0x4c2J0aS5hcGkuUGFja2FnZTtbExk3cKcnoQIAAHhwAAAAAnNyABF4c2J0aS5hcGkuUGFja2FnZX5Zj/auzjlYAgABTAAEbmFtZXEAfgANeHB0AAtjb20ubWluaGFzaHNxAH4A1nQAA2NvbXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABW2T+c9N1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5cQB+AA1MAA9zb3VyY2VEaXJlY3RvcnlxAH4ADXhwdABDL2hvbWUvc2tvcnBvbngvMjAxNy0xL3NlbWluYXJpb0JEL21pbmhhc2gvdGFyZ2V0L3NjYWxhLTIuMTEvY2xhc3Nlc3QAAS91cgACW0Ks8xf4BghU4AIAAHhwAAAAFIi/4xvGOYgyzDVs33ow6YraJdlZ
+rO0ABXNyABB4c2J0aS5hcGkuU291cmNlSjH5SdlLSkQCAAdJAAdhcGlIYXNoWgAIaGFzTWFjcm9aABBoYXNQYWNrYWdlT2JqZWN0TAAYX2ludGVybmFsT25seV9uYW1lSGFzaGVzdAAkTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoZXM7TAADYXBpdAAVTHhzYnRpL2FwaS9Tb3VyY2VBUEk7TAALY29tcGlsYXRpb250ABdMeHNidGkvYXBpL0NvbXBpbGF0aW9uO1sABGhhc2h0AAJbQnhwWidrCwAAc3IAInhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoZXNU2r6Z+tTsTAIAAlsAD2ltcGxpY2l0TWVtYmVyc3QAI1tMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2g7WwAOcmVndWxhck1lbWJlcnNxAH4AB3hwdXIAI1tMeHNidGkuYXBpLl9pbnRlcm5hbE9ubHlfTmFtZUhhc2g7SVqAtt2Wi/QCAAB4cAAAAAB1cQB+AAkAAAAqc3IAIHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoWw71InY4V88CAAJJAARoYXNoTAAEbmFtZXQAEkxqYXZhL2xhbmcvU3RyaW5nO3hwrgMllnQABm5vdGlmeXNxAH4ADFwlSNx0AAR3YWl0c3EAfgAMyTnFWXQADmNvcHkkZGVmYXVsdCQyc3EAfgAM+df4wnQADSRhc0luc3RhbmNlT2ZzcQB+AAysvEQKdAAPZmluZFByaW1lTnVtYmVyc3EAfgAMpv00q3QAE2NyZWF0ZUhhc2hGdW5jdGlvbnNzcQB+AAxc4PO7dAAHbWluaGFzaHNxAH4ADOfmEJF0AAxwcm9kdWN0QXJpdHlzcQB+AAxCoby1dAAGZXF1YWxzc3EAfgAM8nwLeHQAFXByb3ZpZGVkSGFzaEZ1bmN0aW9uc3NxAH4ADMdcRlh0AA9IYXNoRnVuY3Rpb25EQU9zcQB+AAxf9LLAdAAMYXNJbnN0YW5jZU9mc3EAfgAM74YhPHQADHN5bmNocm9uaXplZHNxAH4ADFEAa5h0AAFhc3EAfgAMuj/RqXQADSRpc0luc3RhbmNlT2ZzcQB+AAyeEUXsdAABbXNxAH4ADOI0KcJ0AAhjYW5FcXVhbHNxAH4ADHEPrUx0AA1wcm9kdWN0UHJlZml4c3EAfgAMu0r+TXQACW5vdGlmeUFsbHNxAH4ADIaNgKZ0AAxpc0luc3RhbmNlT2ZzcQB+AAwcLqH1dAAGPGluaXQ+c3EAfgAMiOkgqnQAAWJzcQB+AAywjlZbdAAIdWRmc0hhc2hzcQB+AAwcEfkOdAACPT1zcQB+AAwFShjsdAAFY2xvbmVzcQB+AAwiwEsPdAAGJGluaXQkc3EAfgAMKzy2M3QADmNvcHkkZGVmYXVsdCQzc3EAfgAMxrmtt3QABGNvcHlzcQB+AAx0zzpEdAAHTWluaGFzaHNxAH4ADHXQ6fV0AAh0b1N0cmluZ3NxAH4ADBC1PRx0AAIhPXNxAH4ADHCozCR0ABBldmFsdWF0ZUZ1bmN0aW9uc3EAfgAMESHn5nQACGdldENsYXNzc3EAfgAMy4vHinQADmNvcHkkZGVmYXVsdCQxc3EAfgAMP55GuXQAAm5lc3EAfgAMY+8q9XQAEWNyZWF0ZVF1ZXJ5U3RyaW5nc3EAfgAM1eumqnQAAmVxc3EAfgAMUeCNfnQAD3Byb2R1Y3RJdGVyYXRvcnNxAH4ADNG/s2Z0AAIjI3NxAH4ADHz8T190AAhmaW5hbGl6ZXNxAH4ADFYZ8zR0AA5wcm9kdWN0RWxlbWVudHNxAH4ADEvcj1R0AAhoYXNoQ29kZXNyABN4c2J0aS5hcGkuU291cmNlQVBJuV6n+SkjOKQCAAJbAAtkZWZpbml0aW9uc3QAF1tMeHNidGkvYXBpL0RlZmluaXRpb247WwAIcGFja2FnZXN0ABRbTHhzYnRpL2FwaS9QYWNrYWdlO3hwdXIAF1tMeHNidGkuYXBpLkRlZmluaXRpb247iMlc57TjXg4CAAB4cAAAAAJzcgATeHNidGkuYXBpLkNsYXNzTGlrZYM0HKHfsJdsAgAETAAOZGVmaW5pdGlvblR5cGV0ABpMeHNidGkvYXBpL0RlZmluaXRpb25UeXBlO1sAEHNhdmVkQW5ub3RhdGlvbnN0ABNbTGphdmEvbGFuZy9TdHJpbmc7TAAIc2VsZlR5cGV0ABBMeHNidGkvYXBpL0xhenk7TAAJc3RydWN0dXJlcQB+AGt4cgAheHNidGkuYXBpLlBhcmFtZXRlcml6ZWREZWZpbml0aW9u+RFusdVQPOICAAFbAA50eXBlUGFyYW1ldGVyc3QAGltMeHNidGkvYXBpL1R5cGVQYXJhbWV0ZXI7eHIAFHhzYnRpLmFwaS5EZWZpbml0aW9uhyob6HFC40YCAARMAAZhY2Nlc3N0ABJMeHNidGkvYXBpL0FjY2VzcztbAAthbm5vdGF0aW9uc3QAF1tMeHNidGkvYXBpL0Fubm90YXRpb247TAAJbW9kaWZpZXJzdAAVTHhzYnRpL2FwaS9Nb2RpZmllcnM7TAAEbmFtZXEAfgANeHBzcgAQeHNidGkuYXBpLlB1YmxpY7pYPa5sLWBCAgAAeHIAEHhzYnRpLmFwaS5BY2Nlc3PdYpr4HWMxSAIAAHhwdXIAF1tMeHNidGkuYXBpLkFubm90YXRpb24765frGRD2jUgCAAB4cAAAAABzcgATeHNidGkuYXBpLk1vZGlmaWVyc5fnYdwTJnuzAgABQgAFZmxhZ3N4cAB0ABtjb20ubWluaGFzaC5IYXNoRnVuY3Rpb25EQU91cgAaW0x4c2J0aS5hcGkuVHlwZVBhcmFtZXRlcjvZbSYPKJ3ytgIAAHhwAAAAAH5yABh4c2J0aS5hcGkuRGVmaW5pdGlvblR5cGUAAAAAAAAAABIAAHhyAA5qYXZhLmxhbmcuRW51bQAAAAAAAAAAEgAAeHB0AAhDbGFzc0RlZnVyABNbTGphdmEubGFuZy5TdHJpbmc7rdJW5+kde0cCAAB4cAAAAABzcgAheHNidGkuYXBpLkFic3RyYWN0TGF6eSRTdHJpY3RMYXp5DWYcaykWKrgCAAFMAAV2YWx1ZXQAEkxqYXZhL2xhbmcvT2JqZWN0O3hwc3IAE3hzYnRpLmFwaS5FbXB0eVR5cGW8/Z5GSTuJJAIAAHhyABR4c2J0aS5hcGkuU2ltcGxlVHlwZXJ4YoghI79AAgAAeHIADnhzYnRpLmFwaS5UeXBlP2rZIRZJqsoCAAB4cHNxAH4Ag3NyABN4c2J0aS5hcGkuU3RydWN0dXJlqar5gJNv2AACAANMAAhkZWNsYXJlZHEAfgBrTAAJaW5oZXJpdGVkcQB+AGtMAAdwYXJlbnRzcQB+AGt4cQB+AIhzcQB+AIN1cQB+AGYAAAAAc3EAfgCDdXEAfgBmAAAAAHNxAH4Ag3VyABFbTHhzYnRpLmFwaS5UeXBlO3T/pVp7+elBAgAAeHAAAAAGc3IAFHhzYnRpLmFwaS5Qcm9qZWN0aW9u89KNVOlFpC0CAAJMAAJpZHEAfgANTAAGcHJlZml4dAAWTHhzYnRpL2FwaS9TaW1wbGVUeXBlO3hxAH4Ah3QADFNlcmlhbGl6YWJsZXNyABN4c2J0aS5hcGkuU2luZ2xldG9u/Kdf+M9W5EYCAAFMAARwYXRodAAQTHhzYnRpL2FwaS9QYXRoO3hxAH4Ah3NyAA54c2J0aS5hcGkuUGF0aJs9XAjOpSeEAgABWwAKY29tcG9uZW50c3QAGltMeHNidGkvYXBpL1BhdGhDb21wb25lbnQ7eHB1cgAaW0x4c2J0aS5hcGkuUGF0aENvbXBvbmVudDtD2gl0LWcWdAIAAHhwAAAAAnNyAAx4c2J0aS5hcGkuSWSYMmyLN1PEQAIAAUwAAmlkcQB+AA14cgAXeHNidGkuYXBpLlBhdGhDb21wb25lbnRfmiJbLoafvAIAAHhwdAAFc2NhbGFzcgAOeHNidGkuYXBpLlRoaXPbCe2mzFpAXAIAAHhxAH4AoXNxAH4AlHEAfgCXc3EAfgCYc3EAfgCbdXEAfgCeAAAAA3NxAH4AoHQABGphdmFzcQB+AKB0AAJpb3EAfgClc3EAfgCUdAAHUHJvZHVjdHEAfgCac3EAfgCUdAAGRXF1YWxzcQB+AJpzcQB+AJR0AAZPYmplY3RzcQB+AJhzcQB+AJt1cQB+AJ4AAAADc3EAfgCgcQB+AKtzcQB+AKB0AARsYW5ncQB+AKVzcQB+AJR0AANBbnlxAH4AmnNxAH4AaHEAfgB1dXEAfgB2AAAAAHNxAH4AeAB0ABNjb20ubWluaGFzaC5NaW5oYXNodXEAfgB7AAAAAH5xAH4AfXQABk1vZHVsZXVxAH4AgQAAAABzcQB+AINxAH4AiXNxAH4Ag3NxAH4Ai3NxAH4Ag3VxAH4AZgAAAABzcQB+AIN1cQB+AGYAAAAAc3EAfgCDdXEAfgCSAAAAAnNxAH4AlHEAfgCzc3EAfgCYc3EAfgCbdXEAfgCeAAAAA3NxAH4AoHEAfgCrc3EAfgCgcQB+ALlxAH4ApXNxAH4AlHEAfgC7c3EAfgCYc3EAfgCbdXEAfgCeAAAAAnNxAH4AoHEAfgCjcQB+AKV1cgAUW0x4c2J0aS5hcGkuUGFja2FnZTtbExk3cKcnoQIAAHhwAAAAAnNyABF4c2J0aS5hcGkuUGFja2FnZX5Zj/auzjlYAgABTAAEbmFtZXEAfgANeHB0AAtjb20ubWluaGFzaHNxAH4A2nQAA2NvbXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABW2WV6uZ1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5cQB+AA1MAA9zb3VyY2VEaXJlY3RvcnlxAH4ADXhwdABDL2hvbWUvc2tvcnBvbngvMjAxNy0xL3NlbWluYXJpb0JEL21pbmhhc2gvdGFyZ2V0L3NjYWxhLTIuMTEvY2xhc3Nlc3QAAS91cgACW0Ks8xf4BghU4AIAAHhwAAAAFOFtQkSbYREkVSy2lWkU7JVICmj7
 /home/skorponx/2017-1/seminarioBD/minhash/src/main/scala/main.scala -> 
-rO0ABXNyABB4c2J0aS5hcGkuU291cmNlSjH5SdlLSkQCAAdJAAdhcGlIYXNoWgAIaGFzTWFjcm9aABBoYXNQYWNrYWdlT2JqZWN0TAAYX2ludGVybmFsT25seV9uYW1lSGFzaGVzdAAkTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoZXM7TAADYXBpdAAVTHhzYnRpL2FwaS9Tb3VyY2VBUEk7TAALY29tcGlsYXRpb250ABdMeHNidGkvYXBpL0NvbXBpbGF0aW9uO1sABGhhc2h0AAJbQnhwkVG5oQAAc3IAInhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoZXNU2r6Z+tTsTAIAAlsAD2ltcGxpY2l0TWVtYmVyc3QAI1tMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2g7WwAOcmVndWxhck1lbWJlcnNxAH4AB3hwdXIAI1tMeHNidGkuYXBpLl9pbnRlcm5hbE9ubHlfTmFtZUhhc2g7SVqAtt2Wi/QCAAB4cAAAAAB1cQB+AAkAAAAWc3IAIHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoWw71InY4V88CAAJJAARoYXNoTAAEbmFtZXQAEkxqYXZhL2xhbmcvU3RyaW5nO3hwW/gVanQABm5vdGlmeXNxAH4ADKFjyId0AAR3YWl0c3EAfgAMMe2BbXQADSRhc0luc3RhbmNlT2ZzcQB+AAzxpUEddAAGZXF1YWxzc3EAfgAMtOxzWnQADGFzSW5zdGFuY2VPZnNxAH4ADFbYR1l0AAxzeW5jaHJvbml6ZWRzcQB+AAxkPtildAANJGlzSW5zdGFuY2VPZnNxAH4ADNVISOd0AARtYWluc3EAfgAMjrUeOnQACW5vdGlmeUFsbHNxAH4ADK1Ckxp0AAxpc0luc3RhbmNlT2ZzcQB+AAwpzF66dAACPT1zcQB+AAzWTUw7dAAQaW5pdFNwYXJrU2Vzc2lvbnNxAH4ADKB6p4N0AAVjbG9uZXNxAH4ADIzI3Z90AARNYWluc3EAfgAMvDONCnQACHRvU3RyaW5nc3EAfgAM10fRrnQAAiE9c3EAfgAMW4G86XQACGdldENsYXNzc3EAfgAMMPhAb3QAAm5lc3EAfgAM6G0rBXQAAmVxc3EAfgAMX7HgInQAAiMjc3EAfgAMSfmYi3QACGZpbmFsaXplc3EAfgAMofABSHQACGhhc2hDb2Rlc3IAE3hzYnRpLmFwaS5Tb3VyY2VBUEm5Xqf5KSM4pAIAAlsAC2RlZmluaXRpb25zdAAXW0x4c2J0aS9hcGkvRGVmaW5pdGlvbjtbAAhwYWNrYWdlc3QAFFtMeHNidGkvYXBpL1BhY2thZ2U7eHB1cgAXW0x4c2J0aS5hcGkuRGVmaW5pdGlvbjuIyVzntONeDgIAAHhwAAAAAXNyABN4c2J0aS5hcGkuQ2xhc3NMaWtlgzQcod+wl2wCAARMAA5kZWZpbml0aW9uVHlwZXQAGkx4c2J0aS9hcGkvRGVmaW5pdGlvblR5cGU7WwAQc2F2ZWRBbm5vdGF0aW9uc3QAE1tMamF2YS9sYW5nL1N0cmluZztMAAhzZWxmVHlwZXQAEEx4c2J0aS9hcGkvTGF6eTtMAAlzdHJ1Y3R1cmVxAH4AQ3hyACF4c2J0aS5hcGkuUGFyYW1ldGVyaXplZERlZmluaXRpb275EW6x1VA84gIAAVsADnR5cGVQYXJhbWV0ZXJzdAAaW0x4c2J0aS9hcGkvVHlwZVBhcmFtZXRlcjt4cgAUeHNidGkuYXBpLkRlZmluaXRpb26HKhvocULjRgIABEwABmFjY2Vzc3QAEkx4c2J0aS9hcGkvQWNjZXNzO1sAC2Fubm90YXRpb25zdAAXW0x4c2J0aS9hcGkvQW5ub3RhdGlvbjtMAAltb2RpZmllcnN0ABVMeHNidGkvYXBpL01vZGlmaWVycztMAARuYW1lcQB+AA14cHNyABB4c2J0aS5hcGkuUHVibGljulg9rmwtYEICAAB4cgAQeHNidGkuYXBpLkFjY2Vzc91imvgdYzFIAgAAeHB1cgAXW0x4c2J0aS5hcGkuQW5ub3RhdGlvbjvrl+sZEPaNSAIAAHhwAAAAAHNyABN4c2J0aS5hcGkuTW9kaWZpZXJzl+dh3BMme7MCAAFCAAVmbGFnc3hwAHQAEGNvbS5taW5oYXNoLk1haW51cgAaW0x4c2J0aS5hcGkuVHlwZVBhcmFtZXRlcjvZbSYPKJ3ytgIAAHhwAAAAAH5yABh4c2J0aS5hcGkuRGVmaW5pdGlvblR5cGUAAAAAAAAAABIAAHhyAA5qYXZhLmxhbmcuRW51bQAAAAAAAAAAEgAAeHB0AAZNb2R1bGV1cgATW0xqYXZhLmxhbmcuU3RyaW5nO63SVufpHXtHAgAAeHAAAAAAc3IAIXhzYnRpLmFwaS5BYnN0cmFjdExhenkkU3RyaWN0TGF6eQ1mHGspFiq4AgABTAAFdmFsdWV0ABJMamF2YS9sYW5nL09iamVjdDt4cHNyABN4c2J0aS5hcGkuRW1wdHlUeXBlvP2eRkk7iSQCAAB4cgAUeHNidGkuYXBpLlNpbXBsZVR5cGVyeGKIISO/QAIAAHhyAA54c2J0aS5hcGkuVHlwZT9q2SEWSarKAgAAeHBzcQB+AFtzcgATeHNidGkuYXBpLlN0cnVjdHVyZamq+YCTb9gAAgADTAAIZGVjbGFyZWRxAH4AQ0wACWluaGVyaXRlZHEAfgBDTAAHcGFyZW50c3EAfgBDeHEAfgBgc3EAfgBbdXEAfgA+AAAAAXNyAA14c2J0aS5hcGkuRGVmUr6f4ny0NmkCAAJMAApyZXR1cm5UeXBldAAQTHhzYnRpL2FwaS9UeXBlO1sAD3ZhbHVlUGFyYW1ldGVyc3QAGltMeHNidGkvYXBpL1BhcmFtZXRlckxpc3Q7eHEAfgBEcQB+AE11cQB+AE4AAAAAc3EAfgBQAHEAfgAddXEAfgBTAAAAAHNyABR4c2J0aS5hcGkuUHJvamVjdGlvbvPSjVTpRaQtAgACTAACaWRxAH4ADUwABnByZWZpeHQAFkx4c2J0aS9hcGkvU2ltcGxlVHlwZTt4cQB+AF90AARVbml0c3IAE3hzYnRpLmFwaS5TaW5nbGV0b278p1/4z1bkRgIAAUwABHBhdGh0ABBMeHNidGkvYXBpL1BhdGg7eHEAfgBfc3IADnhzYnRpLmFwaS5QYXRomz1cCM6lJ4QCAAFbAApjb21wb25lbnRzdAAaW0x4c2J0aS9hcGkvUGF0aENvbXBvbmVudDt4cHVyABpbTHhzYnRpLmFwaS5QYXRoQ29tcG9uZW50O0PaCXQtZxZ0AgAAeHAAAAACc3IADHhzYnRpLmFwaS5JZJgybIs3U8RAAgABTAACaWRxAH4ADXhyABd4c2J0aS5hcGkuUGF0aENvbXBvbmVudF+aIlsuhp+8AgAAeHB0AAVzY2FsYXNyAA54c2J0aS5hcGkuVGhpc9sJ7abMWkBcAgAAeHEAfgB7dXIAGltMeHNidGkuYXBpLlBhcmFtZXRlckxpc3Q79dM6HfKzcO4CAAB4cAAAAAFzcgAXeHNidGkuYXBpLlBhcmFtZXRlckxpc3TWxbwcZEl04wIAAloACmlzSW1wbGljaXRbAApwYXJhbWV0ZXJzdAAcW0x4c2J0aS9hcGkvTWV0aG9kUGFyYW1ldGVyO3hwAHVyABxbTHhzYnRpLmFwaS5NZXRob2RQYXJhbWV0ZXI7z7jFXaXdtW0CAAB4cAAAAAFzcgAZeHNidGkuYXBpLk1ldGhvZFBhcmFtZXRlch9FrhfTSbDqAgAEWgAKaGFzRGVmYXVsdEwACG1vZGlmaWVydAAdTHhzYnRpL2FwaS9QYXJhbWV0ZXJNb2RpZmllcjtMAARuYW1lcQB+AA1MAAN0cGVxAH4AaHhwAH5yABt4c2J0aS5hcGkuUGFyYW1ldGVyTW9kaWZpZXIAAAAAAAAAABIAAHhxAH4AVnQABVBsYWludAAEYXJnc3NyABd4c2J0aS5hcGkuUGFyYW1ldGVyaXplZBZs7mkDybt/AgACTAAIYmFzZVR5cGVxAH4Ab1sADXR5cGVBcmd1bWVudHN0ABFbTHhzYnRpL2FwaS9UeXBlO3hxAH4AX3NxAH4AbnQABUFycmF5cQB+AHR1cgARW0x4c2J0aS5hcGkuVHlwZTt0/6Vae/npQQIAAHhwAAAAAXNxAH4AbnQABlN0cmluZ3NxAH4AcnNxAH4AdXVxAH4AeAAAAANzcQB+AHp0AARqYXZhc3EAfgB6dAAEbGFuZ3EAfgB/c3EAfgBbdXEAfgA+AAAAAHNxAH4AW3VxAH4AkwAAAAJzcQB+AG50AAZPYmplY3RxAH4Al3NxAH4AbnQAA0FueXEAfgB0dXIAFFtMeHNidGkuYXBpLlBhY2thZ2U7WxMZN3CnJ6ECAAB4cAAAAAJzcgAReHNidGkuYXBpLlBhY2thZ2V+WY/2rs45WAIAAUwABG5hbWVxAH4ADXhwdAALY29tLm1pbmhhc2hzcQB+AKh0AANjb21zcgAVeHNidGkuYXBpLkNvbXBpbGF0aW9u7frgw2rooEICAAJKAAlzdGFydFRpbWVbAAdvdXRwdXRzdAAaW0x4c2J0aS9hcGkvT3V0cHV0U2V0dGluZzt4cAAAAVtko7MSdXIAGltMeHNidGkuYXBpLk91dHB1dFNldHRpbmc7f2rC86eHpUICAAB4cAAAAAFzcgAXeHNidGkuYXBpLk91dHB1dFNldHRpbmd62ZpHdPsdewIAAkwAD291dHB1dERpcmVjdG9yeXEAfgANTAAPc291cmNlRGlyZWN0b3J5cQB+AA14cHQAQy9ob21lL3Nrb3Jwb254LzIwMTctMS9zZW1pbmFyaW9CRC9taW5oYXNoL3RhcmdldC9zY2FsYS0yLjExL2NsYXNzZXN0AAEvdXIAAltCrPMX+AYIVOACAAB4cAAAABR1ytA3RaMqT4wBsw8m/8xYbQcUxA==
+rO0ABXNyABB4c2J0aS5hcGkuU291cmNlSjH5SdlLSkQCAAdJAAdhcGlIYXNoWgAIaGFzTWFjcm9aABBoYXNQYWNrYWdlT2JqZWN0TAAYX2ludGVybmFsT25seV9uYW1lSGFzaGVzdAAkTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoZXM7TAADYXBpdAAVTHhzYnRpL2FwaS9Tb3VyY2VBUEk7TAALY29tcGlsYXRpb250ABdMeHNidGkvYXBpL0NvbXBpbGF0aW9uO1sABGhhc2h0AAJbQnhwkVG5oQAAc3IAInhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoZXNU2r6Z+tTsTAIAAlsAD2ltcGxpY2l0TWVtYmVyc3QAI1tMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2g7WwAOcmVndWxhck1lbWJlcnNxAH4AB3hwdXIAI1tMeHNidGkuYXBpLl9pbnRlcm5hbE9ubHlfTmFtZUhhc2g7SVqAtt2Wi/QCAAB4cAAAAAB1cQB+AAkAAAAWc3IAIHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoWw71InY4V88CAAJJAARoYXNoTAAEbmFtZXQAEkxqYXZhL2xhbmcvU3RyaW5nO3hwW/gVanQABm5vdGlmeXNxAH4ADKFjyId0AAR3YWl0c3EAfgAMMe2BbXQADSRhc0luc3RhbmNlT2ZzcQB+AAzxpUEddAAGZXF1YWxzc3EAfgAMtOxzWnQADGFzSW5zdGFuY2VPZnNxAH4ADFbYR1l0AAxzeW5jaHJvbml6ZWRzcQB+AAxkPtildAANJGlzSW5zdGFuY2VPZnNxAH4ADNVISOd0AARtYWluc3EAfgAMjrUeOnQACW5vdGlmeUFsbHNxAH4ADK1Ckxp0AAxpc0luc3RhbmNlT2ZzcQB+AAwpzF66dAACPT1zcQB+AAzWTUw7dAAQaW5pdFNwYXJrU2Vzc2lvbnNxAH4ADKB6p4N0AAVjbG9uZXNxAH4ADIzI3Z90AARNYWluc3EAfgAMvDONCnQACHRvU3RyaW5nc3EAfgAM10fRrnQAAiE9c3EAfgAMW4G86XQACGdldENsYXNzc3EAfgAMMPhAb3QAAm5lc3EAfgAM6G0rBXQAAmVxc3EAfgAMX7HgInQAAiMjc3EAfgAMSfmYi3QACGZpbmFsaXplc3EAfgAMofABSHQACGhhc2hDb2Rlc3IAE3hzYnRpLmFwaS5Tb3VyY2VBUEm5Xqf5KSM4pAIAAlsAC2RlZmluaXRpb25zdAAXW0x4c2J0aS9hcGkvRGVmaW5pdGlvbjtbAAhwYWNrYWdlc3QAFFtMeHNidGkvYXBpL1BhY2thZ2U7eHB1cgAXW0x4c2J0aS5hcGkuRGVmaW5pdGlvbjuIyVzntONeDgIAAHhwAAAAAXNyABN4c2J0aS5hcGkuQ2xhc3NMaWtlgzQcod+wl2wCAARMAA5kZWZpbml0aW9uVHlwZXQAGkx4c2J0aS9hcGkvRGVmaW5pdGlvblR5cGU7WwAQc2F2ZWRBbm5vdGF0aW9uc3QAE1tMamF2YS9sYW5nL1N0cmluZztMAAhzZWxmVHlwZXQAEEx4c2J0aS9hcGkvTGF6eTtMAAlzdHJ1Y3R1cmVxAH4AQ3hyACF4c2J0aS5hcGkuUGFyYW1ldGVyaXplZERlZmluaXRpb275EW6x1VA84gIAAVsADnR5cGVQYXJhbWV0ZXJzdAAaW0x4c2J0aS9hcGkvVHlwZVBhcmFtZXRlcjt4cgAUeHNidGkuYXBpLkRlZmluaXRpb26HKhvocULjRgIABEwABmFjY2Vzc3QAEkx4c2J0aS9hcGkvQWNjZXNzO1sAC2Fubm90YXRpb25zdAAXW0x4c2J0aS9hcGkvQW5ub3RhdGlvbjtMAAltb2RpZmllcnN0ABVMeHNidGkvYXBpL01vZGlmaWVycztMAARuYW1lcQB+AA14cHNyABB4c2J0aS5hcGkuUHVibGljulg9rmwtYEICAAB4cgAQeHNidGkuYXBpLkFjY2Vzc91imvgdYzFIAgAAeHB1cgAXW0x4c2J0aS5hcGkuQW5ub3RhdGlvbjvrl+sZEPaNSAIAAHhwAAAAAHNyABN4c2J0aS5hcGkuTW9kaWZpZXJzl+dh3BMme7MCAAFCAAVmbGFnc3hwAHQAEGNvbS5taW5oYXNoLk1haW51cgAaW0x4c2J0aS5hcGkuVHlwZVBhcmFtZXRlcjvZbSYPKJ3ytgIAAHhwAAAAAH5yABh4c2J0aS5hcGkuRGVmaW5pdGlvblR5cGUAAAAAAAAAABIAAHhyAA5qYXZhLmxhbmcuRW51bQAAAAAAAAAAEgAAeHB0AAZNb2R1bGV1cgATW0xqYXZhLmxhbmcuU3RyaW5nO63SVufpHXtHAgAAeHAAAAAAc3IAIXhzYnRpLmFwaS5BYnN0cmFjdExhenkkU3RyaWN0TGF6eQ1mHGspFiq4AgABTAAFdmFsdWV0ABJMamF2YS9sYW5nL09iamVjdDt4cHNyABN4c2J0aS5hcGkuRW1wdHlUeXBlvP2eRkk7iSQCAAB4cgAUeHNidGkuYXBpLlNpbXBsZVR5cGVyeGKIISO/QAIAAHhyAA54c2J0aS5hcGkuVHlwZT9q2SEWSarKAgAAeHBzcQB+AFtzcgATeHNidGkuYXBpLlN0cnVjdHVyZamq+YCTb9gAAgADTAAIZGVjbGFyZWRxAH4AQ0wACWluaGVyaXRlZHEAfgBDTAAHcGFyZW50c3EAfgBDeHEAfgBgc3EAfgBbdXEAfgA+AAAAAXNyAA14c2J0aS5hcGkuRGVmUr6f4ny0NmkCAAJMAApyZXR1cm5UeXBldAAQTHhzYnRpL2FwaS9UeXBlO1sAD3ZhbHVlUGFyYW1ldGVyc3QAGltMeHNidGkvYXBpL1BhcmFtZXRlckxpc3Q7eHEAfgBEcQB+AE11cQB+AE4AAAAAc3EAfgBQAHEAfgAddXEAfgBTAAAAAHNyABR4c2J0aS5hcGkuUHJvamVjdGlvbvPSjVTpRaQtAgACTAACaWRxAH4ADUwABnByZWZpeHQAFkx4c2J0aS9hcGkvU2ltcGxlVHlwZTt4cQB+AF90AARVbml0c3IAE3hzYnRpLmFwaS5TaW5nbGV0b278p1/4z1bkRgIAAUwABHBhdGh0ABBMeHNidGkvYXBpL1BhdGg7eHEAfgBfc3IADnhzYnRpLmFwaS5QYXRomz1cCM6lJ4QCAAFbAApjb21wb25lbnRzdAAaW0x4c2J0aS9hcGkvUGF0aENvbXBvbmVudDt4cHVyABpbTHhzYnRpLmFwaS5QYXRoQ29tcG9uZW50O0PaCXQtZxZ0AgAAeHAAAAACc3IADHhzYnRpLmFwaS5JZJgybIs3U8RAAgABTAACaWRxAH4ADXhyABd4c2J0aS5hcGkuUGF0aENvbXBvbmVudF+aIlsuhp+8AgAAeHB0AAVzY2FsYXNyAA54c2J0aS5hcGkuVGhpc9sJ7abMWkBcAgAAeHEAfgB7dXIAGltMeHNidGkuYXBpLlBhcmFtZXRlckxpc3Q79dM6HfKzcO4CAAB4cAAAAAFzcgAXeHNidGkuYXBpLlBhcmFtZXRlckxpc3TWxbwcZEl04wIAAloACmlzSW1wbGljaXRbAApwYXJhbWV0ZXJzdAAcW0x4c2J0aS9hcGkvTWV0aG9kUGFyYW1ldGVyO3hwAHVyABxbTHhzYnRpLmFwaS5NZXRob2RQYXJhbWV0ZXI7z7jFXaXdtW0CAAB4cAAAAAFzcgAZeHNidGkuYXBpLk1ldGhvZFBhcmFtZXRlch9FrhfTSbDqAgAEWgAKaGFzRGVmYXVsdEwACG1vZGlmaWVydAAdTHhzYnRpL2FwaS9QYXJhbWV0ZXJNb2RpZmllcjtMAARuYW1lcQB+AA1MAAN0cGVxAH4AaHhwAH5yABt4c2J0aS5hcGkuUGFyYW1ldGVyTW9kaWZpZXIAAAAAAAAAABIAAHhxAH4AVnQABVBsYWludAAEYXJnc3NyABd4c2J0aS5hcGkuUGFyYW1ldGVyaXplZBZs7mkDybt/AgACTAAIYmFzZVR5cGVxAH4Ab1sADXR5cGVBcmd1bWVudHN0ABFbTHhzYnRpL2FwaS9UeXBlO3hxAH4AX3NxAH4AbnQABUFycmF5cQB+AHR1cgARW0x4c2J0aS5hcGkuVHlwZTt0/6Vae/npQQIAAHhwAAAAAXNxAH4AbnQABlN0cmluZ3NxAH4AcnNxAH4AdXVxAH4AeAAAAANzcQB+AHp0AARqYXZhc3EAfgB6dAAEbGFuZ3EAfgB/c3EAfgBbdXEAfgA+AAAAAHNxAH4AW3VxAH4AkwAAAAJzcQB+AG50AAZPYmplY3RxAH4Al3NxAH4AbnQAA0FueXEAfgB0dXIAFFtMeHNidGkuYXBpLlBhY2thZ2U7WxMZN3CnJ6ECAAB4cAAAAAJzcgAReHNidGkuYXBpLlBhY2thZ2V+WY/2rs45WAIAAUwABG5hbWVxAH4ADXhwdAALY29tLm1pbmhhc2hzcQB+AKh0AANjb21zcgAVeHNidGkuYXBpLkNvbXBpbGF0aW9u7frgw2rooEICAAJKAAlzdGFydFRpbWVbAAdvdXRwdXRzdAAaW0x4c2J0aS9hcGkvT3V0cHV0U2V0dGluZzt4cAAAAVtlnvUKdXIAGltMeHNidGkuYXBpLk91dHB1dFNldHRpbmc7f2rC86eHpUICAAB4cAAAAAFzcgAXeHNidGkuYXBpLk91dHB1dFNldHRpbmd62ZpHdPsdewIAAkwAD291dHB1dERpcmVjdG9yeXEAfgANTAAPc291cmNlRGlyZWN0b3J5cQB+AA14cHQAQy9ob21lL3Nrb3Jwb254LzIwMTctMS9zZW1pbmFyaW9CRC9taW5oYXNoL3RhcmdldC9zY2FsYS0yLjExL2NsYXNzZXN0AAEvdXIAAltCrPMX+AYIVOACAAB4cAAAABTVGkP62s5cq7f2zNAUQpzd/yTB/g==
 external apis:
 0 items
 source infos:
@@ -429,7 +497,7 @@ AAAAAAAAAAA=
 /home/skorponx/2017-1/seminarioBD/minhash/src/main/scala/main.scala -> 
 AAAAAAAAAAA=
 compilations:
-49 items
+53 items
 00 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABWppi7Cl1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQATC9ob21lL3Nrb3JwaW9ueC9Fc2NyaXRvcmlvL211bHRpcGxpY2FjaW9uTWF0cmljZXMxL3RhcmdldC9zY2FsYS0yLjExL2NsYXNzZXN0AAEv
 01 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABWps6WHx1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQATC9ob21lL3Nrb3JwaW9ueC9Fc2NyaXRvcmlvL211bHRpcGxpY2FjaW9uTWF0cmljZXMxL3RhcmdldC9zY2FsYS0yLjExL2NsYXNzZXN0AAEv
 02 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABWpvshQp1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQATC9ob21lL3Nrb3JwaW9ueC9Fc2NyaXRvcmlvL211bHRpcGxpY2FjaW9uTWF0cmljZXMxL3RhcmdldC9zY2FsYS0yLjExL2NsYXNzZXN0AAEv
@@ -479,3 +547,7 @@ compilations:
 46 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABW2T3vLB1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAQy9ob21lL3Nrb3Jwb254LzIwMTctMS9zZW1pbmFyaW9CRC9taW5oYXNoL3RhcmdldC9zY2FsYS0yLjExL2NsYXNzZXN0AAEv
 47 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABW2T+JMp1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAQy9ob21lL3Nrb3Jwb254LzIwMTctMS9zZW1pbmFyaW9CRC9taW5oYXNoL3RhcmdldC9zY2FsYS0yLjExL2NsYXNzZXN0AAEv
 48 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABW2T+c9N1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAQy9ob21lL3Nrb3Jwb254LzIwMTctMS9zZW1pbmFyaW9CRC9taW5oYXNoL3RhcmdldC9zY2FsYS0yLjExL2NsYXNzZXN0AAEv
+49 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABW2WGJnx1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAQy9ob21lL3Nrb3Jwb254LzIwMTctMS9zZW1pbmFyaW9CRC9taW5oYXNoL3RhcmdldC9zY2FsYS0yLjExL2NsYXNzZXN0AAEv
+50 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABW2WQ6e11cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAQy9ob21lL3Nrb3Jwb254LzIwMTctMS9zZW1pbmFyaW9CRC9taW5oYXNoL3RhcmdldC9zY2FsYS0yLjExL2NsYXNzZXN0AAEv
+51 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABW2WV6uZ1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAQy9ob21lL3Nrb3Jwb254LzIwMTctMS9zZW1pbmFyaW9CRC9taW5oYXNoL3RhcmdldC9zY2FsYS0yLjExL2NsYXNzZXN0AAEv
+52 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABW2We9Qp1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAQy9ob21lL3Nrb3Jwb254LzIwMTctMS9zZW1pbmFyaW9CRC9taW5oYXNoL3RhcmdldC9zY2FsYS0yLjExL2NsYXNzZXN0AAEv

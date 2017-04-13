@@ -30,3 +30,5 @@ compile
 test
 sbt
 compile
+assembly
+package
