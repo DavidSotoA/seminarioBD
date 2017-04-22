@@ -1,0 +1,349 @@
+format version: 5
+output mode:
+1 items
+0 -> single
+output directories:
+1 items
+output dir -> /home/skorpionx/UdeA/Seminario/multiplicacionMatrices2/target/scala-2.11/classes
+compile options:
+0 items
+javac options:
+0 items
+compiler version:
+1 items
+0 -> 2.11.8
+compile order:
+1 items
+0 -> Mixed
+name hashing:
+1 items
+0 -> true
+products:
+21 items
+/home/skorpionx/UdeA/Seminario/multiplicacionMatrices2/src/main/scala/main.scala -> /home/skorpionx/UdeA/Seminario/multiplicacionMatrices2/target/scala-2.11/classes/multiplicacionMatrices$$anonfun$1.class
+/home/skorpionx/UdeA/Seminario/multiplicacionMatrices2/src/main/scala/main.scala -> /home/skorpionx/UdeA/Seminario/multiplicacionMatrices2/target/scala-2.11/classes/multiplicacionMatrices$$anonfun$2$$anonfun$apply$1.class
+/home/skorpionx/UdeA/Seminario/multiplicacionMatrices2/src/main/scala/main.scala -> /home/skorpionx/UdeA/Seminario/multiplicacionMatrices2/target/scala-2.11/classes/multiplicacionMatrices$$anonfun$2.class
+/home/skorpionx/UdeA/Seminario/multiplicacionMatrices2/src/main/scala/main.scala -> /home/skorpionx/UdeA/Seminario/multiplicacionMatrices2/target/scala-2.11/classes/multiplicacionMatrices$$anonfun$3.class
+/home/skorpionx/UdeA/Seminario/multiplicacionMatrices2/src/main/scala/main.scala -> /home/skorpionx/UdeA/Seminario/multiplicacionMatrices2/target/scala-2.11/classes/multiplicacionMatrices$$anonfun$4$$anonfun$apply$2$$anonfun$apply$3.class
+/home/skorpionx/UdeA/Seminario/multiplicacionMatrices2/src/main/scala/main.scala -> /home/skorpionx/UdeA/Seminario/multiplicacionMatrices2/target/scala-2.11/classes/multiplicacionMatrices$$anonfun$4$$anonfun$apply$2.class
+/home/skorpionx/UdeA/Seminario/multiplicacionMatrices2/src/main/scala/main.scala -> /home/skorpionx/UdeA/Seminario/multiplicacionMatrices2/target/scala-2.11/classes/multiplicacionMatrices$$anonfun$4.class
+/home/skorpionx/UdeA/Seminario/multiplicacionMatrices2/src/main/scala/main.scala -> /home/skorpionx/UdeA/Seminario/multiplicacionMatrices2/target/scala-2.11/classes/multiplicacionMatrices$$anonfun$5.class
+/home/skorpionx/UdeA/Seminario/multiplicacionMatrices2/src/main/scala/main.scala -> /home/skorpionx/UdeA/Seminario/multiplicacionMatrices2/target/scala-2.11/classes/multiplicacionMatrices$$anonfun$6.class
+/home/skorpionx/UdeA/Seminario/multiplicacionMatrices2/src/main/scala/main.scala -> /home/skorpionx/UdeA/Seminario/multiplicacionMatrices2/target/scala-2.11/classes/multiplicacionMatrices$$anonfun$7.class
+/home/skorpionx/UdeA/Seminario/multiplicacionMatrices2/src/main/scala/main.scala -> /home/skorpionx/UdeA/Seminario/multiplicacionMatrices2/target/scala-2.11/classes/multiplicacionMatrices$$anonfun$8.class
+/home/skorpionx/UdeA/Seminario/multiplicacionMatrices2/src/main/scala/main.scala -> /home/skorpionx/UdeA/Seminario/multiplicacionMatrices2/target/scala-2.11/classes/multiplicacionMatrices$$anonfun$9$$anonfun$apply$4$$anonfun$apply$5.class
+/home/skorpionx/UdeA/Seminario/multiplicacionMatrices2/src/main/scala/main.scala -> /home/skorpionx/UdeA/Seminario/multiplicacionMatrices2/target/scala-2.11/classes/multiplicacionMatrices$$anonfun$9$$anonfun$apply$4.class
+/home/skorpionx/UdeA/Seminario/multiplicacionMatrices2/src/main/scala/main.scala -> /home/skorpionx/UdeA/Seminario/multiplicacionMatrices2/target/scala-2.11/classes/multiplicacionMatrices$$anonfun$9.class
+/home/skorpionx/UdeA/Seminario/multiplicacionMatrices2/src/main/scala/main.scala -> /home/skorpionx/UdeA/Seminario/multiplicacionMatrices2/target/scala-2.11/classes/multiplicacionMatrices$$anonfun$dotProduct$1.class
+/home/skorpionx/UdeA/Seminario/multiplicacionMatrices2/src/main/scala/main.scala -> /home/skorpionx/UdeA/Seminario/multiplicacionMatrices2/target/scala-2.11/classes/multiplicacionMatrices$$anonfun$dotProduct$2.class
+/home/skorpionx/UdeA/Seminario/multiplicacionMatrices2/src/main/scala/main.scala -> /home/skorpionx/UdeA/Seminario/multiplicacionMatrices2/target/scala-2.11/classes/multiplicacionMatrices$$anonfun$multiply$1$$anonfun$apply$6.class
+/home/skorpionx/UdeA/Seminario/multiplicacionMatrices2/src/main/scala/main.scala -> /home/skorpionx/UdeA/Seminario/multiplicacionMatrices2/target/scala-2.11/classes/multiplicacionMatrices$$anonfun$multiply$1.class
+/home/skorpionx/UdeA/Seminario/multiplicacionMatrices2/src/main/scala/main.scala -> /home/skorpionx/UdeA/Seminario/multiplicacionMatrices2/target/scala-2.11/classes/multiplicacionMatrices$$typecreator2$1.class
+/home/skorpionx/UdeA/Seminario/multiplicacionMatrices2/src/main/scala/main.scala -> /home/skorpionx/UdeA/Seminario/multiplicacionMatrices2/target/scala-2.11/classes/multiplicacionMatrices$.class
+/home/skorpionx/UdeA/Seminario/multiplicacionMatrices2/src/main/scala/main.scala -> /home/skorpionx/UdeA/Seminario/multiplicacionMatrices2/target/scala-2.11/classes/multiplicacionMatrices.class
+binary dependencies:
+6 items
+/home/skorpionx/UdeA/Seminario/multiplicacionMatrices2/src/main/scala/main.scala -> /home/skorpionx/.ivy2/cache/org.apache.spark/spark-catalyst_2.11/jars/spark-catalyst_2.11-2.1.0.jar
+/home/skorpionx/UdeA/Seminario/multiplicacionMatrices2/src/main/scala/main.scala -> /home/skorpionx/.ivy2/cache/org.apache.spark/spark-core_2.11/jars/spark-core_2.11-2.1.0.jar
+/home/skorpionx/UdeA/Seminario/multiplicacionMatrices2/src/main/scala/main.scala -> /home/skorpionx/.ivy2/cache/org.apache.spark/spark-sql_2.11/jars/spark-sql_2.11-2.1.0.jar
+/home/skorpionx/UdeA/Seminario/multiplicacionMatrices2/src/main/scala/main.scala -> /home/skorpionx/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.11.8.jar
+/home/skorpionx/UdeA/Seminario/multiplicacionMatrices2/src/main/scala/main.scala -> /home/skorpionx/.ivy2/cache/org.scala-lang/scala-reflect/jars/scala-reflect-2.11.8.jar
+/home/skorpionx/UdeA/Seminario/multiplicacionMatrices2/src/main/scala/main.scala -> /usr/lib/jvm/java-8-oracle/jre/lib/rt.jar
+direct source dependencies:
+0 items
+direct external dependencies:
+0 items
+public inherited source dependencies:
+0 items
+public inherited external dependencies:
+0 items
+member reference internal dependencies:
+0 items
+member reference external dependencies:
+0 items
+inheritance internal dependencies:
+0 items
+inheritance external dependencies:
+0 items
+class names:
+21 items
+/home/skorpionx/UdeA/Seminario/multiplicacionMatrices2/src/main/scala/main.scala -> multiplicacionMatrices
+/home/skorpionx/UdeA/Seminario/multiplicacionMatrices2/src/main/scala/main.scala -> multiplicacionMatrices$
+/home/skorpionx/UdeA/Seminario/multiplicacionMatrices2/src/main/scala/main.scala -> multiplicacionMatrices$$anonfun$1
+/home/skorpionx/UdeA/Seminario/multiplicacionMatrices2/src/main/scala/main.scala -> multiplicacionMatrices$$anonfun$2
+/home/skorpionx/UdeA/Seminario/multiplicacionMatrices2/src/main/scala/main.scala -> multiplicacionMatrices$$anonfun$2$$anonfun$apply$1
+/home/skorpionx/UdeA/Seminario/multiplicacionMatrices2/src/main/scala/main.scala -> multiplicacionMatrices$$anonfun$3
+/home/skorpionx/UdeA/Seminario/multiplicacionMatrices2/src/main/scala/main.scala -> multiplicacionMatrices$$anonfun$4
+/home/skorpionx/UdeA/Seminario/multiplicacionMatrices2/src/main/scala/main.scala -> multiplicacionMatrices$$anonfun$4$$anonfun$apply$2
+/home/skorpionx/UdeA/Seminario/multiplicacionMatrices2/src/main/scala/main.scala -> multiplicacionMatrices$$anonfun$4$$anonfun$apply$2$$anonfun$apply$3
+/home/skorpionx/UdeA/Seminario/multiplicacionMatrices2/src/main/scala/main.scala -> multiplicacionMatrices$$anonfun$5
+/home/skorpionx/UdeA/Seminario/multiplicacionMatrices2/src/main/scala/main.scala -> multiplicacionMatrices$$anonfun$6
+/home/skorpionx/UdeA/Seminario/multiplicacionMatrices2/src/main/scala/main.scala -> multiplicacionMatrices$$anonfun$7
+/home/skorpionx/UdeA/Seminario/multiplicacionMatrices2/src/main/scala/main.scala -> multiplicacionMatrices$$anonfun$8
+/home/skorpionx/UdeA/Seminario/multiplicacionMatrices2/src/main/scala/main.scala -> multiplicacionMatrices$$anonfun$9
+/home/skorpionx/UdeA/Seminario/multiplicacionMatrices2/src/main/scala/main.scala -> multiplicacionMatrices$$anonfun$9$$anonfun$apply$4
+/home/skorpionx/UdeA/Seminario/multiplicacionMatrices2/src/main/scala/main.scala -> multiplicacionMatrices$$anonfun$9$$anonfun$apply$4$$anonfun$apply$5
+/home/skorpionx/UdeA/Seminario/multiplicacionMatrices2/src/main/scala/main.scala -> multiplicacionMatrices$$anonfun$dotProduct$1
+/home/skorpionx/UdeA/Seminario/multiplicacionMatrices2/src/main/scala/main.scala -> multiplicacionMatrices$$anonfun$dotProduct$2
+/home/skorpionx/UdeA/Seminario/multiplicacionMatrices2/src/main/scala/main.scala -> multiplicacionMatrices$$anonfun$multiply$1
+/home/skorpionx/UdeA/Seminario/multiplicacionMatrices2/src/main/scala/main.scala -> multiplicacionMatrices$$anonfun$multiply$1$$anonfun$apply$6
+/home/skorpionx/UdeA/Seminario/multiplicacionMatrices2/src/main/scala/main.scala -> multiplicacionMatrices$$typecreator2$1
+used names:
+191 items
+/home/skorpionx/UdeA/Seminario/multiplicacionMatrices2/src/main/scala/main.scala -> $m
+/home/skorpionx/UdeA/Seminario/multiplicacionMatrices2/src/main/scala/main.scala -> $m$untyped
+/home/skorpionx/UdeA/Seminario/multiplicacionMatrices2/src/main/scala/main.scala -> $typecreator2
+/home/skorpionx/UdeA/Seminario/multiplicacionMatrices2/src/main/scala/main.scala -> $u
+/home/skorpionx/UdeA/Seminario/multiplicacionMatrices2/src/main/scala/main.scala -> *
+/home/skorpionx/UdeA/Seminario/multiplicacionMatrices2/src/main/scala/main.scala -> +
+/home/skorpionx/UdeA/Seminario/multiplicacionMatrices2/src/main/scala/main.scala -> <init>
+/home/skorpionx/UdeA/Seminario/multiplicacionMatrices2/src/main/scala/main.scala -> <repeated>
+/home/skorpionx/UdeA/Seminario/multiplicacionMatrices2/src/main/scala/main.scala -> ?0
+/home/skorpionx/UdeA/Seminario/multiplicacionMatrices2/src/main/scala/main.scala -> A
+/home/skorpionx/UdeA/Seminario/multiplicacionMatrices2/src/main/scala/main.scala -> A1
+/home/skorpionx/UdeA/Seminario/multiplicacionMatrices2/src/main/scala/main.scala -> Any
+/home/skorpionx/UdeA/Seminario/multiplicacionMatrices2/src/main/scala/main.scala -> AnyRef
+/home/skorpionx/UdeA/Seminario/multiplicacionMatrices2/src/main/scala/main.scala -> Array
+/home/skorpionx/UdeA/Seminario/multiplicacionMatrices2/src/main/scala/main.scala -> ArrayOps
+/home/skorpionx/UdeA/Seminario/multiplicacionMatrices2/src/main/scala/main.scala -> B
+/home/skorpionx/UdeA/Seminario/multiplicacionMatrices2/src/main/scala/main.scala -> Boolean
+/home/skorpionx/UdeA/Seminario/multiplicacionMatrices2/src/main/scala/main.scala -> Builder
+/home/skorpionx/UdeA/Seminario/multiplicacionMatrices2/src/main/scala/main.scala -> CanBuildFrom
+/home/skorpionx/UdeA/Seminario/multiplicacionMatrices2/src/main/scala/main.scala -> Class
+/home/skorpionx/UdeA/Seminario/multiplicacionMatrices2/src/main/scala/main.scala -> ClassLoader
+/home/skorpionx/UdeA/Seminario/multiplicacionMatrices2/src/main/scala/main.scala -> ClassSymbol
+/home/skorpionx/UdeA/Seminario/multiplicacionMatrices2/src/main/scala/main.scala -> ClassTag
+/home/skorpionx/UdeA/Seminario/multiplicacionMatrices2/src/main/scala/main.scala -> Coll
+/home/skorpionx/UdeA/Seminario/multiplicacionMatrices2/src/main/scala/main.scala -> DataFrame
+/home/skorpionx/UdeA/Seminario/multiplicacionMatrices2/src/main/scala/main.scala -> DataFrameWriter
+/home/skorpionx/UdeA/Seminario/multiplicacionMatrices2/src/main/scala/main.scala -> DatasetHolder
+/home/skorpionx/UdeA/Seminario/multiplicacionMatrices2/src/main/scala/main.scala -> Double
+/home/skorpionx/UdeA/Seminario/multiplicacionMatrices2/src/main/scala/main.scala -> Encoder
+/home/skorpionx/UdeA/Seminario/multiplicacionMatrices2/src/main/scala/main.scala -> Function1
+/home/skorpionx/UdeA/Seminario/multiplicacionMatrices2/src/main/scala/main.scala -> Function2
+/home/skorpionx/UdeA/Seminario/multiplicacionMatrices2/src/main/scala/main.scala -> GenIterable
+/home/skorpionx/UdeA/Seminario/multiplicacionMatrices2/src/main/scala/main.scala -> GenTraversableOnce
+/home/skorpionx/UdeA/Seminario/multiplicacionMatrices2/src/main/scala/main.scala -> Int
+/home/skorpionx/UdeA/Seminario/multiplicacionMatrices2/src/main/scala/main.scala -> Internal
+/home/skorpionx/UdeA/Seminario/multiplicacionMatrices2/src/main/scala/main.scala -> Iterable
+/home/skorpionx/UdeA/Seminario/multiplicacionMatrices2/src/main/scala/main.scala -> Iterator
+/home/skorpionx/UdeA/Seminario/multiplicacionMatrices2/src/main/scala/main.scala -> JavaUniverse
+/home/skorpionx/UdeA/Seminario/multiplicacionMatrices2/src/main/scala/main.scala -> K
+/home/skorpionx/UdeA/Seminario/multiplicacionMatrices2/src/main/scala/main.scala -> List
+/home/skorpionx/UdeA/Seminario/multiplicacionMatrices2/src/main/scala/main.scala -> Long
+/home/skorpionx/UdeA/Seminario/multiplicacionMatrices2/src/main/scala/main.scala -> MEMORY_ONLY_SER
+/home/skorpionx/UdeA/Seminario/multiplicacionMatrices2/src/main/scala/main.scala -> Mirror
+/home/skorpionx/UdeA/Seminario/multiplicacionMatrices2/src/main/scala/main.scala -> ModuleSymbol
+/home/skorpionx/UdeA/Seminario/multiplicacionMatrices2/src/main/scala/main.scala -> Nothing
+/home/skorpionx/UdeA/Seminario/multiplicacionMatrices2/src/main/scala/main.scala -> Object
+/home/skorpionx/UdeA/Seminario/multiplicacionMatrices2/src/main/scala/main.scala -> Ordering
+/home/skorpionx/UdeA/Seminario/multiplicacionMatrices2/src/main/scala/main.scala -> PairRDDFunctions
+/home/skorpionx/UdeA/Seminario/multiplicacionMatrices2/src/main/scala/main.scala -> Predef
+/home/skorpionx/UdeA/Seminario/multiplicacionMatrices2/src/main/scala/main.scala -> Product
+/home/skorpionx/UdeA/Seminario/multiplicacionMatrices2/src/main/scala/main.scala -> RDD
+/home/skorpionx/UdeA/Seminario/multiplicacionMatrices2/src/main/scala/main.scala -> ReificationSupportApi
+/home/skorpionx/UdeA/Seminario/multiplicacionMatrices2/src/main/scala/main.scala -> Row
+/home/skorpionx/UdeA/Seminario/multiplicacionMatrices2/src/main/scala/main.scala -> SQLContext
+/home/skorpionx/UdeA/Seminario/multiplicacionMatrices2/src/main/scala/main.scala -> SaveMode
+/home/skorpionx/UdeA/Seminario/multiplicacionMatrices2/src/main/scala/main.scala -> ScalaRunTime
+/home/skorpionx/UdeA/Seminario/multiplicacionMatrices2/src/main/scala/main.scala -> Singleton
+/home/skorpionx/UdeA/Seminario/multiplicacionMatrices2/src/main/scala/main.scala -> SparkContext
+/home/skorpionx/UdeA/Seminario/multiplicacionMatrices2/src/main/scala/main.scala -> SparkSession
+/home/skorpionx/UdeA/Seminario/multiplicacionMatrices2/src/main/scala/main.scala -> StorageLevel
+/home/skorpionx/UdeA/Seminario/multiplicacionMatrices2/src/main/scala/main.scala -> String
+/home/skorpionx/UdeA/Seminario/multiplicacionMatrices2/src/main/scala/main.scala -> StringOps
+/home/skorpionx/UdeA/Seminario/multiplicacionMatrices2/src/main/scala/main.scala -> Symbol
+/home/skorpionx/UdeA/Seminario/multiplicacionMatrices2/src/main/scala/main.scala -> T
+/home/skorpionx/UdeA/Seminario/multiplicacionMatrices2/src/main/scala/main.scala -> T0
+/home/skorpionx/UdeA/Seminario/multiplicacionMatrices2/src/main/scala/main.scala -> T1
+/home/skorpionx/UdeA/Seminario/multiplicacionMatrices2/src/main/scala/main.scala -> T2
+/home/skorpionx/UdeA/Seminario/multiplicacionMatrices2/src/main/scala/main.scala -> T3
+/home/skorpionx/UdeA/Seminario/multiplicacionMatrices2/src/main/scala/main.scala -> That
+/home/skorpionx/UdeA/Seminario/multiplicacionMatrices2/src/main/scala/main.scala -> ThisType
+/home/skorpionx/UdeA/Seminario/multiplicacionMatrices2/src/main/scala/main.scala -> TraversableOnce
+/home/skorpionx/UdeA/Seminario/multiplicacionMatrices2/src/main/scala/main.scala -> Tuple2
+/home/skorpionx/UdeA/Seminario/multiplicacionMatrices2/src/main/scala/main.scala -> Tuple3
+/home/skorpionx/UdeA/Seminario/multiplicacionMatrices2/src/main/scala/main.scala -> Type
+/home/skorpionx/UdeA/Seminario/multiplicacionMatrices2/src/main/scala/main.scala -> TypeCreator
+/home/skorpionx/UdeA/Seminario/multiplicacionMatrices2/src/main/scala/main.scala -> TypeRef
+/home/skorpionx/UdeA/Seminario/multiplicacionMatrices2/src/main/scala/main.scala -> TypeSymbol
+/home/skorpionx/UdeA/Seminario/multiplicacionMatrices2/src/main/scala/main.scala -> TypeTag
+/home/skorpionx/UdeA/Seminario/multiplicacionMatrices2/src/main/scala/main.scala -> U
+/home/skorpionx/UdeA/Seminario/multiplicacionMatrices2/src/main/scala/main.scala -> Unit
+/home/skorpionx/UdeA/Seminario/multiplicacionMatrices2/src/main/scala/main.scala -> Universe
+/home/skorpionx/UdeA/Seminario/multiplicacionMatrices2/src/main/scala/main.scala -> V
+/home/skorpionx/UdeA/Seminario/multiplicacionMatrices2/src/main/scala/main.scala -> _$3
+/home/skorpionx/UdeA/Seminario/multiplicacionMatrices2/src/main/scala/main.scala -> _$4
+/home/skorpionx/UdeA/Seminario/multiplicacionMatrices2/src/main/scala/main.scala -> _$7
+/home/skorpionx/UdeA/Seminario/multiplicacionMatrices2/src/main/scala/main.scala -> _1
+/home/skorpionx/UdeA/Seminario/multiplicacionMatrices2/src/main/scala/main.scala -> _2
+/home/skorpionx/UdeA/Seminario/multiplicacionMatrices2/src/main/scala/main.scala -> _3
+/home/skorpionx/UdeA/Seminario/multiplicacionMatrices2/src/main/scala/main.scala -> a
+/home/skorpionx/UdeA/Seminario/multiplicacionMatrices2/src/main/scala/main.scala -> addBandIndex
+/home/skorpionx/UdeA/Seminario/multiplicacionMatrices2/src/main/scala/main.scala -> apache
+/home/skorpionx/UdeA/Seminario/multiplicacionMatrices2/src/main/scala/main.scala -> appName
+/home/skorpionx/UdeA/Seminario/multiplicacionMatrices2/src/main/scala/main.scala -> apply
+/home/skorpionx/UdeA/Seminario/multiplicacionMatrices2/src/main/scala/main.scala -> args
+/home/skorpionx/UdeA/Seminario/multiplicacionMatrices2/src/main/scala/main.scala -> arrayClass
+/home/skorpionx/UdeA/Seminario/multiplicacionMatrices2/src/main/scala/main.scala -> asInstanceOf
+/home/skorpionx/UdeA/Seminario/multiplicacionMatrices2/src/main/scala/main.scala -> asModule
+/home/skorpionx/UdeA/Seminario/multiplicacionMatrices2/src/main/scala/main.scala -> asType
+/home/skorpionx/UdeA/Seminario/multiplicacionMatrices2/src/main/scala/main.scala -> augmentString
+/home/skorpionx/UdeA/Seminario/multiplicacionMatrices2/src/main/scala/main.scala -> b
+/home/skorpionx/UdeA/Seminario/multiplicacionMatrices2/src/main/scala/main.scala -> bandas
+/home/skorpionx/UdeA/Seminario/multiplicacionMatrices2/src/main/scala/main.scala -> builder
+/home/skorpionx/UdeA/Seminario/multiplicacionMatrices2/src/main/scala/main.scala -> canBuildFrom
+/home/skorpionx/UdeA/Seminario/multiplicacionMatrices2/src/main/scala/main.scala -> cartesian
+/home/skorpionx/UdeA/Seminario/multiplicacionMatrices2/src/main/scala/main.scala -> collection
+/home/skorpionx/UdeA/Seminario/multiplicacionMatrices2/src/main/scala/main.scala -> createMatrix
+/home/skorpionx/UdeA/Seminario/multiplicacionMatrices2/src/main/scala/main.scala -> dotProduct
+/home/skorpionx/UdeA/Seminario/multiplicacionMatrices2/src/main/scala/main.scala -> enableHiveSupport
+/home/skorpionx/UdeA/Seminario/multiplicacionMatrices2/src/main/scala/main.scala -> flatMap
+/home/skorpionx/UdeA/Seminario/multiplicacionMatrices2/src/main/scala/main.scala -> format
+/home/skorpionx/UdeA/Seminario/multiplicacionMatrices2/src/main/scala/main.scala -> getClass
+/home/skorpionx/UdeA/Seminario/multiplicacionMatrices2/src/main/scala/main.scala -> getClassLoader
+/home/skorpionx/UdeA/Seminario/multiplicacionMatrices2/src/main/scala/main.scala -> getOrCreate
+/home/skorpionx/UdeA/Seminario/multiplicacionMatrices2/src/main/scala/main.scala -> groupBy
+/home/skorpionx/UdeA/Seminario/multiplicacionMatrices2/src/main/scala/main.scala -> groupByKey
+/home/skorpionx/UdeA/Seminario/multiplicacionMatrices2/src/main/scala/main.scala -> immutable
+/home/skorpionx/UdeA/Seminario/multiplicacionMatrices2/src/main/scala/main.scala -> implicits
+/home/skorpionx/UdeA/Seminario/multiplicacionMatrices2/src/main/scala/main.scala -> index
+/home/skorpionx/UdeA/Seminario/multiplicacionMatrices2/src/main/scala/main.scala -> initSparkSession
+/home/skorpionx/UdeA/Seminario/multiplicacionMatrices2/src/main/scala/main.scala -> internal
+/home/skorpionx/UdeA/Seminario/multiplicacionMatrices2/src/main/scala/main.scala -> list
+/home/skorpionx/UdeA/Seminario/multiplicacionMatrices2/src/main/scala/main.scala -> map
+/home/skorpionx/UdeA/Seminario/multiplicacionMatrices2/src/main/scala/main.scala -> mapPartitionsWithIndex
+/home/skorpionx/UdeA/Seminario/multiplicacionMatrices2/src/main/scala/main.scala -> mat
+/home/skorpionx/UdeA/Seminario/multiplicacionMatrices2/src/main/scala/main.scala -> matA
+/home/skorpionx/UdeA/Seminario/multiplicacionMatrices2/src/main/scala/main.scala -> matB
+/home/skorpionx/UdeA/Seminario/multiplicacionMatrices2/src/main/scala/main.scala -> matGroup
+/home/skorpionx/UdeA/Seminario/multiplicacionMatrices2/src/main/scala/main.scala -> matSplit
+/home/skorpionx/UdeA/Seminario/multiplicacionMatrices2/src/main/scala/main.scala -> matWithIndex
+/home/skorpionx/UdeA/Seminario/multiplicacionMatrices2/src/main/scala/main.scala -> matWithRowIndex
+/home/skorpionx/UdeA/Seminario/multiplicacionMatrices2/src/main/scala/main.scala -> materializeClassTag
+/home/skorpionx/UdeA/Seminario/multiplicacionMatrices2/src/main/scala/main.scala -> materializeTypeTag
+/home/skorpionx/UdeA/Seminario/multiplicacionMatrices2/src/main/scala/main.scala -> math
+/home/skorpionx/UdeA/Seminario/multiplicacionMatrices2/src/main/scala/main.scala -> mode
+/home/skorpionx/UdeA/Seminario/multiplicacionMatrices2/src/main/scala/main.scala -> moduleClass
+/home/skorpionx/UdeA/Seminario/multiplicacionMatrices2/src/main/scala/main.scala -> multiplicacionMatrices
+/home/skorpionx/UdeA/Seminario/multiplicacionMatrices2/src/main/scala/main.scala -> multiply
+/home/skorpionx/UdeA/Seminario/multiplicacionMatrices2/src/main/scala/main.scala -> newProductEncoder
+/home/skorpionx/UdeA/Seminario/multiplicacionMatrices2/src/main/scala/main.scala -> org
+/home/skorpionx/UdeA/Seminario/multiplicacionMatrices2/src/main/scala/main.scala -> package
+/home/skorpionx/UdeA/Seminario/multiplicacionMatrices2/src/main/scala/main.scala -> persist
+/home/skorpionx/UdeA/Seminario/multiplicacionMatrices2/src/main/scala/main.scala -> qual$1
+/home/skorpionx/UdeA/Seminario/multiplicacionMatrices2/src/main/scala/main.scala -> qual$2
+/home/skorpionx/UdeA/Seminario/multiplicacionMatrices2/src/main/scala/main.scala -> rdd
+/home/skorpionx/UdeA/Seminario/multiplicacionMatrices2/src/main/scala/main.scala -> rddA
+/home/skorpionx/UdeA/Seminario/multiplicacionMatrices2/src/main/scala/main.scala -> rddB
+/home/skorpionx/UdeA/Seminario/multiplicacionMatrices2/src/main/scala/main.scala -> rddToDatasetHolder
+/home/skorpionx/UdeA/Seminario/multiplicacionMatrices2/src/main/scala/main.scala -> rddToPairRDDFunctions
+/home/skorpionx/UdeA/Seminario/multiplicacionMatrices2/src/main/scala/main.scala -> reduce
+/home/skorpionx/UdeA/Seminario/multiplicacionMatrices2/src/main/scala/main.scala -> refArrayOps
+/home/skorpionx/UdeA/Seminario/multiplicacionMatrices2/src/main/scala/main.scala -> reflect
+/home/skorpionx/UdeA/Seminario/multiplicacionMatrices2/src/main/scala/main.scala -> reificationSupport
+/home/skorpionx/UdeA/Seminario/multiplicacionMatrices2/src/main/scala/main.scala -> requireTranspose
+/home/skorpionx/UdeA/Seminario/multiplicacionMatrices2/src/main/scala/main.scala -> result
+/home/skorpionx/UdeA/Seminario/multiplicacionMatrices2/src/main/scala/main.scala -> runtime
+/home/skorpionx/UdeA/Seminario/multiplicacionMatrices2/src/main/scala/main.scala -> runtimeMirror
+/home/skorpionx/UdeA/Seminario/multiplicacionMatrices2/src/main/scala/main.scala -> save
+/home/skorpionx/UdeA/Seminario/multiplicacionMatrices2/src/main/scala/main.scala -> sc
+/home/skorpionx/UdeA/Seminario/multiplicacionMatrices2/src/main/scala/main.scala -> scala
+/home/skorpionx/UdeA/Seminario/multiplicacionMatrices2/src/main/scala/main.scala -> sortBy
+/home/skorpionx/UdeA/Seminario/multiplicacionMatrices2/src/main/scala/main.scala -> spark
+/home/skorpionx/UdeA/Seminario/multiplicacionMatrices2/src/main/scala/main.scala -> sparkContext
+/home/skorpionx/UdeA/Seminario/multiplicacionMatrices2/src/main/scala/main.scala -> split
+/home/skorpionx/UdeA/Seminario/multiplicacionMatrices2/src/main/scala/main.scala -> sql
+/home/skorpionx/UdeA/Seminario/multiplicacionMatrices2/src/main/scala/main.scala -> sqlContext
+/home/skorpionx/UdeA/Seminario/multiplicacionMatrices2/src/main/scala/main.scala -> staticClass
+/home/skorpionx/UdeA/Seminario/multiplicacionMatrices2/src/main/scala/main.scala -> staticPackage
+/home/skorpionx/UdeA/Seminario/multiplicacionMatrices2/src/main/scala/main.scala -> storage
+/home/skorpionx/UdeA/Seminario/multiplicacionMatrices2/src/main/scala/main.scala -> t
+/home/skorpionx/UdeA/Seminario/multiplicacionMatrices2/src/main/scala/main.scala -> textFile
+/home/skorpionx/UdeA/Seminario/multiplicacionMatrices2/src/main/scala/main.scala -> toDF
+/home/skorpionx/UdeA/Seminario/multiplicacionMatrices2/src/main/scala/main.scala -> toDouble
+/home/skorpionx/UdeA/Seminario/multiplicacionMatrices2/src/main/scala/main.scala -> toInt
+/home/skorpionx/UdeA/Seminario/multiplicacionMatrices2/src/main/scala/main.scala -> toList
+/home/skorpionx/UdeA/Seminario/multiplicacionMatrices2/src/main/scala/main.scala -> toTypeConstructor
+/home/skorpionx/UdeA/Seminario/multiplicacionMatrices2/src/main/scala/main.scala -> universe
+/home/skorpionx/UdeA/Seminario/multiplicacionMatrices2/src/main/scala/main.scala -> url
+/home/skorpionx/UdeA/Seminario/multiplicacionMatrices2/src/main/scala/main.scala -> v
+/home/skorpionx/UdeA/Seminario/multiplicacionMatrices2/src/main/scala/main.scala -> write
+/home/skorpionx/UdeA/Seminario/multiplicacionMatrices2/src/main/scala/main.scala -> x
+/home/skorpionx/UdeA/Seminario/multiplicacionMatrices2/src/main/scala/main.scala -> x$10
+/home/skorpionx/UdeA/Seminario/multiplicacionMatrices2/src/main/scala/main.scala -> x$11
+/home/skorpionx/UdeA/Seminario/multiplicacionMatrices2/src/main/scala/main.scala -> x$12
+/home/skorpionx/UdeA/Seminario/multiplicacionMatrices2/src/main/scala/main.scala -> x$13
+/home/skorpionx/UdeA/Seminario/multiplicacionMatrices2/src/main/scala/main.scala -> x$8
+/home/skorpionx/UdeA/Seminario/multiplicacionMatrices2/src/main/scala/main.scala -> x$9
+/home/skorpionx/UdeA/Seminario/multiplicacionMatrices2/src/main/scala/main.scala -> x2
+/home/skorpionx/UdeA/Seminario/multiplicacionMatrices2/src/main/scala/main.scala -> x3
+/home/skorpionx/UdeA/Seminario/multiplicacionMatrices2/src/main/scala/main.scala -> y
+/home/skorpionx/UdeA/Seminario/multiplicacionMatrices2/src/main/scala/main.scala -> zip
+/home/skorpionx/UdeA/Seminario/multiplicacionMatrices2/src/main/scala/main.scala -> zipWithIndex
+product stamps:
+21 items
+/home/skorpionx/UdeA/Seminario/multiplicacionMatrices2/target/scala-2.11/classes/multiplicacionMatrices$$anonfun$1.class -> lastModified(1489945146000)
+/home/skorpionx/UdeA/Seminario/multiplicacionMatrices2/target/scala-2.11/classes/multiplicacionMatrices$$anonfun$2$$anonfun$apply$1.class -> lastModified(1489945146000)
+/home/skorpionx/UdeA/Seminario/multiplicacionMatrices2/target/scala-2.11/classes/multiplicacionMatrices$$anonfun$2.class -> lastModified(1489945146000)
+/home/skorpionx/UdeA/Seminario/multiplicacionMatrices2/target/scala-2.11/classes/multiplicacionMatrices$$anonfun$3.class -> lastModified(1489945146000)
+/home/skorpionx/UdeA/Seminario/multiplicacionMatrices2/target/scala-2.11/classes/multiplicacionMatrices$$anonfun$4$$anonfun$apply$2$$anonfun$apply$3.class -> lastModified(1489945146000)
+/home/skorpionx/UdeA/Seminario/multiplicacionMatrices2/target/scala-2.11/classes/multiplicacionMatrices$$anonfun$4$$anonfun$apply$2.class -> lastModified(1489945146000)
+/home/skorpionx/UdeA/Seminario/multiplicacionMatrices2/target/scala-2.11/classes/multiplicacionMatrices$$anonfun$4.class -> lastModified(1489945146000)
+/home/skorpionx/UdeA/Seminario/multiplicacionMatrices2/target/scala-2.11/classes/multiplicacionMatrices$$anonfun$5.class -> lastModified(1489945146000)
+/home/skorpionx/UdeA/Seminario/multiplicacionMatrices2/target/scala-2.11/classes/multiplicacionMatrices$$anonfun$6.class -> lastModified(1489945146000)
+/home/skorpionx/UdeA/Seminario/multiplicacionMatrices2/target/scala-2.11/classes/multiplicacionMatrices$$anonfun$7.class -> lastModified(1489945146000)
+/home/skorpionx/UdeA/Seminario/multiplicacionMatrices2/target/scala-2.11/classes/multiplicacionMatrices$$anonfun$8.class -> lastModified(1489945146000)
+/home/skorpionx/UdeA/Seminario/multiplicacionMatrices2/target/scala-2.11/classes/multiplicacionMatrices$$anonfun$9$$anonfun$apply$4$$anonfun$apply$5.class -> lastModified(1489945146000)
+/home/skorpionx/UdeA/Seminario/multiplicacionMatrices2/target/scala-2.11/classes/multiplicacionMatrices$$anonfun$9$$anonfun$apply$4.class -> lastModified(1489945146000)
+/home/skorpionx/UdeA/Seminario/multiplicacionMatrices2/target/scala-2.11/classes/multiplicacionMatrices$$anonfun$9.class -> lastModified(1489945146000)
+/home/skorpionx/UdeA/Seminario/multiplicacionMatrices2/target/scala-2.11/classes/multiplicacionMatrices$$anonfun$dotProduct$1.class -> lastModified(1489945146000)
+/home/skorpionx/UdeA/Seminario/multiplicacionMatrices2/target/scala-2.11/classes/multiplicacionMatrices$$anonfun$dotProduct$2.class -> lastModified(1489945146000)
+/home/skorpionx/UdeA/Seminario/multiplicacionMatrices2/target/scala-2.11/classes/multiplicacionMatrices$$anonfun$multiply$1$$anonfun$apply$6.class -> lastModified(1489945146000)
+/home/skorpionx/UdeA/Seminario/multiplicacionMatrices2/target/scala-2.11/classes/multiplicacionMatrices$$anonfun$multiply$1.class -> lastModified(1489945146000)
+/home/skorpionx/UdeA/Seminario/multiplicacionMatrices2/target/scala-2.11/classes/multiplicacionMatrices$$typecreator2$1.class -> lastModified(1489945146000)
+/home/skorpionx/UdeA/Seminario/multiplicacionMatrices2/target/scala-2.11/classes/multiplicacionMatrices$.class -> lastModified(1489945146000)
+/home/skorpionx/UdeA/Seminario/multiplicacionMatrices2/target/scala-2.11/classes/multiplicacionMatrices.class -> lastModified(1489945146000)
+source stamps:
+1 items
+/home/skorpionx/UdeA/Seminario/multiplicacionMatrices2/src/main/scala/main.scala -> hash(7722d7cbae13a30d88a347fd3df9f539a1e6d600)
+binary stamps:
+6 items
+/home/skorpionx/.ivy2/cache/org.apache.spark/spark-catalyst_2.11/jars/spark-catalyst_2.11-2.1.0.jar -> lastModified(1481872148000)
+/home/skorpionx/.ivy2/cache/org.apache.spark/spark-core_2.11/jars/spark-core_2.11-2.1.0.jar -> lastModified(1481871925000)
+/home/skorpionx/.ivy2/cache/org.apache.spark/spark-sql_2.11/jars/spark-sql_2.11-2.1.0.jar -> lastModified(1481872304000)
+/home/skorpionx/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.11.8.jar -> lastModified(1457105192000)
+/home/skorpionx/.ivy2/cache/org.scala-lang/scala-reflect/jars/scala-reflect-2.11.8.jar -> lastModified(1457105200000)
+/usr/lib/jvm/java-8-oracle/jre/lib/rt.jar -> lastModified(1489256603000)
+class names:
+6 items
+/home/skorpionx/.ivy2/cache/org.apache.spark/spark-catalyst_2.11/jars/spark-catalyst_2.11-2.1.0.jar -> org.apache.spark.sql.Row
+/home/skorpionx/.ivy2/cache/org.apache.spark/spark-core_2.11/jars/spark-core_2.11-2.1.0.jar -> org.apache.spark.storage.StorageLevel$
+/home/skorpionx/.ivy2/cache/org.apache.spark/spark-sql_2.11/jars/spark-sql_2.11-2.1.0.jar -> org.apache.spark.sql.SparkSession
+/home/skorpionx/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.11.8.jar -> scala.Boolean
+/home/skorpionx/.ivy2/cache/org.scala-lang/scala-reflect/jars/scala-reflect-2.11.8.jar -> scala.reflect.api.TypeCreator
+/usr/lib/jvm/java-8-oracle/jre/lib/rt.jar -> java.lang.Object
+internal apis:
+1 items
+/home/skorpionx/UdeA/Seminario/multiplicacionMatrices2/src/main/scala/main.scala -> 
+rO0ABXNyABB4c2J0aS5hcGkuU291cmNlSjH5SdlLSkQCAAdJAAdhcGlIYXNoWgAIaGFzTWFjcm9aABBoYXNQYWNrYWdlT2JqZWN0TAAYX2ludGVybmFsT25seV9uYW1lSGFzaGVzdAAkTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoZXM7TAADYXBpdAAVTHhzYnRpL2FwaS9Tb3VyY2VBUEk7TAALY29tcGlsYXRpb250ABdMeHNidGkvYXBpL0NvbXBpbGF0aW9uO1sABGhhc2h0AAJbQnhwBs+a0AAAc3IAInhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoZXNU2r6Z+tTsTAIAAlsAD2ltcGxpY2l0TWVtYmVyc3QAI1tMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2g7WwAOcmVndWxhck1lbWJlcnNxAH4AB3hwdXIAI1tMeHNidGkuYXBpLl9pbnRlcm5hbE9ubHlfTmFtZUhhc2g7SVqAtt2Wi/QCAAB4cAAAAAB1cQB+AAkAAAAZc3IAIHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoWw71InY4V88CAAJJAARoYXNoTAAEbmFtZXQAEkxqYXZhL2xhbmcvU3RyaW5nO3hwgXgri3QABm5vdGlmeXNxAH4ADFJcn/h0AAR3YWl0c3EAfgAMCCkyc3QADSRhc0luc3RhbmNlT2ZzcQB+AAxunqPAdAAGZXF1YWxzc3EAfgAMxEweA3QADGFzSW5zdGFuY2VPZnNxAH4ADC+gu4p0AAxzeW5jaHJvbml6ZWRzcQB+AAy+edo6dAANJGlzSW5zdGFuY2VPZnNxAH4ADIHEjBN0AARtYWluc3EAfgAMg2Wn73QACW5vdGlmeUFsbHNxAH4ADNZMbYJ0AAxpc0luc3RhbmNlT2ZzcQB+AAzDfkr4dAAWbXVsdGlwbGljYWNpb25NYXRyaWNlc3NxAH4ADHYJ3350AAxjcmVhdGVNYXRyaXhzcQB+AAwTOjpjdAACPT1zcQB+AAyU+weLdAAQaW5pdFNwYXJrU2Vzc2lvbnNxAH4ADLBz4a90AAVjbG9uZXNxAH4ADNvCTed0AAhtdWx0aXBseXNxAH4ADAE+Nh10AAh0b1N0cmluZ3NxAH4ADCS28VZ0AAIhPXNxAH4ADGmhuBV0AAhnZXRDbGFzc3NxAH4ADH4NfiV0AApkb3RQcm9kdWN0c3EAfgAMO2gl1nQAAm5lc3EAfgAMrVuIv3QAAmVxc3EAfgAMPJz51nQAAiMjc3EAfgAMBZrfUXQACGZpbmFsaXplc3EAfgAM8I1wnXQACGhhc2hDb2Rlc3IAE3hzYnRpLmFwaS5Tb3VyY2VBUEm5Xqf5KSM4pAIAAlsAC2RlZmluaXRpb25zdAAXW0x4c2J0aS9hcGkvRGVmaW5pdGlvbjtbAAhwYWNrYWdlc3QAFFtMeHNidGkvYXBpL1BhY2thZ2U7eHB1cgAXW0x4c2J0aS5hcGkuRGVmaW5pdGlvbjuIyVzntONeDgIAAHhwAAAAAXNyABN4c2J0aS5hcGkuQ2xhc3NMaWtlgzQcod+wl2wCAARMAA5kZWZpbml0aW9uVHlwZXQAGkx4c2J0aS9hcGkvRGVmaW5pdGlvblR5cGU7WwAQc2F2ZWRBbm5vdGF0aW9uc3QAE1tMamF2YS9sYW5nL1N0cmluZztMAAhzZWxmVHlwZXQAEEx4c2J0aS9hcGkvTGF6eTtMAAlzdHJ1Y3R1cmVxAH4ASXhyACF4c2J0aS5hcGkuUGFyYW1ldGVyaXplZERlZmluaXRpb275EW6x1VA84gIAAVsADnR5cGVQYXJhbWV0ZXJzdAAaW0x4c2J0aS9hcGkvVHlwZVBhcmFtZXRlcjt4cgAUeHNidGkuYXBpLkRlZmluaXRpb26HKhvocULjRgIABEwABmFjY2Vzc3QAEkx4c2J0aS9hcGkvQWNjZXNzO1sAC2Fubm90YXRpb25zdAAXW0x4c2J0aS9hcGkvQW5ub3RhdGlvbjtMAAltb2RpZmllcnN0ABVMeHNidGkvYXBpL01vZGlmaWVycztMAARuYW1lcQB+AA14cHNyABB4c2J0aS5hcGkuUHVibGljulg9rmwtYEICAAB4cgAQeHNidGkuYXBpLkFjY2Vzc91imvgdYzFIAgAAeHB1cgAXW0x4c2J0aS5hcGkuQW5ub3RhdGlvbjvrl+sZEPaNSAIAAHhwAAAAAHNyABN4c2J0aS5hcGkuTW9kaWZpZXJzl+dh3BMme7MCAAFCAAVmbGFnc3hwAHEAfgAjdXIAGltMeHNidGkuYXBpLlR5cGVQYXJhbWV0ZXI72W0mDyid8rYCAAB4cAAAAAB+cgAYeHNidGkuYXBpLkRlZmluaXRpb25UeXBlAAAAAAAAAAASAAB4cgAOamF2YS5sYW5nLkVudW0AAAAAAAAAABIAAHhwdAAGTW9kdWxldXIAE1tMamF2YS5sYW5nLlN0cmluZzut0lbn6R17RwIAAHhwAAAAAHNyACF4c2J0aS5hcGkuQWJzdHJhY3RMYXp5JFN0cmljdExhenkNZhxrKRYquAIAAUwABXZhbHVldAASTGphdmEvbGFuZy9PYmplY3Q7eHBzcgATeHNidGkuYXBpLkVtcHR5VHlwZbz9nkZJO4kkAgAAeHIAFHhzYnRpLmFwaS5TaW1wbGVUeXBlcnhiiCEjv0ACAAB4cgAOeHNidGkuYXBpLlR5cGU/atkhFkmqygIAAHhwc3EAfgBgc3IAE3hzYnRpLmFwaS5TdHJ1Y3R1cmWpqvmAk2/YAAIAA0wACGRlY2xhcmVkcQB+AElMAAlpbmhlcml0ZWRxAH4ASUwAB3BhcmVudHNxAH4ASXhxAH4AZXNxAH4AYHVxAH4ARAAAAAFzcgANeHNidGkuYXBpLkRlZlK+n+J8tDZpAgACTAAKcmV0dXJuVHlwZXQAEEx4c2J0aS9hcGkvVHlwZTtbAA92YWx1ZVBhcmFtZXRlcnN0ABpbTHhzYnRpL2FwaS9QYXJhbWV0ZXJMaXN0O3hxAH4ASnEAfgBTdXEAfgBUAAAAAHNxAH4AVgBxAH4AHXVxAH4AWAAAAABzcgAUeHNidGkuYXBpLlByb2plY3Rpb27z0o1U6UWkLQIAAkwAAmlkcQB+AA1MAAZwcmVmaXh0ABZMeHNidGkvYXBpL1NpbXBsZVR5cGU7eHEAfgBkdAAEVW5pdHNyABN4c2J0aS5hcGkuU2luZ2xldG9u/Kdf+M9W5EYCAAFMAARwYXRodAAQTHhzYnRpL2FwaS9QYXRoO3hxAH4AZHNyAA54c2J0aS5hcGkuUGF0aJs9XAjOpSeEAgABWwAKY29tcG9uZW50c3QAGltMeHNidGkvYXBpL1BhdGhDb21wb25lbnQ7eHB1cgAaW0x4c2J0aS5hcGkuUGF0aENvbXBvbmVudDtD2gl0LWcWdAIAAHhwAAAAAnNyAAx4c2J0aS5hcGkuSWSYMmyLN1PEQAIAAUwAAmlkcQB+AA14cgAXeHNidGkuYXBpLlBhdGhDb21wb25lbnRfmiJbLoafvAIAAHhwdAAFc2NhbGFzcgAOeHNidGkuYXBpLlRoaXPbCe2mzFpAXAIAAHhxAH4AgHVyABpbTHhzYnRpLmFwaS5QYXJhbWV0ZXJMaXN0O/XTOh3ys3DuAgAAeHAAAAABc3IAF3hzYnRpLmFwaS5QYXJhbWV0ZXJMaXN01sW8HGRJdOMCAAJaAAppc0ltcGxpY2l0WwAKcGFyYW1ldGVyc3QAHFtMeHNidGkvYXBpL01ldGhvZFBhcmFtZXRlcjt4cAB1cgAcW0x4c2J0aS5hcGkuTWV0aG9kUGFyYW1ldGVyO8+4xV2l3bVtAgAAeHAAAAABc3IAGXhzYnRpLmFwaS5NZXRob2RQYXJhbWV0ZXIfRa4X00mw6gIABFoACmhhc0RlZmF1bHRMAAhtb2RpZmllcnQAHUx4c2J0aS9hcGkvUGFyYW1ldGVyTW9kaWZpZXI7TAAEbmFtZXEAfgANTAADdHBlcQB+AG14cAB+cgAbeHNidGkuYXBpLlBhcmFtZXRlck1vZGlmaWVyAAAAAAAAAAASAAB4cQB+AFt0AAVQbGFpbnQABGFyZ3NzcgAXeHNidGkuYXBpLlBhcmFtZXRlcml6ZWQWbO5pA8m7fwIAAkwACGJhc2VUeXBlcQB+AHRbAA10eXBlQXJndW1lbnRzdAARW0x4c2J0aS9hcGkvVHlwZTt4cQB+AGRzcQB+AHN0AAVBcnJheXEAfgB5dXIAEVtMeHNidGkuYXBpLlR5cGU7dP+lWnv56UECAAB4cAAAAAFzcQB+AHN0AAZTdHJpbmdzcQB+AHdzcQB+AHp1cQB+AH0AAAADc3EAfgB/dAAEamF2YXNxAH4Af3QABGxhbmdxAH4AhHNxAH4AYHVxAH4ARAAAAABzcQB+AGB1cQB+AJgAAAACc3EAfgBzdAAGT2JqZWN0cQB+AJxzcQB+AHN0AANBbnlxAH4AeXVyABRbTHhzYnRpLmFwaS5QYWNrYWdlO1sTGTdwpyehAgAAeHAAAAAAc3IAFXhzYnRpLmFwaS5Db21waWxhdGlvbu364MNq6KBCAgACSgAJc3RhcnRUaW1lWwAHb3V0cHV0c3QAGltMeHNidGkvYXBpL091dHB1dFNldHRpbmc7eHAAAAFa56ajT3VyABpbTHhzYnRpLmFwaS5PdXRwdXRTZXR0aW5nO39qwvOnh6VCAgAAeHAAAAABc3IAF3hzYnRpLmFwaS5PdXRwdXRTZXR0aW5netmaR3T7HXsCAAJMAA9vdXRwdXREaXJlY3RvcnlxAH4ADUwAD3NvdXJjZURpcmVjdG9yeXEAfgANeHB0AFAvaG9tZS9za29ycGlvbngvVWRlQS9TZW1pbmFyaW8vbXVsdGlwbGljYWNpb25NYXRyaWNlczIvdGFyZ2V0L3NjYWxhLTIuMTEvY2xhc3Nlc3QAAS91cgACW0Ks8xf4BghU4AIAAHhwAAAAFHci18uuE6MNiKNH/T359Tmh5tYA
+external apis:
+0 items
+source infos:
+1 items
+/home/skorpionx/UdeA/Seminario/multiplicacionMatrices2/src/main/scala/main.scala -> 
+AAAAAAAAAAA=
+compilations:
+12 items
+00 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABWppi7Cl1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQATC9ob21lL3Nrb3JwaW9ueC9Fc2NyaXRvcmlvL211bHRpcGxpY2FjaW9uTWF0cmljZXMxL3RhcmdldC9zY2FsYS0yLjExL2NsYXNzZXN0AAEv
+01 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABWps6WHx1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQATC9ob21lL3Nrb3JwaW9ueC9Fc2NyaXRvcmlvL211bHRpcGxpY2FjaW9uTWF0cmljZXMxL3RhcmdldC9zY2FsYS0yLjExL2NsYXNzZXN0AAEv
+02 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABWpvshQp1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQATC9ob21lL3Nrb3JwaW9ueC9Fc2NyaXRvcmlvL211bHRpcGxpY2FjaW9uTWF0cmljZXMxL3RhcmdldC9zY2FsYS0yLjExL2NsYXNzZXN0AAEv
+03 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABWpv/XTR1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQATC9ob21lL3Nrb3JwaW9ueC9Fc2NyaXRvcmlvL211bHRpcGxpY2FjaW9uTWF0cmljZXMxL3RhcmdldC9zY2FsYS0yLjExL2NsYXNzZXN0AAEv
+04 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABWpwir6V1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQATC9ob21lL3Nrb3JwaW9ueC9Fc2NyaXRvcmlvL211bHRpcGxpY2FjaW9uTWF0cmljZXMxL3RhcmdldC9zY2FsYS0yLjExL2NsYXNzZXN0AAEv
+05 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABWp/R5bd1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQATC9ob21lL3Nrb3JwaW9ueC9Fc2NyaXRvcmlvL211bHRpcGxpY2FjaW9uTWF0cmljZXMxL3RhcmdldC9zY2FsYS0yLjExL2NsYXNzZXN0AAEv
+06 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABWp/m7SJ1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQATC9ob21lL3Nrb3JwaW9ueC9Fc2NyaXRvcmlvL211bHRpcGxpY2FjaW9uTWF0cmljZXMxL3RhcmdldC9zY2FsYS0yLjExL2NsYXNzZXN0AAEv
+07 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABWuVfHA91cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAUC9ob21lL3Nrb3JwaW9ueC9VZGVBL1NlbWluYXJpby9tdWx0aXBsaWNhY2lvbk1hdHJpY2VzMi90YXJnZXQvc2NhbGEtMi4xMS9jbGFzc2VzdAABLw==
+08 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABWuc/Z0p1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAUC9ob21lL3Nrb3JwaW9ueC9VZGVBL1NlbWluYXJpby9tdWx0aXBsaWNhY2lvbk1hdHJpY2VzMi90YXJnZXQvc2NhbGEtMi4xMS9jbGFzc2VzdAABLw==
+09 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABWud7Jo11cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAUC9ob21lL3Nrb3JwaW9ueC9VZGVBL1NlbWluYXJpby9tdWx0aXBsaWNhY2lvbk1hdHJpY2VzMi90YXJnZXQvc2NhbGEtMi4xMS9jbGFzc2VzdAABLw==
+10 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABWueW3Qp1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAUC9ob21lL3Nrb3JwaW9ueC9VZGVBL1NlbWluYXJpby9tdWx0aXBsaWNhY2lvbk1hdHJpY2VzMi90YXJnZXQvc2NhbGEtMi4xMS9jbGFzc2VzdAABLw==
+11 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABWuemo091cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAUC9ob21lL3Nrb3JwaW9ueC9VZGVBL1NlbWluYXJpby9tdWx0aXBsaWNhY2lvbk1hdHJpY2VzMi90YXJnZXQvc2NhbGEtMi4xMS9jbGFzc2VzdAABLw==

@@ -78,6 +78,20 @@ object Minhash{
     hashFunctions
   }
 
+  def createDisperseMatrix(rows: Int, cols: Int, disperCoef: Double): List[(Int, Int)] = {
+    val r = scala.util.Random
+    var x = List[(Int, Int)]()
+    for (i <- 1 to rows) {
+      for (j <- 1 to cols) {
+        val rnd =  r.nextFloat
+        if (rnd < disperCoef){
+          x =  x :+ (i, j)
+        }
+      }
+    }
+    x
+  }
+
   // por ahora
   def providedHashFunctions(): List[HashFunctionDAO] = {
     val h1 = HashFunctionDAO(2, 1, 7)

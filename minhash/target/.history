@@ -32,3 +32,15 @@ sbt
 compile
 assembly
 package
+compile
+dfSignature.map(row => (row(0).asInstanceOf[Int], row(1).asInstanceOf[String].split(" ")))
+    .toDF("doc", "signature").show
+dfSignature.map(row => (row(0).asInstanceOf[Int], row(1).asInstanceOf[String].split(" ")))
+    .toDF("doc", "signature").show
+compile
+a
+package
+compile
+package
+compile
+package
