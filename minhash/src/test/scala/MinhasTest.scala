@@ -25,7 +25,7 @@ class MinshashTest extends FunSuite{
       (5, 5),
       (6, 2),
       (6, 3),
-      (1, 5),
+      (6, 4)
     )).toDF("i", "j")
 
       val instances = spark.createDataFrame(Seq(

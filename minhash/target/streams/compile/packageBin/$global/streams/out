@@ -20,8 +20,6 @@
 [0m[[0mdebug[0m] [0m	  /home/skorponx/2017-1/seminarioBD/minhash/target/scala-2.11/classes/multiplicacionMatrices$$anonfun$9$$anonfun$apply$4.class[0m
 [0m[[0mdebug[0m] [0m	com/minhash/Minhash.class[0m
 [0m[[0mdebug[0m] [0m	  /home/skorponx/2017-1/seminarioBD/minhash/target/scala-2.11/classes/com/minhash/Minhash.class[0m
-[0m[[0mdebug[0m] [0m	com/minhash/Main$.class[0m
-[0m[[0mdebug[0m] [0m	  /home/skorponx/2017-1/seminarioBD/minhash/target/scala-2.11/classes/com/minhash/Main$.class[0m
 [0m[[0mdebug[0m] [0m	multiplicacionMatrices$$anonfun$dotProduct$2.class[0m
 [0m[[0mdebug[0m] [0m	  /home/skorponx/2017-1/seminarioBD/minhash/target/scala-2.11/classes/multiplicacionMatrices$$anonfun$dotProduct$2.class[0m
 [0m[[0mdebug[0m] [0m	com/minhash/HashFunction$.class[0m
@@ -74,8 +72,6 @@
 [0m[[0mdebug[0m] [0m	  /home/skorponx/2017-1/seminarioBD/minhash/target/scala-2.11/classes/multiplicacionMatrices$$anonfun$8.class[0m
 [0m[[0mdebug[0m] [0m	multiplicacionMatrices$$typecreator1$1.class[0m
 [0m[[0mdebug[0m] [0m	  /home/skorponx/2017-1/seminarioBD/minhash/target/scala-2.11/classes/multiplicacionMatrices$$typecreator1$1.class[0m
-[0m[[0mdebug[0m] [0m	com/minhash/Main.class[0m
-[0m[[0mdebug[0m] [0m	  /home/skorponx/2017-1/seminarioBD/minhash/target/scala-2.11/classes/com/minhash/Main.class[0m
 [0m[[0mdebug[0m] [0m	com/minhash/HashFunction$$anonfun$evaluateHashFunctions$1.class[0m
 [0m[[0mdebug[0m] [0m	  /home/skorponx/2017-1/seminarioBD/minhash/target/scala-2.11/classes/com/minhash/HashFunction$$anonfun$evaluateHashFunctions$1.class[0m
 [0m[[0mdebug[0m] [0m	multiplicacionMatrices$$anonfun$9$$anonfun$apply$4$$anonfun$apply$5.class[0m
@@ -96,6 +92,8 @@
 [0m[[0mdebug[0m] [0m	  /home/skorponx/2017-1/seminarioBD/minhash/target/scala-2.11/classes/com/minhash/Lsh$$anonfun$lsh$2.class[0m
 [0m[[0mdebug[0m] [0m	com/minhash/Lsh$$typecreator1$1.class[0m
 [0m[[0mdebug[0m] [0m	  /home/skorponx/2017-1/seminarioBD/minhash/target/scala-2.11/classes/com/minhash/Lsh$$typecreator1$1.class[0m
+[0m[[0mdebug[0m] [0m	com/minhash/FraudDetection.class[0m
+[0m[[0mdebug[0m] [0m	  /home/skorponx/2017-1/seminarioBD/minhash/target/scala-2.11/classes/com/minhash/FraudDetection.class[0m
 [0m[[0mdebug[0m] [0m	com/minhash/Minhash$$anonfun$createQueryString$1.class[0m
 [0m[[0mdebug[0m] [0m	  /home/skorponx/2017-1/seminarioBD/minhash/target/scala-2.11/classes/com/minhash/Minhash$$anonfun$createQueryString$1.class[0m
 [0m[[0mdebug[0m] [0m	com/minhash/HashFunction$$anonfun$1.class[0m
@@ -108,6 +106,8 @@
 [0m[[0mdebug[0m] [0m	  /home/skorponx/2017-1/seminarioBD/minhash/target/scala-2.11/classes/com/minhash/Lsh$$anonfun$lsh$1.class[0m
 [0m[[0mdebug[0m] [0m	multiplicacionMatrices$$anonfun$5.class[0m
 [0m[[0mdebug[0m] [0m	  /home/skorponx/2017-1/seminarioBD/minhash/target/scala-2.11/classes/multiplicacionMatrices$$anonfun$5.class[0m
+[0m[[0mdebug[0m] [0m	com/minhash/FraudDetection$.class[0m
+[0m[[0mdebug[0m] [0m	  /home/skorponx/2017-1/seminarioBD/minhash/target/scala-2.11/classes/com/minhash/FraudDetection$.class[0m
 [0m[[0mdebug[0m] [0m	multiplicacionMatrices$$anonfun$9.class[0m
 [0m[[0mdebug[0m] [0m	  /home/skorponx/2017-1/seminarioBD/minhash/target/scala-2.11/classes/multiplicacionMatrices$$anonfun$9.class[0m
 [0m[[0mdebug[0m] [0m	com[0m
