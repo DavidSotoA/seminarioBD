@@ -1,0 +1,500 @@
+format version: 5
+output mode:
+1 items
+0 -> single
+output directories:
+1 items
+output dir -> /home/skorpionx/UdeA/Seminario/recomendadorDeContenido/target/scala-2.11/classes
+compile options:
+0 items
+javac options:
+0 items
+compiler version:
+1 items
+0 -> 2.11.8
+compile order:
+1 items
+0 -> Mixed
+name hashing:
+1 items
+0 -> true
+products:
+16 items
+/home/skorpionx/UdeA/Seminario/recomendadorDeContenido/src/main/scala/Constants.scala -> /home/skorpionx/UdeA/Seminario/recomendadorDeContenido/target/scala-2.11/classes/com/recommendationSys/Constants$.class
+/home/skorpionx/UdeA/Seminario/recomendadorDeContenido/src/main/scala/Constants.scala -> /home/skorpionx/UdeA/Seminario/recomendadorDeContenido/target/scala-2.11/classes/com/recommendationSys/Constants.class
+/home/skorpionx/UdeA/Seminario/recomendadorDeContenido/src/main/scala/RandomHyperplanes.scala -> /home/skorpionx/UdeA/Seminario/recomendadorDeContenido/target/scala-2.11/classes/com/lsh/RandomHyperplanes$$anonfun$1.class
+/home/skorpionx/UdeA/Seminario/recomendadorDeContenido/src/main/scala/RandomHyperplanes.scala -> /home/skorpionx/UdeA/Seminario/recomendadorDeContenido/target/scala-2.11/classes/com/lsh/RandomHyperplanes$$anonfun$2$$anonfun$apply$mcI$sp$1.class
+/home/skorpionx/UdeA/Seminario/recomendadorDeContenido/src/main/scala/RandomHyperplanes.scala -> /home/skorpionx/UdeA/Seminario/recomendadorDeContenido/target/scala-2.11/classes/com/lsh/RandomHyperplanes$$anonfun$2.class
+/home/skorpionx/UdeA/Seminario/recomendadorDeContenido/src/main/scala/RandomHyperplanes.scala -> /home/skorpionx/UdeA/Seminario/recomendadorDeContenido/target/scala-2.11/classes/com/lsh/RandomHyperplanes$$anonfun$3.class
+/home/skorpionx/UdeA/Seminario/recomendadorDeContenido/src/main/scala/RandomHyperplanes.scala -> /home/skorpionx/UdeA/Seminario/recomendadorDeContenido/target/scala-2.11/classes/com/lsh/RandomHyperplanes$$anonfun$4.class
+/home/skorpionx/UdeA/Seminario/recomendadorDeContenido/src/main/scala/RandomHyperplanes.scala -> /home/skorpionx/UdeA/Seminario/recomendadorDeContenido/target/scala-2.11/classes/com/lsh/RandomHyperplanes$$anonfun$stringSignature$1.class
+/home/skorpionx/UdeA/Seminario/recomendadorDeContenido/src/main/scala/RandomHyperplanes.scala -> /home/skorpionx/UdeA/Seminario/recomendadorDeContenido/target/scala-2.11/classes/com/lsh/RandomHyperplanes$$typecreator1$1.class
+/home/skorpionx/UdeA/Seminario/recomendadorDeContenido/src/main/scala/RandomHyperplanes.scala -> /home/skorpionx/UdeA/Seminario/recomendadorDeContenido/target/scala-2.11/classes/com/lsh/RandomHyperplanes$$typecreator2$1.class
+/home/skorpionx/UdeA/Seminario/recomendadorDeContenido/src/main/scala/RandomHyperplanes.scala -> /home/skorpionx/UdeA/Seminario/recomendadorDeContenido/target/scala-2.11/classes/com/lsh/RandomHyperplanes$.class
+/home/skorpionx/UdeA/Seminario/recomendadorDeContenido/src/main/scala/RandomHyperplanes.scala -> /home/skorpionx/UdeA/Seminario/recomendadorDeContenido/target/scala-2.11/classes/com/lsh/RandomHyperplanes.class
+/home/skorpionx/UdeA/Seminario/recomendadorDeContenido/src/main/scala/RecommendSystem.scala -> /home/skorpionx/UdeA/Seminario/recomendadorDeContenido/target/scala-2.11/classes/com/recommendationSys/CreateFeatures.class
+/home/skorpionx/UdeA/Seminario/recomendadorDeContenido/src/main/scala/RecommendSystem.scala -> /home/skorpionx/UdeA/Seminario/recomendadorDeContenido/target/scala-2.11/classes/com/recommendationSys/RecommendationSystem$$anonfun$recommendToUser$1.class
+/home/skorpionx/UdeA/Seminario/recomendadorDeContenido/src/main/scala/RecommendSystem.scala -> /home/skorpionx/UdeA/Seminario/recomendadorDeContenido/target/scala-2.11/classes/com/recommendationSys/RecommendationSystem$.class
+/home/skorpionx/UdeA/Seminario/recomendadorDeContenido/src/main/scala/RecommendSystem.scala -> /home/skorpionx/UdeA/Seminario/recomendadorDeContenido/target/scala-2.11/classes/com/recommendationSys/RecommendationSystem.class
+binary dependencies:
+14 items
+/home/skorpionx/UdeA/Seminario/recomendadorDeContenido/src/main/scala/Constants.scala -> /home/skorpionx/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.11.8.jar
+/home/skorpionx/UdeA/Seminario/recomendadorDeContenido/src/main/scala/Constants.scala -> /usr/lib/jvm/java-8-oracle/jre/lib/rt.jar
+/home/skorpionx/UdeA/Seminario/recomendadorDeContenido/src/main/scala/RandomHyperplanes.scala -> /home/skorpionx/.ivy2/cache/org.apache.spark/spark-catalyst_2.11/jars/spark-catalyst_2.11-2.1.0.jar
+/home/skorpionx/UdeA/Seminario/recomendadorDeContenido/src/main/scala/RandomHyperplanes.scala -> /home/skorpionx/.ivy2/cache/org.apache.spark/spark-mllib-local_2.11/jars/spark-mllib-local_2.11-2.1.0.jar
+/home/skorpionx/UdeA/Seminario/recomendadorDeContenido/src/main/scala/RandomHyperplanes.scala -> /home/skorpionx/.ivy2/cache/org.apache.spark/spark-sql_2.11/jars/spark-sql_2.11-2.1.0.jar
+/home/skorpionx/UdeA/Seminario/recomendadorDeContenido/src/main/scala/RandomHyperplanes.scala -> /home/skorpionx/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.11.8.jar
+/home/skorpionx/UdeA/Seminario/recomendadorDeContenido/src/main/scala/RandomHyperplanes.scala -> /home/skorpionx/.ivy2/cache/org.scala-lang/scala-reflect/jars/scala-reflect-2.11.8.jar
+/home/skorpionx/UdeA/Seminario/recomendadorDeContenido/src/main/scala/RandomHyperplanes.scala -> /usr/lib/jvm/java-8-oracle/jre/lib/rt.jar
+/home/skorpionx/UdeA/Seminario/recomendadorDeContenido/src/main/scala/RecommendSystem.scala -> /home/skorpionx/.ivy2/cache/org.apache.spark/spark-catalyst_2.11/jars/spark-catalyst_2.11-2.1.0.jar
+/home/skorpionx/UdeA/Seminario/recomendadorDeContenido/src/main/scala/RecommendSystem.scala -> /home/skorpionx/.ivy2/cache/org.apache.spark/spark-mllib-local_2.11/jars/spark-mllib-local_2.11-2.1.0.jar
+/home/skorpionx/UdeA/Seminario/recomendadorDeContenido/src/main/scala/RecommendSystem.scala -> /home/skorpionx/.ivy2/cache/org.apache.spark/spark-mllib_2.11/jars/spark-mllib_2.11-2.1.0.jar
+/home/skorpionx/UdeA/Seminario/recomendadorDeContenido/src/main/scala/RecommendSystem.scala -> /home/skorpionx/.ivy2/cache/org.apache.spark/spark-sql_2.11/jars/spark-sql_2.11-2.1.0.jar
+/home/skorpionx/UdeA/Seminario/recomendadorDeContenido/src/main/scala/RecommendSystem.scala -> /home/skorpionx/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.11.8.jar
+/home/skorpionx/UdeA/Seminario/recomendadorDeContenido/src/main/scala/RecommendSystem.scala -> /usr/lib/jvm/java-8-oracle/jre/lib/rt.jar
+direct source dependencies:
+0 items
+direct external dependencies:
+0 items
+public inherited source dependencies:
+0 items
+public inherited external dependencies:
+0 items
+member reference internal dependencies:
+2 items
+/home/skorpionx/UdeA/Seminario/recomendadorDeContenido/src/main/scala/RecommendSystem.scala -> /home/skorpionx/UdeA/Seminario/recomendadorDeContenido/src/main/scala/Constants.scala
+/home/skorpionx/UdeA/Seminario/recomendadorDeContenido/src/main/scala/RecommendSystem.scala -> /home/skorpionx/UdeA/Seminario/recomendadorDeContenido/src/main/scala/RandomHyperplanes.scala
+member reference external dependencies:
+0 items
+inheritance internal dependencies:
+0 items
+inheritance external dependencies:
+0 items
+class names:
+16 items
+/home/skorpionx/UdeA/Seminario/recomendadorDeContenido/src/main/scala/Constants.scala -> com.recommendationSys.Constants
+/home/skorpionx/UdeA/Seminario/recomendadorDeContenido/src/main/scala/Constants.scala -> com.recommendationSys.Constants$
+/home/skorpionx/UdeA/Seminario/recomendadorDeContenido/src/main/scala/RandomHyperplanes.scala -> com.lsh.RandomHyperplanes
+/home/skorpionx/UdeA/Seminario/recomendadorDeContenido/src/main/scala/RandomHyperplanes.scala -> com.lsh.RandomHyperplanes$
+/home/skorpionx/UdeA/Seminario/recomendadorDeContenido/src/main/scala/RandomHyperplanes.scala -> com.lsh.RandomHyperplanes$$anonfun$1
+/home/skorpionx/UdeA/Seminario/recomendadorDeContenido/src/main/scala/RandomHyperplanes.scala -> com.lsh.RandomHyperplanes$$anonfun$2
+/home/skorpionx/UdeA/Seminario/recomendadorDeContenido/src/main/scala/RandomHyperplanes.scala -> com.lsh.RandomHyperplanes$$anonfun$2$$anonfun$apply$mcI$sp$1
+/home/skorpionx/UdeA/Seminario/recomendadorDeContenido/src/main/scala/RandomHyperplanes.scala -> com.lsh.RandomHyperplanes$$anonfun$3
+/home/skorpionx/UdeA/Seminario/recomendadorDeContenido/src/main/scala/RandomHyperplanes.scala -> com.lsh.RandomHyperplanes$$anonfun$4
+/home/skorpionx/UdeA/Seminario/recomendadorDeContenido/src/main/scala/RandomHyperplanes.scala -> com.lsh.RandomHyperplanes$$anonfun$stringSignature$1
+/home/skorpionx/UdeA/Seminario/recomendadorDeContenido/src/main/scala/RandomHyperplanes.scala -> com.lsh.RandomHyperplanes$$typecreator1$1
+/home/skorpionx/UdeA/Seminario/recomendadorDeContenido/src/main/scala/RandomHyperplanes.scala -> com.lsh.RandomHyperplanes$$typecreator2$1
+/home/skorpionx/UdeA/Seminario/recomendadorDeContenido/src/main/scala/RecommendSystem.scala -> com.recommendationSys.CreateFeatures
+/home/skorpionx/UdeA/Seminario/recomendadorDeContenido/src/main/scala/RecommendSystem.scala -> com.recommendationSys.RecommendationSystem
+/home/skorpionx/UdeA/Seminario/recomendadorDeContenido/src/main/scala/RecommendSystem.scala -> com.recommendationSys.RecommendationSystem$
+/home/skorpionx/UdeA/Seminario/recomendadorDeContenido/src/main/scala/RecommendSystem.scala -> com.recommendationSys.RecommendationSystem$$anonfun$recommendToUser$1
+used names:
+292 items
+/home/skorpionx/UdeA/Seminario/recomendadorDeContenido/src/main/scala/Constants.scala -> <init>
+/home/skorpionx/UdeA/Seminario/recomendadorDeContenido/src/main/scala/Constants.scala -> AND_FUNCTIONS
+/home/skorpionx/UdeA/Seminario/recomendadorDeContenido/src/main/scala/Constants.scala -> AnyRef
+/home/skorpionx/UdeA/Seminario/recomendadorDeContenido/src/main/scala/Constants.scala -> COL_FEATURES
+/home/skorpionx/UdeA/Seminario/recomendadorDeContenido/src/main/scala/Constants.scala -> COL_MOVIE_ID
+/home/skorpionx/UdeA/Seminario/recomendadorDeContenido/src/main/scala/Constants.scala -> COL_RATING
+/home/skorpionx/UdeA/Seminario/recomendadorDeContenido/src/main/scala/Constants.scala -> COL_SIGNATURE
+/home/skorpionx/UdeA/Seminario/recomendadorDeContenido/src/main/scala/Constants.scala -> COL_TIMESTAMP
+/home/skorpionx/UdeA/Seminario/recomendadorDeContenido/src/main/scala/Constants.scala -> COL_USER_ID
+/home/skorpionx/UdeA/Seminario/recomendadorDeContenido/src/main/scala/Constants.scala -> Constants
+/home/skorpionx/UdeA/Seminario/recomendadorDeContenido/src/main/scala/Constants.scala -> Int
+/home/skorpionx/UdeA/Seminario/recomendadorDeContenido/src/main/scala/Constants.scala -> Object
+/home/skorpionx/UdeA/Seminario/recomendadorDeContenido/src/main/scala/Constants.scala -> String
+/home/skorpionx/UdeA/Seminario/recomendadorDeContenido/src/main/scala/Constants.scala -> com
+/home/skorpionx/UdeA/Seminario/recomendadorDeContenido/src/main/scala/Constants.scala -> recommendationSys
+/home/skorpionx/UdeA/Seminario/recomendadorDeContenido/src/main/scala/Constants.scala -> scala
+/home/skorpionx/UdeA/Seminario/recomendadorDeContenido/src/main/scala/RandomHyperplanes.scala -> $m
+/home/skorpionx/UdeA/Seminario/recomendadorDeContenido/src/main/scala/RandomHyperplanes.scala -> $m$untyped
+/home/skorpionx/UdeA/Seminario/recomendadorDeContenido/src/main/scala/RandomHyperplanes.scala -> $typecreator1
+/home/skorpionx/UdeA/Seminario/recomendadorDeContenido/src/main/scala/RandomHyperplanes.scala -> $typecreator2
+/home/skorpionx/UdeA/Seminario/recomendadorDeContenido/src/main/scala/RandomHyperplanes.scala -> $u
+/home/skorpionx/UdeA/Seminario/recomendadorDeContenido/src/main/scala/RandomHyperplanes.scala -> &&
+/home/skorpionx/UdeA/Seminario/recomendadorDeContenido/src/main/scala/RandomHyperplanes.scala -> *
+/home/skorpionx/UdeA/Seminario/recomendadorDeContenido/src/main/scala/RandomHyperplanes.scala -> +
+/home/skorpionx/UdeA/Seminario/recomendadorDeContenido/src/main/scala/RandomHyperplanes.scala -> -
+/home/skorpionx/UdeA/Seminario/recomendadorDeContenido/src/main/scala/RandomHyperplanes.scala -> <byname>
+/home/skorpionx/UdeA/Seminario/recomendadorDeContenido/src/main/scala/RandomHyperplanes.scala -> <init>
+/home/skorpionx/UdeA/Seminario/recomendadorDeContenido/src/main/scala/RandomHyperplanes.scala -> <repeated>
+/home/skorpionx/UdeA/Seminario/recomendadorDeContenido/src/main/scala/RandomHyperplanes.scala -> ==
+/home/skorpionx/UdeA/Seminario/recomendadorDeContenido/src/main/scala/RandomHyperplanes.scala -> >
+/home/skorpionx/UdeA/Seminario/recomendadorDeContenido/src/main/scala/RandomHyperplanes.scala -> >=
+/home/skorpionx/UdeA/Seminario/recomendadorDeContenido/src/main/scala/RandomHyperplanes.scala -> A
+/home/skorpionx/UdeA/Seminario/recomendadorDeContenido/src/main/scala/RandomHyperplanes.scala -> A1
+/home/skorpionx/UdeA/Seminario/recomendadorDeContenido/src/main/scala/RandomHyperplanes.scala -> AbstractFunction3
+/home/skorpionx/UdeA/Seminario/recomendadorDeContenido/src/main/scala/RandomHyperplanes.scala -> Any
+/home/skorpionx/UdeA/Seminario/recomendadorDeContenido/src/main/scala/RandomHyperplanes.scala -> AnyRef
+/home/skorpionx/UdeA/Seminario/recomendadorDeContenido/src/main/scala/RandomHyperplanes.scala -> Array
+/home/skorpionx/UdeA/Seminario/recomendadorDeContenido/src/main/scala/RandomHyperplanes.scala -> ArrayOps
+/home/skorpionx/UdeA/Seminario/recomendadorDeContenido/src/main/scala/RandomHyperplanes.scala -> B
+/home/skorpionx/UdeA/Seminario/recomendadorDeContenido/src/main/scala/RandomHyperplanes.scala -> Boolean
+/home/skorpionx/UdeA/Seminario/recomendadorDeContenido/src/main/scala/RandomHyperplanes.scala -> CanBuildFrom
+/home/skorpionx/UdeA/Seminario/recomendadorDeContenido/src/main/scala/RandomHyperplanes.scala -> ClassLoader
+/home/skorpionx/UdeA/Seminario/recomendadorDeContenido/src/main/scala/RandomHyperplanes.scala -> ClassSymbol
+/home/skorpionx/UdeA/Seminario/recomendadorDeContenido/src/main/scala/RandomHyperplanes.scala -> ClassTag
+/home/skorpionx/UdeA/Seminario/recomendadorDeContenido/src/main/scala/RandomHyperplanes.scala -> Column
+/home/skorpionx/UdeA/Seminario/recomendadorDeContenido/src/main/scala/RandomHyperplanes.scala -> DataFrame
+/home/skorpionx/UdeA/Seminario/recomendadorDeContenido/src/main/scala/RandomHyperplanes.scala -> Dataset
+/home/skorpionx/UdeA/Seminario/recomendadorDeContenido/src/main/scala/RandomHyperplanes.scala -> Double
+/home/skorpionx/UdeA/Seminario/recomendadorDeContenido/src/main/scala/RandomHyperplanes.scala -> DoubleIsFractional
+/home/skorpionx/UdeA/Seminario/recomendadorDeContenido/src/main/scala/RandomHyperplanes.scala -> Function1
+/home/skorpionx/UdeA/Seminario/recomendadorDeContenido/src/main/scala/RandomHyperplanes.scala -> Inclusive
+/home/skorpionx/UdeA/Seminario/recomendadorDeContenido/src/main/scala/RandomHyperplanes.scala -> IndexOutOfBoundsException
+/home/skorpionx/UdeA/Seminario/recomendadorDeContenido/src/main/scala/RandomHyperplanes.scala -> Int
+/home/skorpionx/UdeA/Seminario/recomendadorDeContenido/src/main/scala/RandomHyperplanes.scala -> Internal
+/home/skorpionx/UdeA/Seminario/recomendadorDeContenido/src/main/scala/RandomHyperplanes.scala -> Iterator
+/home/skorpionx/UdeA/Seminario/recomendadorDeContenido/src/main/scala/RandomHyperplanes.scala -> JavaUniverse
+/home/skorpionx/UdeA/Seminario/recomendadorDeContenido/src/main/scala/RandomHyperplanes.scala -> List
+/home/skorpionx/UdeA/Seminario/recomendadorDeContenido/src/main/scala/RandomHyperplanes.scala -> Mirror
+/home/skorpionx/UdeA/Seminario/recomendadorDeContenido/src/main/scala/RandomHyperplanes.scala -> ModuleSymbol
+/home/skorpionx/UdeA/Seminario/recomendadorDeContenido/src/main/scala/RandomHyperplanes.scala -> Nil
+/home/skorpionx/UdeA/Seminario/recomendadorDeContenido/src/main/scala/RandomHyperplanes.scala -> None
+/home/skorpionx/UdeA/Seminario/recomendadorDeContenido/src/main/scala/RandomHyperplanes.scala -> Nothing
+/home/skorpionx/UdeA/Seminario/recomendadorDeContenido/src/main/scala/RandomHyperplanes.scala -> Numeric
+/home/skorpionx/UdeA/Seminario/recomendadorDeContenido/src/main/scala/RandomHyperplanes.scala -> Object
+/home/skorpionx/UdeA/Seminario/recomendadorDeContenido/src/main/scala/RandomHyperplanes.scala -> Predef
+/home/skorpionx/UdeA/Seminario/recomendadorDeContenido/src/main/scala/RandomHyperplanes.scala -> Product
+/home/skorpionx/UdeA/Seminario/recomendadorDeContenido/src/main/scala/RandomHyperplanes.scala -> RT
+/home/skorpionx/UdeA/Seminario/recomendadorDeContenido/src/main/scala/RandomHyperplanes.scala -> Random
+/home/skorpionx/UdeA/Seminario/recomendadorDeContenido/src/main/scala/RandomHyperplanes.scala -> RandomHyperplanes
+/home/skorpionx/UdeA/Seminario/recomendadorDeContenido/src/main/scala/RandomHyperplanes.scala -> Range
+/home/skorpionx/UdeA/Seminario/recomendadorDeContenido/src/main/scala/RandomHyperplanes.scala -> ReificationSupportApi
+/home/skorpionx/UdeA/Seminario/recomendadorDeContenido/src/main/scala/RandomHyperplanes.scala -> RichInt
+/home/skorpionx/UdeA/Seminario/recomendadorDeContenido/src/main/scala/RandomHyperplanes.scala -> Row
+/home/skorpionx/UdeA/Seminario/recomendadorDeContenido/src/main/scala/RandomHyperplanes.scala -> ScalaRunTime
+/home/skorpionx/UdeA/Seminario/recomendadorDeContenido/src/main/scala/RandomHyperplanes.scala -> Serializable
+/home/skorpionx/UdeA/Seminario/recomendadorDeContenido/src/main/scala/RandomHyperplanes.scala -> SingleType
+/home/skorpionx/UdeA/Seminario/recomendadorDeContenido/src/main/scala/RandomHyperplanes.scala -> Singleton
+/home/skorpionx/UdeA/Seminario/recomendadorDeContenido/src/main/scala/RandomHyperplanes.scala -> Some
+/home/skorpionx/UdeA/Seminario/recomendadorDeContenido/src/main/scala/RandomHyperplanes.scala -> SparkSession
+/home/skorpionx/UdeA/Seminario/recomendadorDeContenido/src/main/scala/RandomHyperplanes.scala -> Statics
+/home/skorpionx/UdeA/Seminario/recomendadorDeContenido/src/main/scala/RandomHyperplanes.scala -> String
+/home/skorpionx/UdeA/Seminario/recomendadorDeContenido/src/main/scala/RandomHyperplanes.scala -> Symbol
+/home/skorpionx/UdeA/Seminario/recomendadorDeContenido/src/main/scala/RandomHyperplanes.scala -> T
+/home/skorpionx/UdeA/Seminario/recomendadorDeContenido/src/main/scala/RandomHyperplanes.scala -> T0
+/home/skorpionx/UdeA/Seminario/recomendadorDeContenido/src/main/scala/RandomHyperplanes.scala -> T1
+/home/skorpionx/UdeA/Seminario/recomendadorDeContenido/src/main/scala/RandomHyperplanes.scala -> T2
+/home/skorpionx/UdeA/Seminario/recomendadorDeContenido/src/main/scala/RandomHyperplanes.scala -> T3
+/home/skorpionx/UdeA/Seminario/recomendadorDeContenido/src/main/scala/RandomHyperplanes.scala -> That
+/home/skorpionx/UdeA/Seminario/recomendadorDeContenido/src/main/scala/RandomHyperplanes.scala -> ThisType
+/home/skorpionx/UdeA/Seminario/recomendadorDeContenido/src/main/scala/RandomHyperplanes.scala -> Tuple3
+/home/skorpionx/UdeA/Seminario/recomendadorDeContenido/src/main/scala/RandomHyperplanes.scala -> Type
+/home/skorpionx/UdeA/Seminario/recomendadorDeContenido/src/main/scala/RandomHyperplanes.scala -> TypeCreator
+/home/skorpionx/UdeA/Seminario/recomendadorDeContenido/src/main/scala/RandomHyperplanes.scala -> TypeRef
+/home/skorpionx/UdeA/Seminario/recomendadorDeContenido/src/main/scala/RandomHyperplanes.scala -> TypeSymbol
+/home/skorpionx/UdeA/Seminario/recomendadorDeContenido/src/main/scala/RandomHyperplanes.scala -> TypeTag
+/home/skorpionx/UdeA/Seminario/recomendadorDeContenido/src/main/scala/RandomHyperplanes.scala -> U
+/home/skorpionx/UdeA/Seminario/recomendadorDeContenido/src/main/scala/RandomHyperplanes.scala -> Unit
+/home/skorpionx/UdeA/Seminario/recomendadorDeContenido/src/main/scala/RandomHyperplanes.scala -> Universe
+/home/skorpionx/UdeA/Seminario/recomendadorDeContenido/src/main/scala/RandomHyperplanes.scala -> UserDefinedFunction
+/home/skorpionx/UdeA/Seminario/recomendadorDeContenido/src/main/scala/RandomHyperplanes.scala -> Vector
+/home/skorpionx/UdeA/Seminario/recomendadorDeContenido/src/main/scala/RandomHyperplanes.scala -> Vectors
+/home/skorpionx/UdeA/Seminario/recomendadorDeContenido/src/main/scala/RandomHyperplanes.scala -> _$1
+/home/skorpionx/UdeA/Seminario/recomendadorDeContenido/src/main/scala/RandomHyperplanes.scala -> _$4
+/home/skorpionx/UdeA/Seminario/recomendadorDeContenido/src/main/scala/RandomHyperplanes.scala -> _toString
+/home/skorpionx/UdeA/Seminario/recomendadorDeContenido/src/main/scala/RandomHyperplanes.scala -> anyHash
+/home/skorpionx/UdeA/Seminario/recomendadorDeContenido/src/main/scala/RandomHyperplanes.scala -> apache
+/home/skorpionx/UdeA/Seminario/recomendadorDeContenido/src/main/scala/RandomHyperplanes.scala -> apply
+/home/skorpionx/UdeA/Seminario/recomendadorDeContenido/src/main/scala/RandomHyperplanes.scala -> asInstanceOf
+/home/skorpionx/UdeA/Seminario/recomendadorDeContenido/src/main/scala/RandomHyperplanes.scala -> asModule
+/home/skorpionx/UdeA/Seminario/recomendadorDeContenido/src/main/scala/RandomHyperplanes.scala -> asType
+/home/skorpionx/UdeA/Seminario/recomendadorDeContenido/src/main/scala/RandomHyperplanes.scala -> binSignature
+/home/skorpionx/UdeA/Seminario/recomendadorDeContenido/src/main/scala/RandomHyperplanes.scala -> canBuildFrom
+/home/skorpionx/UdeA/Seminario/recomendadorDeContenido/src/main/scala/RandomHyperplanes.scala -> col
+/home/skorpionx/UdeA/Seminario/recomendadorDeContenido/src/main/scala/RandomHyperplanes.scala -> colForLsh
+/home/skorpionx/UdeA/Seminario/recomendadorDeContenido/src/main/scala/RandomHyperplanes.scala -> colOutput
+/home/skorpionx/UdeA/Seminario/recomendadorDeContenido/src/main/scala/RandomHyperplanes.scala -> com
+/home/skorpionx/UdeA/Seminario/recomendadorDeContenido/src/main/scala/RandomHyperplanes.scala -> dataset
+/home/skorpionx/UdeA/Seminario/recomendadorDeContenido/src/main/scala/RandomHyperplanes.scala -> dataset_RH
+/home/skorpionx/UdeA/Seminario/recomendadorDeContenido/src/main/scala/RandomHyperplanes.scala -> dotRestult
+/home/skorpionx/UdeA/Seminario/recomendadorDeContenido/src/main/scala/RandomHyperplanes.scala -> doubleArrayOps
+/home/skorpionx/UdeA/Seminario/recomendadorDeContenido/src/main/scala/RandomHyperplanes.scala -> eq
+/home/skorpionx/UdeA/Seminario/recomendadorDeContenido/src/main/scala/RandomHyperplanes.scala -> fill
+/home/skorpionx/UdeA/Seminario/recomendadorDeContenido/src/main/scala/RandomHyperplanes.scala -> finalizeHash
+/home/skorpionx/UdeA/Seminario/recomendadorDeContenido/src/main/scala/RandomHyperplanes.scala -> foreach
+/home/skorpionx/UdeA/Seminario/recomendadorDeContenido/src/main/scala/RandomHyperplanes.scala -> functions
+/home/skorpionx/UdeA/Seminario/recomendadorDeContenido/src/main/scala/RandomHyperplanes.scala -> getClassLoader
+/home/skorpionx/UdeA/Seminario/recomendadorDeContenido/src/main/scala/RandomHyperplanes.scala -> hashFunction
+/home/skorpionx/UdeA/Seminario/recomendadorDeContenido/src/main/scala/RandomHyperplanes.scala -> i
+/home/skorpionx/UdeA/Seminario/recomendadorDeContenido/src/main/scala/RandomHyperplanes.scala -> immutable
+/home/skorpionx/UdeA/Seminario/recomendadorDeContenido/src/main/scala/RandomHyperplanes.scala -> instance
+/home/skorpionx/UdeA/Seminario/recomendadorDeContenido/src/main/scala/RandomHyperplanes.scala -> intWrapper
+/home/skorpionx/UdeA/Seminario/recomendadorDeContenido/src/main/scala/RandomHyperplanes.scala -> internal
+/home/skorpionx/UdeA/Seminario/recomendadorDeContenido/src/main/scala/RandomHyperplanes.scala -> isInstanceOf
+/home/skorpionx/UdeA/Seminario/recomendadorDeContenido/src/main/scala/RandomHyperplanes.scala -> length
+/home/skorpionx/UdeA/Seminario/recomendadorDeContenido/src/main/scala/RandomHyperplanes.scala -> linalg
+/home/skorpionx/UdeA/Seminario/recomendadorDeContenido/src/main/scala/RandomHyperplanes.scala -> lsh
+/home/skorpionx/UdeA/Seminario/recomendadorDeContenido/src/main/scala/RandomHyperplanes.scala -> map
+/home/skorpionx/UdeA/Seminario/recomendadorDeContenido/src/main/scala/RandomHyperplanes.scala -> materializeClassTag
+/home/skorpionx/UdeA/Seminario/recomendadorDeContenido/src/main/scala/RandomHyperplanes.scala -> materializeTypeTag
+/home/skorpionx/UdeA/Seminario/recomendadorDeContenido/src/main/scala/RandomHyperplanes.scala -> math
+/home/skorpionx/UdeA/Seminario/recomendadorDeContenido/src/main/scala/RandomHyperplanes.scala -> mix
+/home/skorpionx/UdeA/Seminario/recomendadorDeContenido/src/main/scala/RandomHyperplanes.scala -> ml
+/home/skorpionx/UdeA/Seminario/recomendadorDeContenido/src/main/scala/RandomHyperplanes.scala -> moduleClass
+/home/skorpionx/UdeA/Seminario/recomendadorDeContenido/src/main/scala/RandomHyperplanes.scala -> nextGaussian
+/home/skorpionx/UdeA/Seminario/recomendadorDeContenido/src/main/scala/RandomHyperplanes.scala -> numBin
+/home/skorpionx/UdeA/Seminario/recomendadorDeContenido/src/main/scala/RandomHyperplanes.scala -> numHashTables
+/home/skorpionx/UdeA/Seminario/recomendadorDeContenido/src/main/scala/RandomHyperplanes.scala -> numHashTables_RH
+/home/skorpionx/UdeA/Seminario/recomendadorDeContenido/src/main/scala/RandomHyperplanes.scala -> org
+/home/skorpionx/UdeA/Seminario/recomendadorDeContenido/src/main/scala/RandomHyperplanes.scala -> package
+/home/skorpionx/UdeA/Seminario/recomendadorDeContenido/src/main/scala/RandomHyperplanes.scala -> partiallyHashFunction
+/home/skorpionx/UdeA/Seminario/recomendadorDeContenido/src/main/scala/RandomHyperplanes.scala -> reflect
+/home/skorpionx/UdeA/Seminario/recomendadorDeContenido/src/main/scala/RandomHyperplanes.scala -> reificationSupport
+/home/skorpionx/UdeA/Seminario/recomendadorDeContenido/src/main/scala/RandomHyperplanes.scala -> repartition
+/home/skorpionx/UdeA/Seminario/recomendadorDeContenido/src/main/scala/RandomHyperplanes.scala -> require
+/home/skorpionx/UdeA/Seminario/recomendadorDeContenido/src/main/scala/RandomHyperplanes.scala -> runtime
+/home/skorpionx/UdeA/Seminario/recomendadorDeContenido/src/main/scala/RandomHyperplanes.scala -> runtimeMirror
+/home/skorpionx/UdeA/Seminario/recomendadorDeContenido/src/main/scala/RandomHyperplanes.scala -> scala
+/home/skorpionx/UdeA/Seminario/recomendadorDeContenido/src/main/scala/RandomHyperplanes.scala -> selectType
+/home/skorpionx/UdeA/Seminario/recomendadorDeContenido/src/main/scala/RandomHyperplanes.scala -> signature
+/home/skorpionx/UdeA/Seminario/recomendadorDeContenido/src/main/scala/RandomHyperplanes.scala -> signatureDF
+/home/skorpionx/UdeA/Seminario/recomendadorDeContenido/src/main/scala/RandomHyperplanes.scala -> spark
+/home/skorpionx/UdeA/Seminario/recomendadorDeContenido/src/main/scala/RandomHyperplanes.scala -> spark_RH
+/home/skorpionx/UdeA/Seminario/recomendadorDeContenido/src/main/scala/RandomHyperplanes.scala -> sql
+/home/skorpionx/UdeA/Seminario/recomendadorDeContenido/src/main/scala/RandomHyperplanes.scala -> staticClass
+/home/skorpionx/UdeA/Seminario/recomendadorDeContenido/src/main/scala/RandomHyperplanes.scala -> staticModule
+/home/skorpionx/UdeA/Seminario/recomendadorDeContenido/src/main/scala/RandomHyperplanes.scala -> staticPackage
+/home/skorpionx/UdeA/Seminario/recomendadorDeContenido/src/main/scala/RandomHyperplanes.scala -> stringSignature
+/home/skorpionx/UdeA/Seminario/recomendadorDeContenido/src/main/scala/RandomHyperplanes.scala -> sum
+/home/skorpionx/UdeA/Seminario/recomendadorDeContenido/src/main/scala/RandomHyperplanes.scala -> to
+/home/skorpionx/UdeA/Seminario/recomendadorDeContenido/src/main/scala/RandomHyperplanes.scala -> toArray
+/home/skorpionx/UdeA/Seminario/recomendadorDeContenido/src/main/scala/RandomHyperplanes.scala -> toString
+/home/skorpionx/UdeA/Seminario/recomendadorDeContenido/src/main/scala/RandomHyperplanes.scala -> toTypeConstructor
+/home/skorpionx/UdeA/Seminario/recomendadorDeContenido/src/main/scala/RandomHyperplanes.scala -> transformUDF
+/home/skorpionx/UdeA/Seminario/recomendadorDeContenido/src/main/scala/RandomHyperplanes.scala -> typedProductIterator
+/home/skorpionx/UdeA/Seminario/recomendadorDeContenido/src/main/scala/RandomHyperplanes.scala -> udf
+/home/skorpionx/UdeA/Seminario/recomendadorDeContenido/src/main/scala/RandomHyperplanes.scala -> universe
+/home/skorpionx/UdeA/Seminario/recomendadorDeContenido/src/main/scala/RandomHyperplanes.scala -> util
+/home/skorpionx/UdeA/Seminario/recomendadorDeContenido/src/main/scala/RandomHyperplanes.scala -> withColumn
+/home/skorpionx/UdeA/Seminario/recomendadorDeContenido/src/main/scala/RandomHyperplanes.scala -> ||
+/home/skorpionx/UdeA/Seminario/recomendadorDeContenido/src/main/scala/RecommendSystem.scala -> +
+/home/skorpionx/UdeA/Seminario/recomendadorDeContenido/src/main/scala/RecommendSystem.scala -> ++
+/home/skorpionx/UdeA/Seminario/recomendadorDeContenido/src/main/scala/RecommendSystem.scala -> :+
+/home/skorpionx/UdeA/Seminario/recomendadorDeContenido/src/main/scala/RecommendSystem.scala -> <init>
+/home/skorpionx/UdeA/Seminario/recomendadorDeContenido/src/main/scala/RecommendSystem.scala -> <repeated>
+/home/skorpionx/UdeA/Seminario/recomendadorDeContenido/src/main/scala/RecommendSystem.scala -> A
+/home/skorpionx/UdeA/Seminario/recomendadorDeContenido/src/main/scala/RecommendSystem.scala -> AND_FUNCTIONS
+/home/skorpionx/UdeA/Seminario/recomendadorDeContenido/src/main/scala/RecommendSystem.scala -> Any
+/home/skorpionx/UdeA/Seminario/recomendadorDeContenido/src/main/scala/RecommendSystem.scala -> AnyRef
+/home/skorpionx/UdeA/Seminario/recomendadorDeContenido/src/main/scala/RecommendSystem.scala -> Array
+/home/skorpionx/UdeA/Seminario/recomendadorDeContenido/src/main/scala/RecommendSystem.scala -> ArrayOps
+/home/skorpionx/UdeA/Seminario/recomendadorDeContenido/src/main/scala/RecommendSystem.scala -> ArrayType
+/home/skorpionx/UdeA/Seminario/recomendadorDeContenido/src/main/scala/RecommendSystem.scala -> B
+/home/skorpionx/UdeA/Seminario/recomendadorDeContenido/src/main/scala/RecommendSystem.scala -> Boolean
+/home/skorpionx/UdeA/Seminario/recomendadorDeContenido/src/main/scala/RecommendSystem.scala -> COL_FEATURES
+/home/skorpionx/UdeA/Seminario/recomendadorDeContenido/src/main/scala/RecommendSystem.scala -> COL_MOVIE_ID
+/home/skorpionx/UdeA/Seminario/recomendadorDeContenido/src/main/scala/RecommendSystem.scala -> COL_RATING
+/home/skorpionx/UdeA/Seminario/recomendadorDeContenido/src/main/scala/RecommendSystem.scala -> COL_SIGNATURE
+/home/skorpionx/UdeA/Seminario/recomendadorDeContenido/src/main/scala/RecommendSystem.scala -> COL_USER_ID
+/home/skorpionx/UdeA/Seminario/recomendadorDeContenido/src/main/scala/RecommendSystem.scala -> CanBuildFrom
+/home/skorpionx/UdeA/Seminario/recomendadorDeContenido/src/main/scala/RecommendSystem.scala -> Class
+/home/skorpionx/UdeA/Seminario/recomendadorDeContenido/src/main/scala/RecommendSystem.scala -> ClassTag
+/home/skorpionx/UdeA/Seminario/recomendadorDeContenido/src/main/scala/RecommendSystem.scala -> Coll
+/home/skorpionx/UdeA/Seminario/recomendadorDeContenido/src/main/scala/RecommendSystem.scala -> Column
+/home/skorpionx/UdeA/Seminario/recomendadorDeContenido/src/main/scala/RecommendSystem.scala -> Constants
+/home/skorpionx/UdeA/Seminario/recomendadorDeContenido/src/main/scala/RecommendSystem.scala -> CreateFeatures
+/home/skorpionx/UdeA/Seminario/recomendadorDeContenido/src/main/scala/RecommendSystem.scala -> DataFrame
+/home/skorpionx/UdeA/Seminario/recomendadorDeContenido/src/main/scala/RecommendSystem.scala -> DataType
+/home/skorpionx/UdeA/Seminario/recomendadorDeContenido/src/main/scala/RecommendSystem.scala -> Dataset
+/home/skorpionx/UdeA/Seminario/recomendadorDeContenido/src/main/scala/RecommendSystem.scala -> Double
+/home/skorpionx/UdeA/Seminario/recomendadorDeContenido/src/main/scala/RecommendSystem.scala -> DoubleType
+/home/skorpionx/UdeA/Seminario/recomendadorDeContenido/src/main/scala/RecommendSystem.scala -> Function1
+/home/skorpionx/UdeA/Seminario/recomendadorDeContenido/src/main/scala/RecommendSystem.scala -> GenTraversableOnce
+/home/skorpionx/UdeA/Seminario/recomendadorDeContenido/src/main/scala/RecommendSystem.scala -> IllegalArgumentException
+/home/skorpionx/UdeA/Seminario/recomendadorDeContenido/src/main/scala/RecommendSystem.scala -> Int
+/home/skorpionx/UdeA/Seminario/recomendadorDeContenido/src/main/scala/RecommendSystem.scala -> Metadata
+/home/skorpionx/UdeA/Seminario/recomendadorDeContenido/src/main/scala/RecommendSystem.scala -> MutableAggregationBuffer
+/home/skorpionx/UdeA/Seminario/recomendadorDeContenido/src/main/scala/RecommendSystem.scala -> Nothing
+/home/skorpionx/UdeA/Seminario/recomendadorDeContenido/src/main/scala/RecommendSystem.scala -> Object
+/home/skorpionx/UdeA/Seminario/recomendadorDeContenido/src/main/scala/RecommendSystem.scala -> Predef
+/home/skorpionx/UdeA/Seminario/recomendadorDeContenido/src/main/scala/RecommendSystem.scala -> RandomHyperplanes
+/home/skorpionx/UdeA/Seminario/recomendadorDeContenido/src/main/scala/RecommendSystem.scala -> RecommendationSystem
+/home/skorpionx/UdeA/Seminario/recomendadorDeContenido/src/main/scala/RecommendSystem.scala -> RelationalGroupedDataset
+/home/skorpionx/UdeA/Seminario/recomendadorDeContenido/src/main/scala/RecommendSystem.scala -> Row
+/home/skorpionx/UdeA/Seminario/recomendadorDeContenido/src/main/scala/RecommendSystem.scala -> SQLDataTypes
+/home/skorpionx/UdeA/Seminario/recomendadorDeContenido/src/main/scala/RecommendSystem.scala -> Seq
+/home/skorpionx/UdeA/Seminario/recomendadorDeContenido/src/main/scala/RecommendSystem.scala -> SparkSession
+/home/skorpionx/UdeA/Seminario/recomendadorDeContenido/src/main/scala/RecommendSystem.scala -> String
+/home/skorpionx/UdeA/Seminario/recomendadorDeContenido/src/main/scala/RecommendSystem.scala -> StructField
+/home/skorpionx/UdeA/Seminario/recomendadorDeContenido/src/main/scala/RecommendSystem.scala -> StructType
+/home/skorpionx/UdeA/Seminario/recomendadorDeContenido/src/main/scala/RecommendSystem.scala -> T
+/home/skorpionx/UdeA/Seminario/recomendadorDeContenido/src/main/scala/RecommendSystem.scala -> T0
+/home/skorpionx/UdeA/Seminario/recomendadorDeContenido/src/main/scala/RecommendSystem.scala -> That
+/home/skorpionx/UdeA/Seminario/recomendadorDeContenido/src/main/scala/RecommendSystem.scala -> Unit
+/home/skorpionx/UdeA/Seminario/recomendadorDeContenido/src/main/scala/RecommendSystem.scala -> UserDefinedAggregateFunction
+/home/skorpionx/UdeA/Seminario/recomendadorDeContenido/src/main/scala/RecommendSystem.scala -> Vector
+/home/skorpionx/UdeA/Seminario/recomendadorDeContenido/src/main/scala/RecommendSystem.scala -> VectorType
+/home/skorpionx/UdeA/Seminario/recomendadorDeContenido/src/main/scala/RecommendSystem.scala -> Vectors
+/home/skorpionx/UdeA/Seminario/recomendadorDeContenido/src/main/scala/RecommendSystem.scala -> _$1
+/home/skorpionx/UdeA/Seminario/recomendadorDeContenido/src/main/scala/RecommendSystem.scala -> _$2
+/home/skorpionx/UdeA/Seminario/recomendadorDeContenido/src/main/scala/RecommendSystem.scala -> _$4
+/home/skorpionx/UdeA/Seminario/recomendadorDeContenido/src/main/scala/RecommendSystem.scala -> _$7
+/home/skorpionx/UdeA/Seminario/recomendadorDeContenido/src/main/scala/RecommendSystem.scala -> agg
+/home/skorpionx/UdeA/Seminario/recomendadorDeContenido/src/main/scala/RecommendSystem.scala -> apache
+/home/skorpionx/UdeA/Seminario/recomendadorDeContenido/src/main/scala/RecommendSystem.scala -> apply
+/home/skorpionx/UdeA/Seminario/recomendadorDeContenido/src/main/scala/RecommendSystem.scala -> as
+/home/skorpionx/UdeA/Seminario/recomendadorDeContenido/src/main/scala/RecommendSystem.scala -> asInstanceOf
+/home/skorpionx/UdeA/Seminario/recomendadorDeContenido/src/main/scala/RecommendSystem.scala -> avg
+/home/skorpionx/UdeA/Seminario/recomendadorDeContenido/src/main/scala/RecommendSystem.scala -> buffer
+/home/skorpionx/UdeA/Seminario/recomendadorDeContenido/src/main/scala/RecommendSystem.scala -> buffer1
+/home/skorpionx/UdeA/Seminario/recomendadorDeContenido/src/main/scala/RecommendSystem.scala -> buffer2
+/home/skorpionx/UdeA/Seminario/recomendadorDeContenido/src/main/scala/RecommendSystem.scala -> canBuildFrom
+/home/skorpionx/UdeA/Seminario/recomendadorDeContenido/src/main/scala/RecommendSystem.scala -> cant
+/home/skorpionx/UdeA/Seminario/recomendadorDeContenido/src/main/scala/RecommendSystem.scala -> collection
+/home/skorpionx/UdeA/Seminario/recomendadorDeContenido/src/main/scala/RecommendSystem.scala -> com
+/home/skorpionx/UdeA/Seminario/recomendadorDeContenido/src/main/scala/RecommendSystem.scala -> createFeatures
+/home/skorpionx/UdeA/Seminario/recomendadorDeContenido/src/main/scala/RecommendSystem.scala -> dense
+/home/skorpionx/UdeA/Seminario/recomendadorDeContenido/src/main/scala/RecommendSystem.scala -> desc
+/home/skorpionx/UdeA/Seminario/recomendadorDeContenido/src/main/scala/RecommendSystem.scala -> df
+/home/skorpionx/UdeA/Seminario/recomendadorDeContenido/src/main/scala/RecommendSystem.scala -> drop
+/home/skorpionx/UdeA/Seminario/recomendadorDeContenido/src/main/scala/RecommendSystem.scala -> expressions
+/home/skorpionx/UdeA/Seminario/recomendadorDeContenido/src/main/scala/RecommendSystem.scala -> featuresDf
+/home/skorpionx/UdeA/Seminario/recomendadorDeContenido/src/main/scala/RecommendSystem.scala -> functions
+/home/skorpionx/UdeA/Seminario/recomendadorDeContenido/src/main/scala/RecommendSystem.scala -> getDouble
+/home/skorpionx/UdeA/Seminario/recomendadorDeContenido/src/main/scala/RecommendSystem.scala -> groupBy
+/home/skorpionx/UdeA/Seminario/recomendadorDeContenido/src/main/scala/RecommendSystem.scala -> head
+/home/skorpionx/UdeA/Seminario/recomendadorDeContenido/src/main/scala/RecommendSystem.scala -> infoUser
+/home/skorpionx/UdeA/Seminario/recomendadorDeContenido/src/main/scala/RecommendSystem.scala -> input
+/home/skorpionx/UdeA/Seminario/recomendadorDeContenido/src/main/scala/RecommendSystem.scala -> join
+/home/skorpionx/UdeA/Seminario/recomendadorDeContenido/src/main/scala/RecommendSystem.scala -> linalg
+/home/skorpionx/UdeA/Seminario/recomendadorDeContenido/src/main/scala/RecommendSystem.scala -> lsh
+/home/skorpionx/UdeA/Seminario/recomendadorDeContenido/src/main/scala/RecommendSystem.scala -> map
+/home/skorpionx/UdeA/Seminario/recomendadorDeContenido/src/main/scala/RecommendSystem.scala -> materializeClassTag
+/home/skorpionx/UdeA/Seminario/recomendadorDeContenido/src/main/scala/RecommendSystem.scala -> ml
+/home/skorpionx/UdeA/Seminario/recomendadorDeContenido/src/main/scala/RecommendSystem.scala -> neighborsDf
+/home/skorpionx/UdeA/Seminario/recomendadorDeContenido/src/main/scala/RecommendSystem.scala -> orderBy
+/home/skorpionx/UdeA/Seminario/recomendadorDeContenido/src/main/scala/RecommendSystem.scala -> org
+/home/skorpionx/UdeA/Seminario/recomendadorDeContenido/src/main/scala/RecommendSystem.scala -> package
+/home/skorpionx/UdeA/Seminario/recomendadorDeContenido/src/main/scala/RecommendSystem.scala -> randomHyperplanes
+/home/skorpionx/UdeA/Seminario/recomendadorDeContenido/src/main/scala/RecommendSystem.scala -> recommendationSys
+/home/skorpionx/UdeA/Seminario/recomendadorDeContenido/src/main/scala/RecommendSystem.scala -> refArrayOps
+/home/skorpionx/UdeA/Seminario/recomendadorDeContenido/src/main/scala/RecommendSystem.scala -> scala
+/home/skorpionx/UdeA/Seminario/recomendadorDeContenido/src/main/scala/RecommendSystem.scala -> select
+/home/skorpionx/UdeA/Seminario/recomendadorDeContenido/src/main/scala/RecommendSystem.scala -> signaturDf
+/home/skorpionx/UdeA/Seminario/recomendadorDeContenido/src/main/scala/RecommendSystem.scala -> signature
+/home/skorpionx/UdeA/Seminario/recomendadorDeContenido/src/main/scala/RecommendSystem.scala -> spark
+/home/skorpionx/UdeA/Seminario/recomendadorDeContenido/src/main/scala/RecommendSystem.scala -> sql
+/home/skorpionx/UdeA/Seminario/recomendadorDeContenido/src/main/scala/RecommendSystem.scala -> toArray
+/home/skorpionx/UdeA/Seminario/recomendadorDeContenido/src/main/scala/RecommendSystem.scala -> types
+/home/skorpionx/UdeA/Seminario/recomendadorDeContenido/src/main/scala/RecommendSystem.scala -> update
+/home/skorpionx/UdeA/Seminario/recomendadorDeContenido/src/main/scala/RecommendSystem.scala -> user
+/home/skorpionx/UdeA/Seminario/recomendadorDeContenido/src/main/scala/RecommendSystem.scala -> where
+/home/skorpionx/UdeA/Seminario/recomendadorDeContenido/src/main/scala/RecommendSystem.scala -> x
+product stamps:
+16 items
+/home/skorpionx/UdeA/Seminario/recomendadorDeContenido/target/scala-2.11/classes/com/lsh/RandomHyperplanes$$anonfun$1.class -> lastModified(1495335349000)
+/home/skorpionx/UdeA/Seminario/recomendadorDeContenido/target/scala-2.11/classes/com/lsh/RandomHyperplanes$$anonfun$2$$anonfun$apply$mcI$sp$1.class -> lastModified(1495335349000)
+/home/skorpionx/UdeA/Seminario/recomendadorDeContenido/target/scala-2.11/classes/com/lsh/RandomHyperplanes$$anonfun$2.class -> lastModified(1495335349000)
+/home/skorpionx/UdeA/Seminario/recomendadorDeContenido/target/scala-2.11/classes/com/lsh/RandomHyperplanes$$anonfun$3.class -> lastModified(1495335349000)
+/home/skorpionx/UdeA/Seminario/recomendadorDeContenido/target/scala-2.11/classes/com/lsh/RandomHyperplanes$$anonfun$4.class -> lastModified(1495335349000)
+/home/skorpionx/UdeA/Seminario/recomendadorDeContenido/target/scala-2.11/classes/com/lsh/RandomHyperplanes$$anonfun$stringSignature$1.class -> lastModified(1495335349000)
+/home/skorpionx/UdeA/Seminario/recomendadorDeContenido/target/scala-2.11/classes/com/lsh/RandomHyperplanes$$typecreator1$1.class -> lastModified(1495335349000)
+/home/skorpionx/UdeA/Seminario/recomendadorDeContenido/target/scala-2.11/classes/com/lsh/RandomHyperplanes$$typecreator2$1.class -> lastModified(1495335349000)
+/home/skorpionx/UdeA/Seminario/recomendadorDeContenido/target/scala-2.11/classes/com/lsh/RandomHyperplanes$.class -> lastModified(1495335349000)
+/home/skorpionx/UdeA/Seminario/recomendadorDeContenido/target/scala-2.11/classes/com/lsh/RandomHyperplanes.class -> lastModified(1495335349000)
+/home/skorpionx/UdeA/Seminario/recomendadorDeContenido/target/scala-2.11/classes/com/recommendationSys/Constants$.class -> lastModified(1495335349000)
+/home/skorpionx/UdeA/Seminario/recomendadorDeContenido/target/scala-2.11/classes/com/recommendationSys/Constants.class -> lastModified(1495335349000)
+/home/skorpionx/UdeA/Seminario/recomendadorDeContenido/target/scala-2.11/classes/com/recommendationSys/CreateFeatures.class -> lastModified(1495335349000)
+/home/skorpionx/UdeA/Seminario/recomendadorDeContenido/target/scala-2.11/classes/com/recommendationSys/RecommendationSystem$$anonfun$recommendToUser$1.class -> lastModified(1495335349000)
+/home/skorpionx/UdeA/Seminario/recomendadorDeContenido/target/scala-2.11/classes/com/recommendationSys/RecommendationSystem$.class -> lastModified(1495335349000)
+/home/skorpionx/UdeA/Seminario/recomendadorDeContenido/target/scala-2.11/classes/com/recommendationSys/RecommendationSystem.class -> lastModified(1495335349000)
+source stamps:
+3 items
+/home/skorpionx/UdeA/Seminario/recomendadorDeContenido/src/main/scala/Constants.scala -> hash(331025f0b9b49ee125b6892ecf611f44ce524875)
+/home/skorpionx/UdeA/Seminario/recomendadorDeContenido/src/main/scala/RandomHyperplanes.scala -> hash(804fc023bf32e3b38927260948af3f8b552315c2)
+/home/skorpionx/UdeA/Seminario/recomendadorDeContenido/src/main/scala/RecommendSystem.scala -> hash(a18347c2c21bd710d473d4bd3cc634105b93fdf5)
+binary stamps:
+7 items
+/home/skorpionx/.ivy2/cache/org.apache.spark/spark-catalyst_2.11/jars/spark-catalyst_2.11-2.1.0.jar -> lastModified(1481872148000)
+/home/skorpionx/.ivy2/cache/org.apache.spark/spark-mllib-local_2.11/jars/spark-mllib-local_2.11-2.1.0.jar -> lastModified(1481871681000)
+/home/skorpionx/.ivy2/cache/org.apache.spark/spark-mllib_2.11/jars/spark-mllib_2.11-2.1.0.jar -> lastModified(1481872352000)
+/home/skorpionx/.ivy2/cache/org.apache.spark/spark-sql_2.11/jars/spark-sql_2.11-2.1.0.jar -> lastModified(1481872304000)
+/home/skorpionx/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.11.8.jar -> lastModified(1457105192000)
+/home/skorpionx/.ivy2/cache/org.scala-lang/scala-reflect/jars/scala-reflect-2.11.8.jar -> lastModified(1457105200000)
+/usr/lib/jvm/java-8-oracle/jre/lib/rt.jar -> lastModified(1489256603000)
+class names:
+7 items
+/home/skorpionx/.ivy2/cache/org.apache.spark/spark-catalyst_2.11/jars/spark-catalyst_2.11-2.1.0.jar -> org.apache.spark.sql.types.StructField
+/home/skorpionx/.ivy2/cache/org.apache.spark/spark-mllib-local_2.11/jars/spark-mllib-local_2.11-2.1.0.jar -> org.apache.spark.ml.linalg.Vector
+/home/skorpionx/.ivy2/cache/org.apache.spark/spark-mllib_2.11/jars/spark-mllib_2.11-2.1.0.jar -> org.apache.spark.ml.linalg.SQLDataTypes$
+/home/skorpionx/.ivy2/cache/org.apache.spark/spark-sql_2.11/jars/spark-sql_2.11-2.1.0.jar -> org.apache.spark.sql.expressions.UserDefinedAggregateFunction
+/home/skorpionx/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.11.8.jar -> scala.Boolean
+/home/skorpionx/.ivy2/cache/org.scala-lang/scala-reflect/jars/scala-reflect-2.11.8.jar -> scala.reflect.api.TypeCreator
+/usr/lib/jvm/java-8-oracle/jre/lib/rt.jar -> java.lang.Object
+internal apis:
+3 items
+/home/skorpionx/UdeA/Seminario/recomendadorDeContenido/src/main/scala/Constants.scala -> 
+rO0ABXNyABB4c2J0aS5hcGkuU291cmNlSjH5SdlLSkQCAAdJAAdhcGlIYXNoWgAIaGFzTWFjcm9aABBoYXNQYWNrYWdlT2JqZWN0TAAYX2ludGVybmFsT25seV9uYW1lSGFzaGVzdAAkTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoZXM7TAADYXBpdAAVTHhzYnRpL2FwaS9Tb3VyY2VBUEk7TAALY29tcGlsYXRpb250ABdMeHNidGkvYXBpL0NvbXBpbGF0aW9uO1sABGhhc2h0AAJbQnhwtoTM/QAAc3IAInhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoZXNU2r6Z+tTsTAIAAlsAD2ltcGxpY2l0TWVtYmVyc3QAI1tMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2g7WwAOcmVndWxhck1lbWJlcnNxAH4AB3hwdXIAI1tMeHNidGkuYXBpLl9pbnRlcm5hbE9ubHlfTmFtZUhhc2g7SVqAtt2Wi/QCAAB4cAAAAAB1cQB+AAkAAAAbc3IAIHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoWw71InY4V88CAAJJAARoYXNoTAAEbmFtZXQAEkxqYXZhL2xhbmcvU3RyaW5nO3hwlLvXcXQABm5vdGlmeXNxAH4ADFEVqBJ0AAR3YWl0c3EAfgAMaBwPO3QADSRhc0luc3RhbmNlT2ZzcQB+AAxrC0m5dAAGZXF1YWxzc3EAfgAMRCEfs3QADGFzSW5zdGFuY2VPZnNxAH4ADA/TNxV0AAlDb25zdGFudHNzcQB+AAyRu3qndAALQ09MX1VTRVJfSURzcQB+AAyBdCf4dAAMc3luY2hyb25pemVkc3EAfgAMfcZIz3QADSRpc0luc3RhbmNlT2ZzcQB+AAzdew0IdAAJbm90aWZ5QWxsc3EAfgAMnJi0b3QADGlzSW5zdGFuY2VPZnNxAH4ADOuEKNR0AA1DT0xfVElNRVNUQU1Qc3EAfgAMKZCmA3QAAj09c3EAfgAMKroM/XQABWNsb25lc3EAfgAMznMojXQADUNPTF9TSUdOQVRVUkVzcQB+AAyBlvufdAAIdG9TdHJpbmdzcQB+AAyVRIT6dAANQU5EX0ZVTkNUSU9OU3NxAH4ADAYxnxt0AAIhPXNxAH4ADBr/4TZ0AAhnZXRDbGFzc3NxAH4ADCsGibF0AApDT0xfUkFUSU5Hc3EAfgAMLzL+0XQAAm5lc3EAfgAMrYYdNnQADENPTF9GRUFUVVJFU3NxAH4ADCejPC90AAJlcXNxAH4ADL9dToJ0AAIjI3NxAH4ADNhc1Ch0AAhmaW5hbGl6ZXNxAH4ADDBMVFl0AAhoYXNoQ29kZXNxAH4ADLQ0bhl0AAxDT0xfTU9WSUVfSURzcgATeHNidGkuYXBpLlNvdXJjZUFQSblep/kpIzikAgACWwALZGVmaW5pdGlvbnN0ABdbTHhzYnRpL2FwaS9EZWZpbml0aW9uO1sACHBhY2thZ2VzdAAUW0x4c2J0aS9hcGkvUGFja2FnZTt4cHVyABdbTHhzYnRpLmFwaS5EZWZpbml0aW9uO4jJXOe0414OAgAAeHAAAAABc3IAE3hzYnRpLmFwaS5DbGFzc0xpa2WDNByh37CXbAIABEwADmRlZmluaXRpb25UeXBldAAaTHhzYnRpL2FwaS9EZWZpbml0aW9uVHlwZTtbABBzYXZlZEFubm90YXRpb25zdAATW0xqYXZhL2xhbmcvU3RyaW5nO0wACHNlbGZUeXBldAAQTHhzYnRpL2FwaS9MYXp5O0wACXN0cnVjdHVyZXEAfgBNeHIAIXhzYnRpLmFwaS5QYXJhbWV0ZXJpemVkRGVmaW5pdGlvbvkRbrHVUDziAgABWwAOdHlwZVBhcmFtZXRlcnN0ABpbTHhzYnRpL2FwaS9UeXBlUGFyYW1ldGVyO3hyABR4c2J0aS5hcGkuRGVmaW5pdGlvbocqG+hxQuNGAgAETAAGYWNjZXNzdAASTHhzYnRpL2FwaS9BY2Nlc3M7WwALYW5ub3RhdGlvbnN0ABdbTHhzYnRpL2FwaS9Bbm5vdGF0aW9uO0wACW1vZGlmaWVyc3QAFUx4c2J0aS9hcGkvTW9kaWZpZXJzO0wABG5hbWVxAH4ADXhwc3IAEHhzYnRpLmFwaS5QdWJsaWO6WD2ubC1gQgIAAHhyABB4c2J0aS5hcGkuQWNjZXNz3WKa+B1jMUgCAAB4cHVyABdbTHhzYnRpLmFwaS5Bbm5vdGF0aW9uO+uX6xkQ9o1IAgAAeHAAAAAAc3IAE3hzYnRpLmFwaS5Nb2RpZmllcnOX52HcEyZ7swIAAUIABWZsYWdzeHAAdAAfY29tLnJlY29tbWVuZGF0aW9uU3lzLkNvbnN0YW50c3VyABpbTHhzYnRpLmFwaS5UeXBlUGFyYW1ldGVyO9ltJg8onfK2AgAAeHAAAAAAfnIAGHhzYnRpLmFwaS5EZWZpbml0aW9uVHlwZQAAAAAAAAAAEgAAeHIADmphdmEubGFuZy5FbnVtAAAAAAAAAAASAAB4cHQABk1vZHVsZXVyABNbTGphdmEubGFuZy5TdHJpbmc7rdJW5+kde0cCAAB4cAAAAABzcgAheHNidGkuYXBpLkFic3RyYWN0TGF6eSRTdHJpY3RMYXp5DWYcaykWKrgCAAFMAAV2YWx1ZXQAEkxqYXZhL2xhbmcvT2JqZWN0O3hwc3IAE3hzYnRpLmFwaS5FbXB0eVR5cGW8/Z5GSTuJJAIAAHhyABR4c2J0aS5hcGkuU2ltcGxlVHlwZXJ4YoghI79AAgAAeHIADnhzYnRpLmFwaS5UeXBlP2rZIRZJqsoCAAB4cHNxAH4AZXNyABN4c2J0aS5hcGkuU3RydWN0dXJlqar5gJNv2AACAANMAAhkZWNsYXJlZHEAfgBNTAAJaW5oZXJpdGVkcQB+AE1MAAdwYXJlbnRzcQB+AE14cQB+AGpzcQB+AGV1cQB+AEgAAAAAc3EAfgBldXEAfgBIAAAAAHNxAH4AZXVyABFbTHhzYnRpLmFwaS5UeXBlO3T/pVp7+elBAgAAeHAAAAACc3IAFHhzYnRpLmFwaS5Qcm9qZWN0aW9u89KNVOlFpC0CAAJMAAJpZHEAfgANTAAGcHJlZml4dAAWTHhzYnRpL2FwaS9TaW1wbGVUeXBlO3hxAH4AaXQABk9iamVjdHNyABN4c2J0aS5hcGkuU2luZ2xldG9u/Kdf+M9W5EYCAAFMAARwYXRodAAQTHhzYnRpL2FwaS9QYXRoO3hxAH4AaXNyAA54c2J0aS5hcGkuUGF0aJs9XAjOpSeEAgABWwAKY29tcG9uZW50c3QAGltMeHNidGkvYXBpL1BhdGhDb21wb25lbnQ7eHB1cgAaW0x4c2J0aS5hcGkuUGF0aENvbXBvbmVudDtD2gl0LWcWdAIAAHhwAAAAA3NyAAx4c2J0aS5hcGkuSWSYMmyLN1PEQAIAAUwAAmlkcQB+AA14cgAXeHNidGkuYXBpLlBhdGhDb21wb25lbnRfmiJbLoafvAIAAHhwdAAEamF2YXNxAH4AgnQABGxhbmdzcgAOeHNidGkuYXBpLlRoaXPbCe2mzFpAXAIAAHhxAH4Ag3NxAH4AdnQAA0FueXNxAH4AenNxAH4AfXVxAH4AgAAAAAJzcQB+AIJ0AAVzY2FsYXEAfgCJdXIAFFtMeHNidGkuYXBpLlBhY2thZ2U7WxMZN3CnJ6ECAAB4cAAAAAJzcgAReHNidGkuYXBpLlBhY2thZ2V+WY/2rs45WAIAAUwABG5hbWVxAH4ADXhwdAAVY29tLnJlY29tbWVuZGF0aW9uU3lzc3EAfgCTdAADY29tc3IAFXhzYnRpLmFwaS5Db21waWxhdGlvbu364MNq6KBCAgACSgAJc3RhcnRUaW1lWwAHb3V0cHV0c3QAGltMeHNidGkvYXBpL091dHB1dFNldHRpbmc7eHAAAAFcKO6kJXVyABpbTHhzYnRpLmFwaS5PdXRwdXRTZXR0aW5nO39qwvOnh6VCAgAAeHAAAAABc3IAF3hzYnRpLmFwaS5PdXRwdXRTZXR0aW5netmaR3T7HXsCAAJMAA9vdXRwdXREaXJlY3RvcnlxAH4ADUwAD3NvdXJjZURpcmVjdG9yeXEAfgANeHB0AFAvaG9tZS9za29ycGlvbngvVWRlQS9TZW1pbmFyaW8vcmVjb21lbmRhZG9yRGVDb250ZW5pZG8vdGFyZ2V0L3NjYWxhLTIuMTEvY2xhc3Nlc3QAAS91cgACW0Ks8xf4BghU4AIAAHhwAAAAFDMQJfC5tJ7hJbaJLs9hH0TOUkh1
+/home/skorpionx/UdeA/Seminario/recomendadorDeContenido/src/main/scala/RandomHyperplanes.scala -> 
+rO0ABXNyABB4c2J0aS5hcGkuU291cmNlSjH5SdlLSkQCAAdJAAdhcGlIYXNoWgAIaGFzTWFjcm9aABBoYXNQYWNrYWdlT2JqZWN0TAAYX2ludGVybmFsT25seV9uYW1lSGFzaGVzdAAkTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoZXM7TAADYXBpdAAVTHhzYnRpL2FwaS9Tb3VyY2VBUEk7TAALY29tcGlsYXRpb250ABdMeHNidGkvYXBpL0NvbXBpbGF0aW9uO1sABGhhc2h0AAJbQnhw4EyZ0AAAc3IAInhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoZXNU2r6Z+tTsTAIAAlsAD2ltcGxpY2l0TWVtYmVyc3QAI1tMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2g7WwAOcmVndWxhck1lbWJlcnNxAH4AB3hwdXIAI1tMeHNidGkuYXBpLl9pbnRlcm5hbE9ubHlfTmFtZUhhc2g7SVqAtt2Wi/QCAAB4cAAAAAB1cQB+AAkAAAAoc3IAIHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoWw71InY4V88CAAJJAARoYXNoTAAEbmFtZXQAEkxqYXZhL2xhbmcvU3RyaW5nO3hwRzvUzXQABm5vdGlmeXNxAH4ADOBoo0J0AAR3YWl0c3EAfgAMAWXj9nQAEVJhbmRvbUh5cGVycGxhbmVzc3EAfgAMfvtER3QADmNvcHkkZGVmYXVsdCQyc3EAfgAMeNLsJXQADSRhc0luc3RhbmNlT2ZzcQB+AAz1s26OdAAKZGF0YXNldF9SSHNxAH4ADJJOAlF0AAxwcm9kdWN0QXJpdHlzcQB+AAxLfcjsdAAGZXF1YWxzc3EAfgAMeBzeI3QADW51bUhhc2hUYWJsZXNzcQB+AAyG5TDvdAAMYXNJbnN0YW5jZU9mc3EAfgAMacV2W3QAA2xzaHNxAH4ADPs5fdR0AAxzeW5jaHJvbml6ZWRzcQB+AAytugcndAANJGlzSW5zdGFuY2VPZnNxAH4ADG1D6Mx0AAhjYW5FcXVhbHNxAH4ADHVWNSt0AA1wcm9kdWN0UHJlZml4c3EAfgAMRcqNnXQACW5vdGlmeUFsbHNxAH4ADEbo4Md0AAxpc0luc3RhbmNlT2ZzcQB+AAwEihY1dAAQbnVtSGFzaFRhYmxlc19SSHNxAH4ADMofTxF0AAY8aW5pdD5zcQB+AAyxTHMGdAAFc3BhcmtzcQB+AAzEHRJddAACPT1zcQB+AAwl5l6adAAFY2xvbmVzcQB+AAwa6dO+dAAPc3RyaW5nU2lnbmF0dXJlc3EAfgAM1hJ/rHQABiRpbml0JHNxAH4ADIXzYS90AAdkYXRhc2V0c3EAfgAMWeG/GHQADmNvcHkkZGVmYXVsdCQzc3EAfgAM2mofF3QABGNvcHlzcQB+AAxc0zjVdAAIc3BhcmtfUkhzcQB+AAzbtvMwdAAIdG9TdHJpbmdzcQB+AAz/MpAIdAACIT1zcQB+AAxGzo65dAAIZ2V0Q2xhc3NzcQB+AAxfMU8ndAAOY29weSRkZWZhdWx0JDFzcQB+AAxJ03wTdAAMaGFzaEZ1bmN0aW9uc3EAfgAMNuurcHQAAm5lc3EAfgAMozttxXQAAmVxc3EAfgAMK+kMUnQAD3Byb2R1Y3RJdGVyYXRvcnNxAH4ADBJnSfJ0AAIjI3NxAH4ADLqbzXh0AAhmaW5hbGl6ZXNxAH4ADJs7U5l0AA5wcm9kdWN0RWxlbWVudHNxAH4ADFg5s1l0AAhoYXNoQ29kZXNyABN4c2J0aS5hcGkuU291cmNlQVBJuV6n+SkjOKQCAAJbAAtkZWZpbml0aW9uc3QAF1tMeHNidGkvYXBpL0RlZmluaXRpb247WwAIcGFja2FnZXN0ABRbTHhzYnRpL2FwaS9QYWNrYWdlO3hwdXIAF1tMeHNidGkuYXBpLkRlZmluaXRpb247iMlc57TjXg4CAAB4cAAAAAFzcgATeHNidGkuYXBpLkNsYXNzTGlrZYM0HKHfsJdsAgAETAAOZGVmaW5pdGlvblR5cGV0ABpMeHNidGkvYXBpL0RlZmluaXRpb25UeXBlO1sAEHNhdmVkQW5ub3RhdGlvbnN0ABNbTGphdmEvbGFuZy9TdHJpbmc7TAAIc2VsZlR5cGV0ABBMeHNidGkvYXBpL0xhenk7TAAJc3RydWN0dXJlcQB+AGd4cgAheHNidGkuYXBpLlBhcmFtZXRlcml6ZWREZWZpbml0aW9u+RFusdVQPOICAAFbAA50eXBlUGFyYW1ldGVyc3QAGltMeHNidGkvYXBpL1R5cGVQYXJhbWV0ZXI7eHIAFHhzYnRpLmFwaS5EZWZpbml0aW9uhyob6HFC40YCAARMAAZhY2Nlc3N0ABJMeHNidGkvYXBpL0FjY2VzcztbAAthbm5vdGF0aW9uc3QAF1tMeHNidGkvYXBpL0Fubm90YXRpb247TAAJbW9kaWZpZXJzdAAVTHhzYnRpL2FwaS9Nb2RpZmllcnM7TAAEbmFtZXEAfgANeHBzcgAQeHNidGkuYXBpLlB1YmxpY7pYPa5sLWBCAgAAeHIAEHhzYnRpLmFwaS5BY2Nlc3PdYpr4HWMxSAIAAHhwdXIAF1tMeHNidGkuYXBpLkFubm90YXRpb24765frGRD2jUgCAAB4cAAAAABzcgATeHNidGkuYXBpLk1vZGlmaWVyc5fnYdwTJnuzAgABQgAFZmxhZ3N4cAB0ABljb20ubHNoLlJhbmRvbUh5cGVycGxhbmVzdXIAGltMeHNidGkuYXBpLlR5cGVQYXJhbWV0ZXI72W0mDyid8rYCAAB4cAAAAAB+cgAYeHNidGkuYXBpLkRlZmluaXRpb25UeXBlAAAAAAAAAAASAAB4cgAOamF2YS5sYW5nLkVudW0AAAAAAAAAABIAAHhwdAAIQ2xhc3NEZWZ1cgATW0xqYXZhLmxhbmcuU3RyaW5nO63SVufpHXtHAgAAeHAAAAAAc3IAIXhzYnRpLmFwaS5BYnN0cmFjdExhenkkU3RyaWN0TGF6eQ1mHGspFiq4AgABTAAFdmFsdWV0ABJMamF2YS9sYW5nL09iamVjdDt4cHNyABN4c2J0aS5hcGkuRW1wdHlUeXBlvP2eRkk7iSQCAAB4cgAUeHNidGkuYXBpLlNpbXBsZVR5cGVyeGKIISO/QAIAAHhyAA54c2J0aS5hcGkuVHlwZT9q2SEWSarKAgAAeHBzcQB+AH9zcgATeHNidGkuYXBpLlN0cnVjdHVyZamq+YCTb9gAAgADTAAIZGVjbGFyZWRxAH4AZ0wACWluaGVyaXRlZHEAfgBnTAAHcGFyZW50c3EAfgBneHEAfgCEc3EAfgB/dXEAfgBiAAAAAHNxAH4Af3VxAH4AYgAAAABzcQB+AH91cgARW0x4c2J0aS5hcGkuVHlwZTt0/6Vae/npQQIAAHhwAAAABnNyABR4c2J0aS5hcGkuUHJvamVjdGlvbvPSjVTpRaQtAgACTAACaWRxAH4ADUwABnByZWZpeHQAFkx4c2J0aS9hcGkvU2ltcGxlVHlwZTt4cQB+AIN0AAxTZXJpYWxpemFibGVzcgATeHNidGkuYXBpLlNpbmdsZXRvbvynX/jPVuRGAgABTAAEcGF0aHQAEEx4c2J0aS9hcGkvUGF0aDt4cQB+AINzcgAOeHNidGkuYXBpLlBhdGibPVwIzqUnhAIAAVsACmNvbXBvbmVudHN0ABpbTHhzYnRpL2FwaS9QYXRoQ29tcG9uZW50O3hwdXIAGltMeHNidGkuYXBpLlBhdGhDb21wb25lbnQ7Q9oJdC1nFnQCAAB4cAAAAAJzcgAMeHNidGkuYXBpLklkmDJsizdTxEACAAFMAAJpZHEAfgANeHIAF3hzYnRpLmFwaS5QYXRoQ29tcG9uZW50X5oiWy6Gn7wCAAB4cHQABXNjYWxhc3IADnhzYnRpLmFwaS5UaGlz2wntpsxaQFwCAAB4cQB+AJ1zcQB+AJBxAH4Ak3NxAH4AlHNxAH4Al3VxAH4AmgAAAANzcQB+AJx0AARqYXZhc3EAfgCcdAACaW9xAH4AoXNxAH4AkHQAB1Byb2R1Y3RxAH4AlnNxAH4AkHQABkVxdWFsc3EAfgCWc3EAfgCQdAAGT2JqZWN0c3EAfgCUc3EAfgCXdXEAfgCaAAAAA3NxAH4AnHEAfgCnc3EAfgCcdAAEbGFuZ3EAfgChc3EAfgCQdAADQW55cQB+AJZ1cgAUW0x4c2J0aS5hcGkuUGFja2FnZTtbExk3cKcnoQIAAHhwAAAAAnNyABF4c2J0aS5hcGkuUGFja2FnZX5Zj/auzjlYAgABTAAEbmFtZXEAfgANeHB0AAdjb20ubHNoc3EAfgC6dAADY29tc3IAFXhzYnRpLmFwaS5Db21waWxhdGlvbu364MNq6KBCAgACSgAJc3RhcnRUaW1lWwAHb3V0cHV0c3QAGltMeHNidGkvYXBpL091dHB1dFNldHRpbmc7eHAAAAFcKO6kJXVyABpbTHhzYnRpLmFwaS5PdXRwdXRTZXR0aW5nO39qwvOnh6VCAgAAeHAAAAABc3IAF3hzYnRpLmFwaS5PdXRwdXRTZXR0aW5netmaR3T7HXsCAAJMAA9vdXRwdXREaXJlY3RvcnlxAH4ADUwAD3NvdXJjZURpcmVjdG9yeXEAfgANeHB0AFAvaG9tZS9za29ycGlvbngvVWRlQS9TZW1pbmFyaW8vcmVjb21lbmRhZG9yRGVDb250ZW5pZG8vdGFyZ2V0L3NjYWxhLTIuMTEvY2xhc3Nlc3QAAS91cgACW0Ks8xf4BghU4AIAAHhwAAAAFIBPwCO/MuOziScmCUivP4tVIxXC
+/home/skorpionx/UdeA/Seminario/recomendadorDeContenido/src/main/scala/RecommendSystem.scala -> 
+rO0ABXNyABB4c2J0aS5hcGkuU291cmNlSjH5SdlLSkQCAAdJAAdhcGlIYXNoWgAIaGFzTWFjcm9aABBoYXNQYWNrYWdlT2JqZWN0TAAYX2ludGVybmFsT25seV9uYW1lSGFzaGVzdAAkTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoZXM7TAADYXBpdAAVTHhzYnRpL2FwaS9Tb3VyY2VBUEk7TAALY29tcGlsYXRpb250ABdMeHNidGkvYXBpL0NvbXBpbGF0aW9uO1sABGhhc2h0AAJbQnhwFeYppAAAc3IAInhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoZXNU2r6Z+tTsTAIAAlsAD2ltcGxpY2l0TWVtYmVyc3QAI1tMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2g7WwAOcmVndWxhck1lbWJlcnNxAH4AB3hwdXIAI1tMeHNidGkuYXBpLl9pbnRlcm5hbE9ubHlfTmFtZUhhc2g7SVqAtt2Wi/QCAAB4cAAAAAB1cQB+AAkAAAAkc3IAIHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoWw71InY4V88CAAJJAARoYXNoTAAEbmFtZXQAEkxqYXZhL2xhbmcvU3RyaW5nO3hwOSHgiXQABm5vdGlmeXNxAH4ADDAxSE90AAR3YWl0c3EAfgAM+FV2v3QADSRhc0luc3RhbmNlT2ZzcQB+AAw4wDcPdAALaW5wdXRTY2hlbWFzcQB+AAzyuTxEdAAGZXF1YWxzc3EAfgAMnCXc9XQACW5vcm1hbGl6ZXNxAH4ADBd0u3F0AAxhc0luc3RhbmNlT2ZzcQB+AAwjLqladAAIZXZhbHVhdGVzcQB+AAyAc7D/dAAOQ3JlYXRlRmVhdHVyZXNzcQB+AAzcxFZBdAADbHNoc3EAfgAMGF8PZXQADHN5bmNocm9uaXplZHNxAH4ADBvOJ950AA0kaXNJbnN0YW5jZU9mc3EAfgAMGgKKYXQAFFJlY29tbWVuZGF0aW9uU3lzdGVtc3EAfgAMHnIu7HQACW5vdGlmeUFsbHNxAH4ADGdaBKB0AAppbml0aWFsaXplc3EAfgAMx8hSvHQADGlzSW5zdGFuY2VPZnNxAH4ADEkcuCp0AApwcmVwcm9jZXNzc3EAfgAMMJ43D3QABjxpbml0PnNxAH4ADCOII0h0AAVtZXJnZXNxAH4ADFz5n0d0AAVhcHBseXNxAH4ADLQP7Wt0AA9yZWNvbW1lbmRUb1VzZXJzcQB+AAyxQwQGdAACPT1zcQB+AAymv7MwdAAFY2xvbmVzcQB+AAzZHJC3dAAIZGlzdGluY3RzcQB+AAy7uR2PdAAIdG9TdHJpbmdzcQB+AAxxut+ndAACIT1zcQB+AAy3d7+8dAANZGV0ZXJtaW5pc3RpY3NxAH4ADOphgNV0AAhnZXRDbGFzc3NxAH4ADI0nQu10AAZ1cGRhdGVzcQB+AAyioAVKdAAIZGF0YVR5cGVzcQB+AAyMuXtgdAACbmVzcQB+AAyiUkvFdAAMYnVmZmVyU2NoZW1hc3EAfgAM73Dpj3QAAmVxc3EAfgAMHAHIW3QAAiMjc3EAfgAMxlrZ2XQACGZpbmFsaXplc3EAfgAMnySB9nQACGhhc2hDb2Rlc3IAE3hzYnRpLmFwaS5Tb3VyY2VBUEm5Xqf5KSM4pAIAAlsAC2RlZmluaXRpb25zdAAXW0x4c2J0aS9hcGkvRGVmaW5pdGlvbjtbAAhwYWNrYWdlc3QAFFtMeHNidGkvYXBpL1BhY2thZ2U7eHB1cgAXW0x4c2J0aS5hcGkuRGVmaW5pdGlvbjuIyVzntONeDgIAAHhwAAAAAnNyABN4c2J0aS5hcGkuQ2xhc3NMaWtlgzQcod+wl2wCAARMAA5kZWZpbml0aW9uVHlwZXQAGkx4c2J0aS9hcGkvRGVmaW5pdGlvblR5cGU7WwAQc2F2ZWRBbm5vdGF0aW9uc3QAE1tMamF2YS9sYW5nL1N0cmluZztMAAhzZWxmVHlwZXQAEEx4c2J0aS9hcGkvTGF6eTtMAAlzdHJ1Y3R1cmVxAH4AX3hyACF4c2J0aS5hcGkuUGFyYW1ldGVyaXplZERlZmluaXRpb275EW6x1VA84gIAAVsADnR5cGVQYXJhbWV0ZXJzdAAaW0x4c2J0aS9hcGkvVHlwZVBhcmFtZXRlcjt4cgAUeHNidGkuYXBpLkRlZmluaXRpb26HKhvocULjRgIABEwABmFjY2Vzc3QAEkx4c2J0aS9hcGkvQWNjZXNzO1sAC2Fubm90YXRpb25zdAAXW0x4c2J0aS9hcGkvQW5ub3RhdGlvbjtMAAltb2RpZmllcnN0ABVMeHNidGkvYXBpL01vZGlmaWVycztMAARuYW1lcQB+AA14cHNyABB4c2J0aS5hcGkuUHVibGljulg9rmwtYEICAAB4cgAQeHNidGkuYXBpLkFjY2Vzc91imvgdYzFIAgAAeHB1cgAXW0x4c2J0aS5hcGkuQW5ub3RhdGlvbjvrl+sZEPaNSAIAAHhwAAAAAHNyABN4c2J0aS5hcGkuTW9kaWZpZXJzl+dh3BMme7MCAAFCAAVmbGFnc3hwAHQAKmNvbS5yZWNvbW1lbmRhdGlvblN5cy5SZWNvbW1lbmRhdGlvblN5c3RlbXVyABpbTHhzYnRpLmFwaS5UeXBlUGFyYW1ldGVyO9ltJg8onfK2AgAAeHAAAAAAfnIAGHhzYnRpLmFwaS5EZWZpbml0aW9uVHlwZQAAAAAAAAAAEgAAeHIADmphdmEubGFuZy5FbnVtAAAAAAAAAAASAAB4cHQABk1vZHVsZXVyABNbTGphdmEubGFuZy5TdHJpbmc7rdJW5+kde0cCAAB4cAAAAABzcgAheHNidGkuYXBpLkFic3RyYWN0TGF6eSRTdHJpY3RMYXp5DWYcaykWKrgCAAFMAAV2YWx1ZXQAEkxqYXZhL2xhbmcvT2JqZWN0O3hwc3IAE3hzYnRpLmFwaS5FbXB0eVR5cGW8/Z5GSTuJJAIAAHhyABR4c2J0aS5hcGkuU2ltcGxlVHlwZXJ4YoghI79AAgAAeHIADnhzYnRpLmFwaS5UeXBlP2rZIRZJqsoCAAB4cHNxAH4Ad3NyABN4c2J0aS5hcGkuU3RydWN0dXJlqar5gJNv2AACAANMAAhkZWNsYXJlZHEAfgBfTAAJaW5oZXJpdGVkcQB+AF9MAAdwYXJlbnRzcQB+AF94cQB+AHxzcQB+AHd1cQB+AFoAAAAAc3EAfgB3dXEAfgBaAAAAAHNxAH4Ad3VyABFbTHhzYnRpLmFwaS5UeXBlO3T/pVp7+elBAgAAeHAAAAACc3IAFHhzYnRpLmFwaS5Qcm9qZWN0aW9u89KNVOlFpC0CAAJMAAJpZHEAfgANTAAGcHJlZml4dAAWTHhzYnRpL2FwaS9TaW1wbGVUeXBlO3hxAH4Ae3QABk9iamVjdHNyABN4c2J0aS5hcGkuU2luZ2xldG9u/Kdf+M9W5EYCAAFMAARwYXRodAAQTHhzYnRpL2FwaS9QYXRoO3hxAH4Ae3NyAA54c2J0aS5hcGkuUGF0aJs9XAjOpSeEAgABWwAKY29tcG9uZW50c3QAGltMeHNidGkvYXBpL1BhdGhDb21wb25lbnQ7eHB1cgAaW0x4c2J0aS5hcGkuUGF0aENvbXBvbmVudDtD2gl0LWcWdAIAAHhwAAAAA3NyAAx4c2J0aS5hcGkuSWSYMmyLN1PEQAIAAUwAAmlkcQB+AA14cgAXeHNidGkuYXBpLlBhdGhDb21wb25lbnRfmiJbLoafvAIAAHhwdAAEamF2YXNxAH4AlHQABGxhbmdzcgAOeHNidGkuYXBpLlRoaXPbCe2mzFpAXAIAAHhxAH4AlXNxAH4AiHQAA0FueXNxAH4AjHNxAH4Aj3VxAH4AkgAAAAJzcQB+AJR0AAVzY2FsYXEAfgCbc3EAfgBccQB+AGl1cQB+AGoAAAAAc3EAfgBsAHQAJGNvbS5yZWNvbW1lbmRhdGlvblN5cy5DcmVhdGVGZWF0dXJlc3VxAH4AbwAAAAB+cQB+AHF0AAhDbGFzc0RlZnVxAH4AdQAAAAF0ABhzY2FsYS5hbm5vdGF0aW9uLnZhcmFyZ3NzcQB+AHdxAH4AfXNxAH4Ad3NxAH4Af3NxAH4Ad3VxAH4AWgAAAABzcQB+AHd1cQB+AFoAAAAAc3EAfgB3dXEAfgCGAAAABXNxAH4AiHQAHFVzZXJEZWZpbmVkQWdncmVnYXRlRnVuY3Rpb25zcQB+AIxzcQB+AI91cQB+AJIAAAAGc3EAfgCUdAADb3Jnc3EAfgCUdAAGYXBhY2hlc3EAfgCUdAAFc3BhcmtzcQB+AJR0AANzcWxzcQB+AJR0AAtleHByZXNzaW9uc3EAfgCbc3EAfgCIdAAMU2VyaWFsaXphYmxlc3EAfgCMc3EAfgCPdXEAfgCSAAAAAnNxAH4AlHEAfgCicQB+AJtzcQB+AIhxAH4AxXNxAH4AjHNxAH4Aj3VxAH4AkgAAAANzcQB+AJRxAH4Al3NxAH4AlHQAAmlvcQB+AJtzcQB+AIhxAH4Ai3NxAH4AjHNxAH4Aj3VxAH4AkgAAAANzcQB+AJRxAH4Al3NxAH4AlHEAfgCZcQB+AJtzcQB+AIhxAH4AnXEAfgDGdXIAFFtMeHNidGkuYXBpLlBhY2thZ2U7WxMZN3CnJ6ECAAB4cAAAAAJzcgAReHNidGkuYXBpLlBhY2thZ2V+WY/2rs45WAIAAUwABG5hbWVxAH4ADXhwdAAVY29tLnJlY29tbWVuZGF0aW9uU3lzc3EAfgDadAADY29tc3IAFXhzYnRpLmFwaS5Db21waWxhdGlvbu364MNq6KBCAgACSgAJc3RhcnRUaW1lWwAHb3V0cHV0c3QAGltMeHNidGkvYXBpL091dHB1dFNldHRpbmc7eHAAAAFcKO6kJXVyABpbTHhzYnRpLmFwaS5PdXRwdXRTZXR0aW5nO39qwvOnh6VCAgAAeHAAAAABc3IAF3hzYnRpLmFwaS5PdXRwdXRTZXR0aW5netmaR3T7HXsCAAJMAA9vdXRwdXREaXJlY3RvcnlxAH4ADUwAD3NvdXJjZURpcmVjdG9yeXEAfgANeHB0AFAvaG9tZS9za29ycGlvbngvVWRlQS9TZW1pbmFyaW8vcmVjb21lbmRhZG9yRGVDb250ZW5pZG8vdGFyZ2V0L3NjYWxhLTIuMTEvY2xhc3Nlc3QAAS91cgACW0Ks8xf4BghU4AIAAHhwAAAAFKGDR8LCG9cQ1HPUvTzGNBBbk/31
+external apis:
+0 items
+source infos:
+3 items
+/home/skorpionx/UdeA/Seminario/recomendadorDeContenido/src/main/scala/Constants.scala -> 
+AAAAAAAAAAA=
+/home/skorpionx/UdeA/Seminario/recomendadorDeContenido/src/main/scala/RandomHyperplanes.scala -> 
+AAAAAAAAAAA=
+/home/skorpionx/UdeA/Seminario/recomendadorDeContenido/src/main/scala/RecommendSystem.scala -> 
+AAAAAAAAAAA=
+compilations:
+55 items
+00 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABWppi7Cl1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQATC9ob21lL3Nrb3JwaW9ueC9Fc2NyaXRvcmlvL211bHRpcGxpY2FjaW9uTWF0cmljZXMxL3RhcmdldC9zY2FsYS0yLjExL2NsYXNzZXN0AAEv
+01 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABWps6WHx1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQATC9ob21lL3Nrb3JwaW9ueC9Fc2NyaXRvcmlvL211bHRpcGxpY2FjaW9uTWF0cmljZXMxL3RhcmdldC9zY2FsYS0yLjExL2NsYXNzZXN0AAEv
+02 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABWpvshQp1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQATC9ob21lL3Nrb3JwaW9ueC9Fc2NyaXRvcmlvL211bHRpcGxpY2FjaW9uTWF0cmljZXMxL3RhcmdldC9zY2FsYS0yLjExL2NsYXNzZXN0AAEv
+03 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABWpv/XTR1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQATC9ob21lL3Nrb3JwaW9ueC9Fc2NyaXRvcmlvL211bHRpcGxpY2FjaW9uTWF0cmljZXMxL3RhcmdldC9zY2FsYS0yLjExL2NsYXNzZXN0AAEv
+04 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABWpwir6V1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQATC9ob21lL3Nrb3JwaW9ueC9Fc2NyaXRvcmlvL211bHRpcGxpY2FjaW9uTWF0cmljZXMxL3RhcmdldC9zY2FsYS0yLjExL2NsYXNzZXN0AAEv
+05 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABWp/R5bd1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQATC9ob21lL3Nrb3JwaW9ueC9Fc2NyaXRvcmlvL211bHRpcGxpY2FjaW9uTWF0cmljZXMxL3RhcmdldC9zY2FsYS0yLjExL2NsYXNzZXN0AAEv
+06 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABWp/m7SJ1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQATC9ob21lL3Nrb3JwaW9ueC9Fc2NyaXRvcmlvL211bHRpcGxpY2FjaW9uTWF0cmljZXMxL3RhcmdldC9zY2FsYS0yLjExL2NsYXNzZXN0AAEv
+07 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABWuVfHA91cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAUC9ob21lL3Nrb3JwaW9ueC9VZGVBL1NlbWluYXJpby9tdWx0aXBsaWNhY2lvbk1hdHJpY2VzMi90YXJnZXQvc2NhbGEtMi4xMS9jbGFzc2VzdAABLw==
+08 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABWyxcLPt1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAQy9ob21lL3Nrb3Jwb254LzIwMTctMS9zZW1pbmFyaW9CRC9taW5oYXNoL3RhcmdldC9zY2FsYS0yLjExL2NsYXNzZXN0AAEv
+09 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABWyxcV6F1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAQy9ob21lL3Nrb3Jwb254LzIwMTctMS9zZW1pbmFyaW9CRC9taW5oYXNoL3RhcmdldC9zY2FsYS0yLjExL2NsYXNzZXN0AAEv
+10 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABWyxhYtZ1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAQy9ob21lL3Nrb3Jwb254LzIwMTctMS9zZW1pbmFyaW9CRC9taW5oYXNoL3RhcmdldC9zY2FsYS0yLjExL2NsYXNzZXN0AAEv
+11 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABWyxoFah1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAQy9ob21lL3Nrb3Jwb254LzIwMTctMS9zZW1pbmFyaW9CRC9taW5oYXNoL3RhcmdldC9zY2FsYS0yLjExL2NsYXNzZXN0AAEv
+12 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABWyxweMt1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAQy9ob21lL3Nrb3Jwb254LzIwMTctMS9zZW1pbmFyaW9CRC9taW5oYXNoL3RhcmdldC9zY2FsYS0yLjExL2NsYXNzZXN0AAEv
+13 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABWyx2tgB1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAQy9ob21lL3Nrb3Jwb254LzIwMTctMS9zZW1pbmFyaW9CRC9taW5oYXNoL3RhcmdldC9zY2FsYS0yLjExL2NsYXNzZXN0AAEv
+14 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABWyx/uI91cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAQy9ob21lL3Nrb3Jwb254LzIwMTctMS9zZW1pbmFyaW9CRC9taW5oYXNoL3RhcmdldC9zY2FsYS0yLjExL2NsYXNzZXN0AAEv
+15 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABWyyGeMZ1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAQy9ob21lL3Nrb3Jwb254LzIwMTctMS9zZW1pbmFyaW9CRC9taW5oYXNoL3RhcmdldC9zY2FsYS0yLjExL2NsYXNzZXN0AAEv
+16 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABWyyIMFV1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAQy9ob21lL3Nrb3Jwb254LzIwMTctMS9zZW1pbmFyaW9CRC9taW5oYXNoL3RhcmdldC9zY2FsYS0yLjExL2NsYXNzZXN0AAEv
+17 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABWyyQc911cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAQy9ob21lL3Nrb3Jwb254LzIwMTctMS9zZW1pbmFyaW9CRC9taW5oYXNoL3RhcmdldC9zY2FsYS0yLjExL2NsYXNzZXN0AAEv
+18 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABWyyRsMx1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAQy9ob21lL3Nrb3Jwb254LzIwMTctMS9zZW1pbmFyaW9CRC9taW5oYXNoL3RhcmdldC9zY2FsYS0yLjExL2NsYXNzZXN0AAEv
+19 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABWyyc4ZJ1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAQy9ob21lL3Nrb3Jwb254LzIwMTctMS9zZW1pbmFyaW9CRC9taW5oYXNoL3RhcmdldC9zY2FsYS0yLjExL2NsYXNzZXN0AAEv
+20 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABWyydEId1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAQy9ob21lL3Nrb3Jwb254LzIwMTctMS9zZW1pbmFyaW9CRC9taW5oYXNoL3RhcmdldC9zY2FsYS0yLjExL2NsYXNzZXN0AAEv
+21 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABWyyi02R1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAQy9ob21lL3Nrb3Jwb254LzIwMTctMS9zZW1pbmFyaW9CRC9taW5oYXNoL3RhcmdldC9zY2FsYS0yLjExL2NsYXNzZXN0AAEv
+22 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABWyyszjR1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAQy9ob21lL3Nrb3Jwb254LzIwMTctMS9zZW1pbmFyaW9CRC9taW5oYXNoL3RhcmdldC9zY2FsYS0yLjExL2NsYXNzZXN0AAEv
+23 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABWyytsxV1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAQy9ob21lL3Nrb3Jwb254LzIwMTctMS9zZW1pbmFyaW9CRC9taW5oYXNoL3RhcmdldC9zY2FsYS0yLjExL2NsYXNzZXN0AAEv
+24 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABWy0clXd1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAQy9ob21lL3Nrb3Jwb254LzIwMTctMS9zZW1pbmFyaW9CRC9taW5oYXNoL3RhcmdldC9zY2FsYS0yLjExL2NsYXNzZXN0AAEv
+25 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABWy0o2wN1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAQy9ob21lL3Nrb3Jwb254LzIwMTctMS9zZW1pbmFyaW9CRC9taW5oYXNoL3RhcmdldC9zY2FsYS0yLjExL2NsYXNzZXN0AAEv
+26 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABWy0qqs91cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAQy9ob21lL3Nrb3Jwb254LzIwMTctMS9zZW1pbmFyaW9CRC9taW5oYXNoL3RhcmdldC9zY2FsYS0yLjExL2NsYXNzZXN0AAEv
+27 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABWy1Awph1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAQy9ob21lL3Nrb3Jwb254LzIwMTctMS9zZW1pbmFyaW9CRC9taW5oYXNoL3RhcmdldC9zY2FsYS0yLjExL2NsYXNzZXN0AAEv
+28 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABWy1FQ691cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAQy9ob21lL3Nrb3Jwb254LzIwMTctMS9zZW1pbmFyaW9CRC9taW5oYXNoL3RhcmdldC9zY2FsYS0yLjExL2NsYXNzZXN0AAEv
+29 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABWy1HNYB1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAQy9ob21lL3Nrb3Jwb254LzIwMTctMS9zZW1pbmFyaW9CRC9taW5oYXNoL3RhcmdldC9zY2FsYS0yLjExL2NsYXNzZXN0AAEv
+30 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABWy1J+hB1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAQy9ob21lL3Nrb3Jwb254LzIwMTctMS9zZW1pbmFyaW9CRC9taW5oYXNoL3RhcmdldC9zY2FsYS0yLjExL2NsYXNzZXN0AAEv
+31 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABWy1WjoB1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAQy9ob21lL3Nrb3Jwb254LzIwMTctMS9zZW1pbmFyaW9CRC9taW5oYXNoL3RhcmdldC9zY2FsYS0yLjExL2NsYXNzZXN0AAEv
+32 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABWy1X+6h1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAQy9ob21lL3Nrb3Jwb254LzIwMTctMS9zZW1pbmFyaW9CRC9taW5oYXNoL3RhcmdldC9zY2FsYS0yLjExL2NsYXNzZXN0AAEv
+33 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABWy1Y4jx1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAQy9ob21lL3Nrb3Jwb254LzIwMTctMS9zZW1pbmFyaW9CRC9taW5oYXNoL3RhcmdldC9zY2FsYS0yLjExL2NsYXNzZXN0AAEv
+34 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABWy1epxt1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAQy9ob21lL3Nrb3Jwb254LzIwMTctMS9zZW1pbmFyaW9CRC9taW5oYXNoL3RhcmdldC9zY2FsYS0yLjExL2NsYXNzZXN0AAEv
+35 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABWy1rG5l1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAQy9ob21lL3Nrb3Jwb254LzIwMTctMS9zZW1pbmFyaW9CRC9taW5oYXNoL3RhcmdldC9zY2FsYS0yLjExL2NsYXNzZXN0AAEv
+36 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABWy1vPld1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAQy9ob21lL3Nrb3Jwb254LzIwMTctMS9zZW1pbmFyaW9CRC9taW5oYXNoL3RhcmdldC9zY2FsYS0yLjExL2NsYXNzZXN0AAEv
+37 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABWy1xE0x1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAQy9ob21lL3Nrb3Jwb254LzIwMTctMS9zZW1pbmFyaW9CRC9taW5oYXNoL3RhcmdldC9zY2FsYS0yLjExL2NsYXNzZXN0AAEv
+38 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABWy1xsj11cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAQy9ob21lL3Nrb3Jwb254LzIwMTctMS9zZW1pbmFyaW9CRC9taW5oYXNoL3RhcmdldC9zY2FsYS0yLjExL2NsYXNzZXN0AAEv
+39 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABWy101611cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAQy9ob21lL3Nrb3Jwb254LzIwMTctMS9zZW1pbmFyaW9CRC9taW5oYXNoL3RhcmdldC9zY2FsYS0yLjExL2NsYXNzZXN0AAEv
+40 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABWy13gGd1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAQy9ob21lL3Nrb3Jwb254LzIwMTctMS9zZW1pbmFyaW9CRC9taW5oYXNoL3RhcmdldC9zY2FsYS0yLjExL2NsYXNzZXN0AAEv
+41 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABWy2Mt0B1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAQy9ob21lL3Nrb3Jwb254LzIwMTctMS9zZW1pbmFyaW9CRC9taW5oYXNoL3RhcmdldC9zY2FsYS0yLjExL2NsYXNzZXN0AAEv
+42 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABWy2Vg511cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAQy9ob21lL3Nrb3Jwb254LzIwMTctMS9zZW1pbmFyaW9CRC9taW5oYXNoL3RhcmdldC9zY2FsYS0yLjExL2NsYXNzZXN0AAEv
+43 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABXCiHf+Z1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAUC9ob21lL3Nrb3JwaW9ueC9VZGVBL1NlbWluYXJpby9yZWNvbWVuZGFkb3JEZUNvbnRlbmlkby90YXJnZXQvc2NhbGEtMi4xMS9jbGFzc2VzdAABLw==
+44 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABXCiMnfp1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAUC9ob21lL3Nrb3JwaW9ueC9VZGVBL1NlbWluYXJpby9yZWNvbWVuZGFkb3JEZUNvbnRlbmlkby90YXJnZXQvc2NhbGEtMi4xMS9jbGFzc2VzdAABLw==
+45 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABXCiO9A91cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAUC9ob21lL3Nrb3JwaW9ueC9VZGVBL1NlbWluYXJpby9yZWNvbWVuZGFkb3JEZUNvbnRlbmlkby90YXJnZXQvc2NhbGEtMi4xMS9jbGFzc2VzdAABLw==
+46 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABXCiQ9np1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAUC9ob21lL3Nrb3JwaW9ueC9VZGVBL1NlbWluYXJpby9yZWNvbWVuZGFkb3JEZUNvbnRlbmlkby90YXJnZXQvc2NhbGEtMi4xMS9jbGFzc2VzdAABLw==
+47 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABXCiSLGR1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAUC9ob21lL3Nrb3JwaW9ueC9VZGVBL1NlbWluYXJpby9yZWNvbWVuZGFkb3JEZUNvbnRlbmlkby90YXJnZXQvc2NhbGEtMi4xMS9jbGFzc2VzdAABLw==
+48 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABXCiVw1t1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAUC9ob21lL3Nrb3JwaW9ueC9VZGVBL1NlbWluYXJpby9yZWNvbWVuZGFkb3JEZUNvbnRlbmlkby90YXJnZXQvc2NhbGEtMi4xMS9jbGFzc2VzdAABLw==
+49 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABXCiaYrB1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAUC9ob21lL3Nrb3JwaW9ueC9VZGVBL1NlbWluYXJpby9yZWNvbWVuZGFkb3JEZUNvbnRlbmlkby90YXJnZXQvc2NhbGEtMi4xMS9jbGFzc2VzdAABLw==
+50 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABXCifgfB1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAUC9ob21lL3Nrb3JwaW9ueC9VZGVBL1NlbWluYXJpby9yZWNvbWVuZGFkb3JEZUNvbnRlbmlkby90YXJnZXQvc2NhbGEtMi4xMS9jbGFzc2VzdAABLw==
+51 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABXCif1c11cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAUC9ob21lL3Nrb3JwaW9ueC9VZGVBL1NlbWluYXJpby9yZWNvbWVuZGFkb3JEZUNvbnRlbmlkby90YXJnZXQvc2NhbGEtMi4xMS9jbGFzc2VzdAABLw==
+52 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABXCigpoB1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAUC9ob21lL3Nrb3JwaW9ueC9VZGVBL1NlbWluYXJpby9yZWNvbWVuZGFkb3JEZUNvbnRlbmlkby90YXJnZXQvc2NhbGEtMi4xMS9jbGFzc2VzdAABLw==
+53 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABXCikXnl1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAUC9ob21lL3Nrb3JwaW9ueC9VZGVBL1NlbWluYXJpby9yZWNvbWVuZGFkb3JEZUNvbnRlbmlkby90YXJnZXQvc2NhbGEtMi4xMS9jbGFzc2VzdAABLw==
+54 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABXCjupCV1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAUC9ob21lL3Nrb3JwaW9ueC9VZGVBL1NlbWluYXJpby9yZWNvbWVuZGFkb3JEZUNvbnRlbmlkby90YXJnZXQvc2NhbGEtMi4xMS9jbGFzc2VzdAABLw==
