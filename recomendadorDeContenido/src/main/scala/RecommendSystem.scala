@@ -28,10 +28,15 @@ object RecommendationSystem {
     throw new IllegalArgumentException ("unimplement method")
   }
 
-  /** Método encargado de normalizar los datos (Edwin y jhonatan)
+  /** Método encargado de normalizar los datos
+  *  @param path: direccion donde esta el archivo que almacena los datos
+  *  @param spark: SparkSession
+  *  @return dataframe con los datos normalizados
   */
-  def normalize(): DataFrame = {
-    throw new IllegalArgumentException ("unimplement method")
+  def normalize(path: String, spark: SparkSession): DataFrame = {
+    val df = spark.read.format("text").load(path).select(expr("(split(value, ','))[0]").cast("string").as(Constants.COL_USER_ID), expr("(split(value, ','))[1]").cast("string").as(Constants.COL_MOVIE_ID), expr("(split(value, ','))[2]").cast("double").as(Constants.COL_RATING))
+    val dfxUser = df.groupBy(Constants.COL_USER_ID).agg(avg(df(Constants.COL_RATING)).as("promedio"))
+    df.join(dfxUser,Constants.COL_USER_ID).withColumn(Constants.COL_RATING,df(Constants.COL_RATING)-dfxUser("promedio")).drop(df(Constants.COL_RATING)).drop(dfxUser("promedio"))
   }
 
 
