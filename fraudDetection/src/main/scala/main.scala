@@ -21,6 +21,7 @@ object FraudDetection {
       val instances = spark.sqlContext.read.parquet(shinglinUrl)
       val minhashDF = Minhash.minhash(instances, numOfHashFunctions, spark, primesUrl)
       minhashDF.persist(MEMORY_ONLY_SER)
+      minhashDF.write.mode(SaveMode.Overwrite).format("parquet").save("minhash.parquet")
       Lsh.lsh(numOfBands, minhashDF, spark)
     }
 
