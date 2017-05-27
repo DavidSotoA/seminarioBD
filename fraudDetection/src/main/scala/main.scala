@@ -18,11 +18,11 @@ object FraudDetection {
     stopWordsUrl: String,
     shinglinSize: Int): DataFrame = {
       Shinglin.shinglin(booksPath,shinglinUrl,documentosUrl,stopWordsUrl,shinglinSize,spark)
-      val instances = spark.sqlContext.read.parquet(shinglinUrl)
+      val instances = spark.sqlContext.read.parquet(shinglinUrl).toDF("j", "i")
       val minhashDF = Minhash.minhash(instances, numOfHashFunctions, spark, primesUrl)
-      minhashDF.persist(MEMORY_ONLY_SER)
-      minhashDF.write.mode(SaveMode.Overwrite).format("parquet").save("minhash.parquet")
-      Lsh.lsh(numOfBands, minhashDF, spark)
+      minhashDF.write.mode(SaveMode.Overwrite).format("parquet").save("minhash")
+      val df = spark.sqlContext.read.parquet("minhash")
+      Lsh.lsh(numOfBands, df, spark)
     }
 
     def initSparkSession(): SparkSession = {

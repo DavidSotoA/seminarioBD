@@ -75,9 +75,8 @@ object Shinglin {
           val dfSeparado = dfFiles.withColumn("Array",abrir(col("contenido"))).drop("contenido").withColumn("palabras",explode(col("Array"))).drop("Array").withColumn("palabrasLimpias",limpieza(col("palabras"))).drop("palabras")
           var windowSpec = Window.partitionBy("i").orderBy("i").rowsBetween(0,k-1)
           val dfFrases = dfSeparado.withColumn("result", when(contenido(col("palabrasLimpias")),collect_list(col("palabrasLimpias")).over(windowSpec)).otherwise(Array[String]())).drop("palabrasLimpias").filter(myLength(col("result")) === k).withColumn("j",udfhash(col("result"))).drop("result").groupBy("i").agg(collect_set(col("j"))).withColumn("j",explode(col("collect_set(j)"))).drop("collect_set(j)")
-          val matrizResultadoFinal1 = matrizResultado.union(dfFrases)
-          val matrizResultadoFinal = matrizResultadoFinal1.select(matrizResultadoFinal1("i").alias("j"),matrizResultadoFinal1("j").alias(Constants.INDEX_ROW))
-
+          val matrizResultadoFinal = matrizResultado.union(dfFrases)
+          
           val matrizDocumentosFinal = matrizDocumentos.union(dfDocumentos)
 
           matrizResultadoFinal.write.mode(SaveMode.Overwrite).format("parquet").save(shinglinUrl)

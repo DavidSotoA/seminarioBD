@@ -4,7 +4,7 @@
 		module="frauddetection-build"
 		revision="0.1-SNAPSHOT"
 		status="integration"
-		publication="20170522140421"
+		publication="20170526122106"
 		e:sbtVersion="0.13" e:scalaVersion="2.10"
 	>
 		<description>

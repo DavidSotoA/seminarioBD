@@ -25,7 +25,7 @@ object RecommendationSystem {
  *  @return no retorna nada, el método debe de guardar el dataframe preprocesado en el HDFS
  */
   def preprocess(pathRanking: String, spark: SparkSession, pathSave: String) {
-    throw new IllegalArgumentException ("unimplement method")
+    
   }
 
   /** Método encargado de normalizar los datos
@@ -43,26 +43,33 @@ object RecommendationSystem {
  //////////////////////////ESTO ES LO MIO///////////////////////////////////////
   /** Método encargado de asignar los usuario a cubetas
   *  @param df: Dataframe con los datos normalizados
+  *  @param dfMovies: Dataframe de las peliculas
+  *   ____________________________________________________________________
+  *  |movieId|title           |genres                                     |
+  *  |1      |Toy Story (1995)|Adventure|Animation|Children|Comedy|Fantasy|
+  *  |_______|________________|___________________________________________|
   *  @param spark: SparkSession
   *  @return dataframe con los usuarios asignados en cubetas
   */
-  def lsh(df: DataFrame, spark: SparkSession): DataFrame = {
+  def lsh(df: DataFrame, dfMovies: DataFrame, spark: SparkSession): DataFrame = {
     val createFeatures =  new CreateFeatures()
-    val featuresDf = df.groupBy(Constants.COL_USER_ID).agg(createFeatures(df(Constants.COL_RATING)).as(Constants.COL_FEATURES))
-    val randomHyperplanes = new RandomHyperplanes(featuresDf, Constants.AND_FUNCTIONS, spark)
-    val signaturDf = randomHyperplanes.lsh(Constants.COL_FEATURES, Constants.COL_SIGNATURE).drop(Constants.COL_FEATURES)
-    signaturDf.join(df, Constants.COL_USER_ID).drop(Constants.COL_FEATURES)
+    val featuresDf = df.groupBy(Constants.COL_USER_ID).agg(createFeatures(df(Constants.COL_MOVIE_ID), df(Constants.COL_RATING)).as(Constants.COL_FEATURES))
+    val featuresIndex = dfMovies.select(Constants.COL_MOVIE_ID).collect
+    val featuresIndexFlatten = featuresIndex.map(_(0).asInstanceOf[Int])
+    val randomHyperplanes = new RandomHyperplanes(featuresDf, featuresIndexFlatten, 3, spark)
+    val signatureDf = randomHyperplanes.lsh(Constants.COL_FEATURES, Constants.COL_SIGNATURE).drop(Constants.COL_FEATURES)
+    df.join(signatureDf, Constants.COL_USER_ID).drop(Constants.COL_FEATURES)
   }
 
   /** Método encargado de asignar los usuario a cubetas
   *  @param user: Id del usuario al que se le recomendara contenido
-  *  @param df: dataframe
+  *  @param df: dataframe con cubetas
   *  @param cant: número de peliculas que se le recomendara al usuario
   *  @return array con los ids de las peliculas recomendadas
   */
   def recommendToUser(user: Int, df: DataFrame, cant: Int): Array[Int] = {
     val infoUser = df.select(Constants.COL_MOVIE_ID, Constants.COL_SIGNATURE).where(Constants.COL_USER_ID + " == " + user)
-    val signature = infoUser.head()(0).asInstanceOf[Int]
+    val signature = infoUser.head()(1).asInstanceOf[String]
     var neighborsDf = df.select(Constants.COL_MOVIE_ID,Constants.COL_RATING).where(Constants.COL_SIGNATURE + " == "+ signature + " and " + Constants.COL_USER_ID + " != " + user)
     neighborsDf = neighborsDf.join(infoUser, Seq(Constants.COL_MOVIE_ID), "leftanti")
     neighborsDf.groupBy(Constants.COL_MOVIE_ID).avg(Constants.COL_RATING).orderBy(desc("avg(rating)")).drop("avg(rating)").head(cant).map(x => x(0).asInstanceOf[Int])
@@ -73,33 +80,40 @@ object RecommendationSystem {
 class CreateFeatures() extends UserDefinedAggregateFunction {
 
   override def inputSchema: StructType = StructType(Array(
+   StructField("movieId", IntegerType),
    StructField("ranking", DoubleType)
   ))
 
-  override def bufferSchema: StructType =
-    StructType(Array(
-      StructField("features", ArrayType(DoubleType))
-    ))
+  override def bufferSchema: StructType =StructType(Array(
+     StructField("allInfo", ArrayType(StructType(Array(
+                                       StructField("movieId", IntegerType),
+                                       StructField("ranking", DoubleType)
+                                     ))))
+                                   ))
 
-  override def dataType: DataType = VectorType
+
+  override def dataType: DataType = ArrayType(StructType(Array(
+                                     StructField("movieId", IntegerType),
+                                     StructField("ranking", DoubleType)
+                                    )))
 
   override def deterministic: Boolean = true
 
   override def initialize(buffer: MutableAggregationBuffer): Unit = {
-    buffer(0) = Array[Double]()
+    buffer(0) = Array[(Int, Double)]()
   }
 
   override def update(buffer: MutableAggregationBuffer, input: Row): Unit = {
-    buffer(0) = buffer(0).asInstanceOf[Seq[Double]] :+ input.getDouble(0)
+    buffer(0) = buffer(0).asInstanceOf[Seq[(Int, Double)]] :+ (input.getInt(0), input.getDouble(1))
   }
 
   override def merge(buffer1: MutableAggregationBuffer, buffer2: Row): Unit = {
-    buffer1(0) = buffer1(0).asInstanceOf[Seq[Double]] ++
-                 buffer2(0).asInstanceOf[Seq[Double]]
+    buffer1(0) = buffer1(0).asInstanceOf[Seq[(Int, Double)]] ++
+                 buffer2(0).asInstanceOf[Seq[(Int, Double)]]
   }
 
   override def evaluate(buffer: Row): Any = {
-    Vectors.dense(buffer(0).asInstanceOf[Seq[Double]].toArray)
+    buffer(0)
   }
 
 }

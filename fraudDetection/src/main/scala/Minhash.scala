@@ -28,6 +28,7 @@ object Minhash{
   }
 
   def evaluateFunction(x: Int, h: HashFunctionDAO): Int = {
+    //return (h.a * x + h.b) % h.m
     return (h.a * x + h.b) % h.m
   }
 
@@ -63,10 +64,11 @@ object Minhash{
   maxValue: Long,
   numOfHashFunctions: Int,
   dirPrimes: String): List[HashFunctionDAO] = {
-    require((maxValue <= Constants.LAST_PRIME),
-    "El número primo requerido(mayor a" + maxValue + ") no esta disponible")
-    val primList = scala.io.Source.fromFile(dirPrimes).getLines.toList
-    val p = findPrimeNumber(maxValue, primList)
+    //require((maxValue <= Constants.LAST_PRIME),
+    //"El número primo requerido(mayor a" + maxValue + ") no esta disponible")
+    //val primList = scala.io.Source.fromFile(dirPrimes).getLines.toList
+    //val p = findPrimeNumber(maxValue, primList)
+    val p = 1318699
     val r = scala.util.Random
     var hashFunctions =  List[HashFunctionDAO]()
     for (i <- 1 to (numOfHashFunctions)) {
