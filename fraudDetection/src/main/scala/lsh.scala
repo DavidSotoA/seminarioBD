@@ -23,7 +23,7 @@ object Lsh {
     // convertir signatures a lista
     dfSignature =
     dfSignature.map(row =>
-      (row(0).asInstanceOf[Int],
+      (row(0).asInstanceOf[Long],
       row(1).asInstanceOf[String].split(" "))
     ).toDF(Constants.INDEX_COLUMN, Constants.SIGNATURE_COLUMN)
     // realizar explode

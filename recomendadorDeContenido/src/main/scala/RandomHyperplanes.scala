@@ -1,4 +1,4 @@
-package com.lsh
+package com.recommendationSys
 
 import scala.util.Random
 

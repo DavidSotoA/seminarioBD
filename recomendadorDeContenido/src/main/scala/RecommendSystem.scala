@@ -1,8 +1,7 @@
 package com.recommendationSys
 
-import com.lsh.RandomHyperplanes
-
 import org.apache.spark.sql.{DataFrame, Row}
+import org.apache.spark.SparkContext
 import org.apache.spark.sql.SparkSession
 import org.apache.spark.sql.expressions.{MutableAggregationBuffer, UserDefinedAggregateFunction}
 import org.apache.spark.ml.linalg.{Vector, Vectors}
@@ -26,13 +25,14 @@ object RecommendationSystem {
  *  @return no retorna nada, el método debe de guardar el dataframe preprocesado en el HDFS
  */
   def createMatrizForRecommendMovies(
-    pathRanking: String,
-    pathMovies: String,
+    rankingDf: DataFrame,
+    moviesDf: DataFrame,
+    hashFunction: Int,
     spark: SparkSession): DataFrame = {
-      val rankingDf = spark.read.format("csv").option("header", "true").load(pathRanking).drop(Constants.COL_TIMESTAMP)
-      val moviesDf = spark.read.format("csv").option("header", "true").load(pathMovies)
-      val normalizedDf = normalized(rankingDf)
-      val lshDf = lsh(normalizedDf, moviesDf, spark)
+      //val rankingDf = spark.read.format("csv").option("header", "true").load(pathRanking).drop(Constants.COL_TIMESTAMP)
+      //val moviesDf = spark.read.format("csv").option("header", "true").load(pathMovies)
+      val normalizedDf = normalize(rankingDf)
+      val lshDf = lsh(normalizedDf, moviesDf, spark, hashFunction)
       lshDf
   }
 
@@ -40,7 +40,7 @@ object RecommendationSystem {
   *  @param rankingDf: datframe con los rankings de las peliculas
   *  @return dataframe con los datos normalizados
   */
-  def normalize(df: DataFrame, spark: SparkSession): DataFrame = {
+  def normalize(df: DataFrame): DataFrame = {
     val dfxUser = df.groupBy(Constants.COL_USER_ID).agg(avg(df(Constants.COL_RATING)).as("promedio"))
     df.join(dfxUser,Constants.COL_USER_ID).withColumn(Constants.COL_RATING,df(Constants.COL_RATING)-dfxUser("promedio")).drop(df(Constants.COL_RATING)).drop(dfxUser("promedio"))
   }
@@ -55,12 +55,12 @@ object RecommendationSystem {
   *  @param spark: SparkSession
   *  @return dataframe con los usuarios asignados en cubetas
   */
-  def lsh(df: DataFrame, dfMovies: DataFrame, spark: SparkSession): DataFrame = {
+  def lsh(df: DataFrame, dfMovies: DataFrame, spark: SparkSession, hashFunctions: Int): DataFrame = {
     val createFeatures =  new CreateFeatures()
     val featuresDf = df.groupBy(Constants.COL_USER_ID).agg(createFeatures(df(Constants.COL_MOVIE_ID), df(Constants.COL_RATING)).as(Constants.COL_FEATURES))
     val featuresIndex = dfMovies.select(Constants.COL_MOVIE_ID).collect
-    val featuresIndexFlatten = featuresIndex.map(_(0).asInstanceOf[Int])
-    val randomHyperplanes = new RandomHyperplanes(featuresDf, featuresIndexFlatten, 3, spark)
+    val featuresIndexFlatten = featuresIndex.map(_(0).asInstanceOf[String].toInt)
+    val randomHyperplanes = new RandomHyperplanes(featuresDf, featuresIndexFlatten, hashFunctions, spark)
     val signatureDf = randomHyperplanes.lsh(Constants.COL_FEATURES, Constants.COL_SIGNATURE).drop(Constants.COL_FEATURES)
     df.join(signatureDf, Constants.COL_USER_ID).drop(Constants.COL_FEATURES)
   }
@@ -71,12 +71,17 @@ object RecommendationSystem {
   *  @param cant: número de peliculas que se le recomendara al usuario
   *  @return array con los ids de las peliculas recomendadas
   */
-  def recommendToUser(user: Int, df: DataFrame, cant: Int): Array[Int] = {
+  def recommendToUser(user: Int, cant: Int, df: DataFrame, movieDf: DataFrame, sc : SparkContext): DataFrame = {
+    val sqlContext= new org.apache.spark.sql.SQLContext(sc)
+    import sqlContext.implicits._
+
     val infoUser = df.select(Constants.COL_MOVIE_ID, Constants.COL_SIGNATURE).where(Constants.COL_USER_ID + " == " + user)
     val signature = infoUser.head()(1).asInstanceOf[String]
     var neighborsDf = df.select(Constants.COL_MOVIE_ID,Constants.COL_RATING).where(Constants.COL_SIGNATURE + " == "+ signature + " and " + Constants.COL_USER_ID + " != " + user)
     neighborsDf = neighborsDf.join(infoUser, Seq(Constants.COL_MOVIE_ID), "leftanti")
-    neighborsDf.groupBy(Constants.COL_MOVIE_ID).avg(Constants.COL_RATING).orderBy(desc("avg(rating)")).drop("avg(rating)").head(cant).map(x => x(0).asInstanceOf[Int])
+    val moviesUserIds = neighborsDf.groupBy(Constants.COL_MOVIE_ID).avg(Constants.COL_RATING).orderBy(desc("avg(rating)")).drop("avg(rating)").head(cant).map(x => x(0).asInstanceOf[String].toInt)
+    val moviesUserIdDf = sc.parallelize(moviesUserIds).toDF(Constants.COL_MOVIE_ID)
+    movieDf.join(moviesUserIdDf, Constants.COL_MOVIE_ID).drop(Constants.COL_MOVIE_ID)
   }
 }
 
