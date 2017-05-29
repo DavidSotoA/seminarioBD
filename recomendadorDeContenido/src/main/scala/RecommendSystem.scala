@@ -29,19 +29,18 @@ object RecommendationSystem {
     pathRanking: String,
     pathMovies: String,
     spark: SparkSession): DataFrame = {
-      val rankingDf = spark.read.load(pathRanking)
-      val moviesDf = spark.read.load(pathMovies)
+      val rankingDf = spark.read.format("csv").option("header", "true").load(pathRanking).drop(Constants.COL_TIMESTAMP)
+      val moviesDf = spark.read.format("csv").option("header", "true").load(pathMovies)
       val normalizedDf = normalized(rankingDf)
       val lshDf = lsh(normalizedDf, moviesDf, spark)
       lshDf
   }
 
   /** Método encargado de normalizar los datos
-  *  @param path: datframe con os rankings de las peliculas
+  *  @param rankingDf: datframe con los rankings de las peliculas
   *  @return dataframe con los datos normalizados
   */
-  def normalized(rankingDf: DataFrame): DataFrame = {
-    val df = rankingDf.select(expr("(split('value', ','))[0]").cast("string").as(Constants.COL_USER_ID), expr("(split('value', ','))[1]").cast("string").as(Constants.COL_MOVIE_ID), expr("(split('value', ','))[2]").cast("double").as(Constants.COL_RATING))
+  def normalize(df: DataFrame, spark: SparkSession): DataFrame = {
     val dfxUser = df.groupBy(Constants.COL_USER_ID).agg(avg(df(Constants.COL_RATING)).as("promedio"))
     df.join(dfxUser,Constants.COL_USER_ID).withColumn(Constants.COL_RATING,df(Constants.COL_RATING)-dfxUser("promedio")).drop(df(Constants.COL_RATING)).drop(dfxUser("promedio"))
   }
