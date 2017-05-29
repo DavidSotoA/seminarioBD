@@ -70,7 +70,7 @@ object Shinglin {
           val limpieza = udf { (s: String) =>  s.toLowerCase.replaceAll("[^\\w\\s]", "").replaceAll("\\s+", " ")}
           val myLength=udf { (a: Seq[String]) => a.length}
           val contenido =udf {(a: String)=> stop contains a}
-          val udfhash = udf {(a: Seq[String]) => myhashString(a.mkString.map(_.toInt).mkString)}
+          val udfhash = udf {(a: Seq[String]) => a.map( x => myhashString(x.map( y => y.toInt).mkString)).mkString }
 
           val dfSeparado = dfFiles.withColumn("Array",abrir(col("contenido"))).drop("contenido").withColumn("palabras",explode(col("Array"))).drop("Array").withColumn("palabrasLimpias",limpieza(col("palabras"))).drop("palabras")
           var windowSpec = Window.partitionBy("i").orderBy("i").rowsBetween(0,k-1)
@@ -84,11 +84,11 @@ object Shinglin {
 
         }
 
-        def myhashString(x: String) : Int = {
+        def myhashString(x: String) : BigInt = {
 
           try {
             val hola = BigInt(x)
-            ((472 * hola + 541)%2147483647).toInt
+            (472 * hola + 541)%BigInt("170141183460469231731687303715884105727")
           } catch {
             case e: Exception => 0
           }
