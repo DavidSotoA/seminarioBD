@@ -27,16 +27,15 @@ object Minhash{
       spark.sql(createQueryString(numOfHashFunctions))
   }
 
-  def evaluateFunction(x: Int, h: HashFunctionDAO): Int = {
-    //return (h.a * x + h.b) % h.m
-    return (h.a * x + h.b) % h.m
+  def evaluateFunction(x: String,  h: HashFunctionDAO) : String = {
+      return ((h.a * BigInt(x) + h.b)%BigInt("170141183460469231731687303715884105727")).toString
   }
 
   def udfsHash(hashFunctions: List[HashFunctionDAO]): List[org.apache.spark.sql.expressions.UserDefinedFunction] ={
     var udfs = List[org.apache.spark.sql.expressions.UserDefinedFunction]()
     for (i <- 0 to (hashFunctions.size - 1) ) {
       val h = hashFunctions(i)
-      val partiallyevaluateFunction = evaluateFunction( _ : Int, h)
+      val partiallyevaluateFunction = evaluateFunction( _ : String, h)
       val transformUDF = udf(partiallyevaluateFunction)
       udfs = udfs :+ transformUDF
     }
